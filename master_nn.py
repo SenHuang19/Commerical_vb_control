@@ -149,7 +149,7 @@ while 1:
               Ts=matlab.double(Ts.tolist())
               if index<=95:
                    #e,a,b,c,fan_wp,chiller_wp=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=6)
-                   e,a,b,c,fan_wp,chiller_wp=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=6)              #,fan_wp,chiller_wp
+                   e,a,b,c=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=4)
 #              print tset
 #              print lightset              
               airflow=''
@@ -167,7 +167,7 @@ while 1:
               f=open('power.csv','a')
             
               #f.writelines(str(b)+','+str(c)+'\n')
-              f.writelines(str(b)+','+str(c)+','+str(fan_wp)+','+str(chiller_wp)+'\n')
+              f.writelines(str(b)+','+str(c)+'\n')
               f.close()				  
               mssg =  mssg+'\n'
               conn.send(mssg)

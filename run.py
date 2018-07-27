@@ -6,6 +6,13 @@ import sys
 import json,collections
 
 
+f=open('airflow.csv','w')
+f.close()
+f=open('temp.csv','w')
+f.close()
+f=open('power.csv','w')
+f.close()	
+
 configdir='config'
 
 
