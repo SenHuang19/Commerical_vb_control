@@ -1,0 +1,114 @@
+Program Version,EnergyPlus, Version 8.4.0-09f5359d8a, YMD=2018.07.27 11:29,IDD_Version 8.4.0
+   ************* Beginning Zone Sizing Calculations
+   ** Warning ** Calculated design heating load for zone=ZONE-AHU-005 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZONE-VAV-118 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZONE-VAV-120 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZONE-VAV-119 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZONE-AHU-004 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZONE-FCU-001 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ** Warning ** Calculated design heating load for zone=ZONE-VAV-112 is zero.
+   **   ~~~   ** Check Sizing:Zone and ZoneControl:Thermostat inputs.
+   ************* Beginning System Sizing Calculations
+   ** Warning ** SetUpSysSizingArrays: Sizing for System (HVACAirLoop)="AHU-005" will use Sizing:System specifications listed for System="AHU-001".
+   ************* Beginning Plant Sizing Calculations
+   ** Warning ** SizeWaterCoil: Potential issue with equipment sizing for Coil:Heating:Water ZONE-VAV-112 VAV BOX REHEAT COIL
+   **   ~~~   ** ...Rated Total Heating Capacity = 0.00 [W]
+   **   ~~~   ** ...Air flow rate used for sizing = 0.00000 [m3/s]
+   **   ~~~   ** ...Plant loop temperature difference = 11.00 [C]
+   ** Warning ** The design coil load is zero for Coil:Heating:Water ZONE-VAV-112 VAV BOX REHEAT COIL
+   **   ~~~   ** The autosize value for maximum water flow rate is zero
+   **   ~~~   ** To change this, input a value for UA, change the heating design day, or raise the
+   **   ~~~   **   system heating design supply air temperature. Also check to make sure the Preheat
+   **   ~~~   **   Design Temperature is not the same as the Central Heating Design Supply Air Temperature. 
+   ************* SizeWaterCoil: Potential issue with equipment sizing for Coil:Cooling:Water AHU-001 COOLC
+   **   ~~~   ** User-Specified Design Water Flow Rate [m3/s] = 4.11000E-003
+   **   ~~~   ** differs from Design Size Design Water Flow Rate [m3/s] = 2.12472E-003
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* SizeFan: : Potential issue with equipment sizing for Fan:VariableVolume AHU-001 FAN
+   **   ~~~   ** User-Specified Maximum Flow Rate [m3/s] = 7.40000
+   **   ~~~   ** differs from Design Size Maximum Flow Rate [m3/s] = 6.19150
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ** Warning ** SizeDXCoil Coil:Cooling:DX:SingleSpeed AHU-005 COOLC DXCOIL
+   **   ~~~   ** ...Gross Rated Total Cooling Capacity [W] will be limited by the maximum rated volume flow per rated total capacity ratio.
+   **   ~~~   ** ...DX coil volume flow rate ( m3/s ) = 0.489163
+   **   ~~~   ** ...Requested capacity ( W ) = 7398.006
+   **   ~~~   ** ...Requested flow/capacity ratio ( m3/s/W ) = 6.612E-005
+   **   ~~~   ** ...Maximum flow/capacity ratio ( m3/s/W ) = 6.041E-005
+   **   ~~~   ** ...Adjusted capacity ( W ) = 8097.391
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = AHU-005 COOLC DXCOIL but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=AHU-005 COOLC DXCOIL:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLCAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLEIRFT
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = FCU-001 COOLC but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=FCU-001 COOLC:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLCAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLEIRFT
+   ** Warning ** SizeDXCoil Coil:Cooling:DX:SingleSpeed FCU-002 COOLC
+   **   ~~~   ** ...Gross Rated Total Cooling Capacity [W] will be limited by the maximum rated volume flow per rated total capacity ratio.
+   **   ~~~   ** ...DX coil volume flow rate ( m3/s ) = 0.454543
+   **   ~~~   ** ...Requested capacity ( W ) = 6763.904
+   **   ~~~   ** ...Requested flow/capacity ratio ( m3/s/W ) = 6.720E-005
+   **   ~~~   ** ...Maximum flow/capacity ratio ( m3/s/W ) = 6.041E-005
+   **   ~~~   ** ...Adjusted capacity ( W ) = 7524.308
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = FCU-002 COOLC but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=FCU-002 COOLC:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLCAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLEIRFT
+   ** Warning ** SizeDXCoil Coil:Cooling:DX:SingleSpeed FCU-003 COOLC
+   **   ~~~   ** ...Gross Rated Total Cooling Capacity [W] will be limited by the maximum rated volume flow per rated total capacity ratio.
+   **   ~~~   ** ...DX coil volume flow rate ( m3/s ) = 0.288483
+   **   ~~~   ** ...Requested capacity ( W ) = 4320.382
+   **   ~~~   ** ...Requested flow/capacity ratio ( m3/s/W ) = 6.677E-005
+   **   ~~~   ** ...Maximum flow/capacity ratio ( m3/s/W ) = 6.041E-005
+   **   ~~~   ** ...Adjusted capacity ( W ) = 4775.422
+   ** Warning ** The Standard Ratings is calculated for Coil:Cooling:DX:SingleSpeed = FCU-003 COOLC but not at the AHRI test condition due to curve out of bound.
+   **   ~~~   **  Review the Standard Ratings calculations in the Engineering Reference for this coil type. Also, use Output:Diagnostics, DisplayExtraWarnings for further guidance.
+   **   ~~~   ** CheckCurveLimitsForStandardRatings: The max and/or min limits specified in the corresponding curve objects
+   **   ~~~   **  do not include the AHRI test conditions required to calculate one or more of the Standard Rating values.
+   **   ~~~   ** Coil:Cooling:DX:SingleSpeed=FCU-003 COOLC:  Integrated Energy Efficiency Ratio (IEER) calculated is not at the AHRI test condition.
+   **   ~~~   **  Check limits in Total Cooling Capacity Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLCAPFT
+   **   ~~~   **  Check limits in EIR Function of Temperature Curve, Curve Type = BIQUADRATIC, Curve Name = HPACCOOLEIRFT
+   ************* SizeDistrictCooling: Potential issue with equipment sizing for DISTRICT COOLING
+   **   ~~~   ** User-Specified Nominal Capacity of 100000000.00 [W]
+   **   ~~~   ** differs from Design Size Nominal Capacity of 168075.48 [W]
+   **   ~~~   ** This may, or may not, indicate mismatched component sizes.
+   **   ~~~   ** Verify that the value entered is intended and is consistent with other components.
+   ************* Testing Individual Branch Integrity
+   ************* All Branches passed integrity testing
+   ************* Testing Individual Supply Air Path Integrity
+   ************* All Supply Air Paths passed integrity testing
+   ************* Testing Individual Return Air Path Integrity
+   ************* All Return Air Paths passed integrity testing
+   ************* No node connection errors were found.
+   ************* Beginning Simulation
+   ** Severe  ** ExternalInterface: Could not open socket. File descriptor = -1.
+   **  Fatal  ** Error in ExternalInterface: Check EnergyPlus *.err file.
+   ...Summary of Errors that led to program termination:
+   ..... Reference severe error count=1
+   ..... Last severe error=ExternalInterface: Could not open socket. File descriptor = -1.
+   ** Warning ** There is no BYPASS component in the demand-side of PlantLoop =COOLSYS1
+   **   ~~~   ** You may be able to fix the fatal error above by adding a demand-side BYPASS PIPE.
+   ** Warning ** Check control types on branches between splitter and mixer in PlantLoop=COOLSYS1
+   **   ~~~   ** Found a BYPASS branch with no ACTIVE branch in parallel with it
+   **   ~~~   ** In certain (but not all) situations, this can cause problems; please verify your inputs
+   **   ~~~   ** Bypass branch named: COOLSYS1 SUPPLY EQUIPMENT BYPASS BRANCH
+   ************* EnergyPlus Warmup Error Summary. During Warmup: 0 Warning; 1 Severe Errors.
+   ************* EnergyPlus Sizing Error Summary. During Sizing: 8 Warning; 0 Severe Errors.
+   ************* EnergyPlus Terminated--Fatal Error Detected. 18 Warning; 1 Severe Errors; Elapsed Time=00hr 00min  4.48sec
