@@ -6,9 +6,11 @@ import random as rd
 import json,collections
 import pandas as pd
 import random as rd
-import matlab.engine
 from numpy import array
-eng = matlab.engine.start_matlab()
+import matlab.engine
+
+
+
 
 class socket_server:
 
@@ -16,7 +18,7 @@ class socket_server:
           self.sock=socket.socket()
           self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
           host=socket.gethostname()
-          port=65432
+          port=47569
           self.sock.bind(("127.0.0.1",port))
           self.sock.listen(10)
 		  
@@ -109,18 +111,16 @@ def writeVariableFile(config):
 
 server=socket_server()
 #writeVariableFile(sys.argv[1])
-write_port_file(65432,'127.0.0.1')
+write_port_file(47569,'127.0.0.1')
 
 vers = 2
 flag = 0
 
-
+eng = matlab.engine.start_matlab()
           
 server.sock.listen(10)
 
 conn,addr=server.sock.accept()
-f=open('airflow.csv','w')
-f.close()
 index=1
 while 1:
 
@@ -129,40 +129,49 @@ while 1:
          
          data = conn.recv(10240)
 		 
-         print('I just got a connection from ', addr)
+#         print('I just got a connection from ', addr)
 
          data = data.rstrip()
 
          arry = data.split()
          flagt = float(arry[1])
-         
          if flagt==1:
                  conn.close()
                  sys.exit()
          if len(arry)>6:
-              print arry[6]
-              time=float(arry[5])
+              print index
+              time=float(arry[6])
               mssg = '%r %r %r 0 0 %r' % (vers, flag, 17, time)              
               Ts=[]
               for i in range(17):
                     Ts.append(float(arry[7+i]))
               Ts=array(Ts)
               Ts=matlab.double(Ts.tolist())
-              e,a,b,c=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=4)		  
-              print index
-              
-              airflow=''
+              if index<=95:
+                   #e,a,b,c,fan_wp,chiller_wp=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=6)
+                   e,a,b,c,fan_wp,chiller_wp=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=6)              #,fan_wp,chiller_wp
+#              print tset
 #              print lightset              
+              airflow=''
+              temps=''
               for i in range(17):
                      mssg = mssg + ' ' + str(e[i][0])
                      airflow=airflow+str(e[i][0])+','
+                     temps=temps+str(a[i][0])+','
               f=open('airflow.csv','a')
               f.writelines(airflow+'\n')
               f.close()
-              index=index+1
+              f=open('temp.csv','a')
+              f.writelines(temps+'\n')
+              f.close()
+              f=open('power.csv','a')
+            
+              #f.writelines(str(b)+','+str(c)+'\n')
+              f.writelines(str(b)+','+str(c)+','+str(fan_wp)+','+str(chiller_wp)+'\n')
+              f.close()				  
               mssg =  mssg+'\n'
               conn.send(mssg)
-
+         index=index+1
 
              
 

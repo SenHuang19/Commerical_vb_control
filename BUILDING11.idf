@@ -328,50 +328,22 @@ Schedule:Compact,
     For: Saturday Sunday Holidays AllOtherDays,  !- Field 23
     Until: 24:00, 0;         !- Field 25
 
-Schedule:Compact,
-    BLDG LIGHT SCH,          !- Name
-    Fraction,                !- Schedule Type Limits Name
-    Through: 12/31,          !- Field 1
-    For: Weekdays,           !- Field 2
-    Until: 5:00, 0,          !- Field 4
-    Until: 6:00, 0,          !- Field 6
-    Until: 7:00, 0,          !- Field 8
-    Until: 8:00, 0,          !- Field 10
-    Until: 17:00, 0,         !- Field 12
-    Until: 18:00, 0,         !- Field 14
-    Until: 20:00, 0,         !- Field 16
-    Until: 22:00, 0,         !- Field 18
-    Until: 24:00, 0,         !- Field 20
-    For: SummerDesignDay,    !- Field 21
-    Until: 24:00, 1,         !- Field 23
-    For: Saturday,           !- Field 24
-    Until: 6:00, 0,          !- Field 26
-    Until: 8:00, 0,          !- Field 28
-    Until: 12:00, 0,         !- Field 30
-    Until: 17:00, 0,         !- Field 32
-    Until: 19:00, 0,         !- Field 34
-    Until: 24:00, 0,         !- Field 36
-    For: WinterDesignDay,    !- Field 37
-    Until: 24:00, 0,         !- Field 39
-    For: Sunday Holidays AllOtherDays,  !- Field 40
-    Until: 6:00, 0,          !- Field 42
-    Until: 18:00, 0,         !- Field 44
-    Until: 24:00, 0;         !- Field 46
+
 
 Schedule:Compact,
-    BLDG LIGHT SCH bak,      !- Name
+    BLDG LIGHT SCH,      !- Name
     Fraction,                !- Schedule Type Limits Name
     Through: 12/31,          !- Field 1
     For: Weekdays,           !- Field 2
-    Until: 5:00, 0.5,        !- Field 4
+    Until: 5:00, 0,        !- Field 4
     Until: 6:00, 0.7,        !- Field 6
     Until: 7:00, 0.8,        !- Field 8
     Until: 8:00, 0.9,        !- Field 10
     Until: 17:00, 1.0,       !- Field 12
     Until: 18:00, 0.9,       !- Field 14
     Until: 20:00, 0.8,       !- Field 16
-    Until: 22:00, 0.7,       !- Field 18
-    Until: 24:00, 0.5,       !- Field 20
+    Until: 22:00, 0,       !- Field 18
+    Until: 24:00, 0,       !- Field 20
     For: SummerDesignDay,    !- Field 21
     Until: 24:00, 1,         !- Field 23
     For: Saturday,           !- Field 24
@@ -11371,103 +11343,103 @@ AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-Corridor VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-Corridor VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-Restroom VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-Restroom VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-102 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-102 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-118 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-118 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-119 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-119 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-120 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-120 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-123A VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-123A VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-123B VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-123B VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-127A VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-127A VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-127B VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-127B VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-129 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-129 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-131 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-131 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-136 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-136 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-133 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-133 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-142 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-142 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-143 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-143 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-150 VAV Box Component,  !- Name
     HVACOperationSchd,       !- Availability Schedule Name
     Zone-VAV-150 VAV Box Outlet Node,  !- Zone Supply Air Node Name
-    autosize;                !- Maximum Air Flow Rate {m3/s}
+    1;                !- Maximum Air Flow Rate {m3/s}
 
 
 !-   ===========  ALL OBJECTS IN CLASS: AIRTERMINAL:SINGLEDUCT:VAV:REHEAT ===========
@@ -12213,10 +12185,10 @@ Fan:VariableVolume,
 
 Fan:VariableVolume,
     AHU-002 Fan,             !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    HVAC Schedule Rest of the Building,       !- Availability Schedule Name
     0.7,                     !- Fan Total Efficiency
     1389.42,                 !- Pressure Rise {Pa}
-    autosize,                !- Maximum Flow Rate {m3/s}
+    0,                !- Maximum Flow Rate {m3/s}
     Fraction,                !- Fan Power Minimum Flow Rate Input Method
     0.25,                    !- Fan Power Minimum Flow Fraction
     ,                        !- Fan Power Minimum Air Flow Rate {m3/s}
@@ -12232,7 +12204,7 @@ Fan:VariableVolume,
 
 Fan:VariableVolume,
     AHU-003 Fan,             !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    HVAC Schedule Rest of the Building,       !- Availability Schedule Name
     0.7,                     !- Fan Total Efficiency
     1389.42,                 !- Pressure Rise {Pa}
     autosize,                !- Maximum Flow Rate {m3/s}
@@ -12251,7 +12223,7 @@ Fan:VariableVolume,
 
 Fan:VariableVolume,
     AHU-004 Fan,             !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    HVAC Schedule Rest of the Building,       !- Availability Schedule Name
     0.7,                     !- Fan Total Efficiency
     1389.42,                 !- Pressure Rise {Pa}
     autosize,                !- Maximum Flow Rate {m3/s}
@@ -12328,7 +12300,7 @@ Fan:OnOff,
 
 Coil:Cooling:Water,
     AHU-003 CoolC,           !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    HVAC Schedule Rest of the Building,       !- Availability Schedule Name
     autosize,                !- Design Water Flow Rate {m3/s}
     AUTOSIZE,                !- Design Air Flow Rate {m3/s}
     autosize,                !- Design Inlet Water Temperature {C}
@@ -12345,7 +12317,7 @@ Coil:Cooling:Water,
 
 Coil:Cooling:Water,
     AHU-002 CoolC,           !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    HVAC Schedule Rest of the Building,       !- Availability Schedule Name
     autosize,                !- Design Water Flow Rate {m3/s}
     AUTOSIZE,                !- Design Air Flow Rate {m3/s}
     autosize,                !- Design Inlet Water Temperature {C}
@@ -12362,7 +12334,7 @@ Coil:Cooling:Water,
 
 Coil:Cooling:Water,
     AHU-004 CoolC,           !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    HVAC Schedule Rest of the Building,       !- Availability Schedule Name
     autosize,                !- Design Water Flow Rate {m3/s}
     AUTOSIZE,                !- Design Air Flow Rate {m3/s}
     autosize,                !- Design Inlet Water Temperature {C}
