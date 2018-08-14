@@ -133,14 +133,15 @@ while 1:
 
          data = data.rstrip()
 
-         arry = data.split()
+         arry = data.split() 
+#         print arry
          flagt = float(arry[1])
          if flagt==1:
                  conn.close()
                  sys.exit()
          if len(arry)>6:
               print index
-              time=float(arry[6])
+              time=float(arry[5])
               mssg = '%r %r %r 0 0 %r' % (vers, flag, 17, time)              
               Ts=[]
               for i in range(17):
@@ -149,7 +150,7 @@ while 1:
               Ts=matlab.double(Ts.tolist())
               if index<=95:
                    #e,a,b,c,fan_wp,chiller_wp=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=6)
-                   e,a,b,c=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=4)
+                   e,a,b,c=eng.Commercial_Control(Ts,float(arry[6]),index,float(arry[7]),nargout=5)
 #              print tset
 #              print lightset              
               airflow=''
