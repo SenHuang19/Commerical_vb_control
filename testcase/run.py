@@ -4,7 +4,11 @@ import time
 from shutil import copyfile
 import sys
 import json,collections
+import os, glob
 
+#remove the energyplus files from the previous run
+for filename in glob.glob("eplusout*"):
+    os.remove(filename) 
 
 f=open('airflow.csv','w')
 f.close()

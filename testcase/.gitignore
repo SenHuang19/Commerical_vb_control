@@ -1,0 +1,16 @@
+*.pyc
+*.csv
+*.audit
+*.bnd
+*.dxf
+*.dxf
+*.eio
+*.end
+*.err
+*.mdd
+*.mtd
+*.mtr
+*.rdd
+*.shd
+*.txt
+*.log
