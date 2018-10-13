@@ -1,5 +1,4 @@
 *.pyc
-*.csv
 *.audit
 *.bnd
 *.dxf

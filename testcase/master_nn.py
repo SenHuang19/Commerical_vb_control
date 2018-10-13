@@ -7,7 +7,7 @@ import json,collections
 import pandas as pd
 import random as rd
 from numpy import array
-import matlab.engine
+from Control_PY_Fun import Control_Commercial
 
 
 
@@ -18,7 +18,7 @@ class socket_server:
           self.sock=socket.socket()
           self.sock.setsockopt(socket.SOL_SOCKET, socket.SO_REUSEADDR, 1)
           host=socket.gethostname()
-          port=47569
+          port=12345
           self.sock.bind(("127.0.0.1",port))
           self.sock.listen(10)
 		  
@@ -111,12 +111,11 @@ def writeVariableFile(config):
 
 server=socket_server()
 #writeVariableFile(sys.argv[1])
-write_port_file(47569,'127.0.0.1')
+write_port_file(12345,'127.0.0.1')
 
 vers = 2
 flag = 0
 
-eng = matlab.engine.start_matlab()
           
 server.sock.listen(10)
 
@@ -129,7 +128,7 @@ while 1:
          
          data = conn.recv(10240)
 		 
-#         print('I just got a connection from ', addr)
+         print('I just got a connection from ', addr)
 
          data = data.rstrip()
 
@@ -146,19 +145,14 @@ while 1:
               Ts=[]
               for i in range(17):
                     Ts.append(float(arry[7+i]))
-              Ts=array(Ts)
-              Ts=matlab.double(Ts.tolist())
               if index<=95:
-                   #e,a,b,c,fan_wp,chiller_wp=eng.Commercial_Control(Ts,float(arry[6]),index,nargout=6)
-                   e,a,b,c=eng.Commercial_Control(Ts,float(arry[6]),index,float(arry[7]),nargout=5)
-#              print tset
-#              print lightset              
+                   e,a,b,c,d,f=Control_Commercial(Ts,float(arry[6]),index)            
               airflow=''
               temps=''
               for i in range(17):
-                     mssg = mssg + ' ' + str(e[i][0])
-                     airflow=airflow+str(e[i][0])+','
-                     temps=temps+str(a[i][0])+','
+                     mssg = mssg + ' ' + str(e[i])
+                     airflow=airflow+str(e[i])+','
+                     temps=temps+str(a[i])+','
               f=open('airflow.csv','a')
               f.writelines(airflow+'\n')
               f.close()
@@ -168,7 +162,7 @@ while 1:
               f=open('power.csv','a')
             
               #f.writelines(str(b)+','+str(c)+'\n')
-              f.writelines(str(b)+','+str(c)+'\n')
+              f.writelines(str(b)+','+str(c)+','+str(d)+','+str(f)+'\n')
               f.close()				  
               mssg =  mssg+'\n'
               conn.send(mssg)
