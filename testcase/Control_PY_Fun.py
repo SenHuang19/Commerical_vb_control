@@ -215,12 +215,24 @@ def Control_Commercial(T_now,T_out,time):
         Fi=1
         if m_total<m_target:
             flag=16
+<<<<<<< HEAD
             for i in range(flag,-1,-1):
+=======
+            while sum(Check_Cap)<16:
+#                print flag
+>>>>>>> 6cf53939181b6fc19e19f10064ecc0f1e5e1feaa
                 mm[int(T_sorted[flag,2])]=min(min(mm[int(T_sorted[flag,2])]+m_delta[int(T_sorted[flag,2])],m_target-sum(mm)+mm[int(T_sorted[flag,2])]),max(min(m_max[int(T_sorted[flag,2])],mm_max[int(T_sorted[flag,2])]),m_min[int(T_sorted[flag,2])]));
                 
                 if mm[int(T_sorted[flag,2])]==m_max[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==mm_max[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==m_min[int(T_sorted[flag,2])]:
                     Check_Cap[int(T_sorted[flag,2])]=1;
                     
+<<<<<<< HEAD
+=======
+                flag=flag-1
+                
+                if flag==-1:
+                    flag=16
+>>>>>>> 6cf53939181b6fc19e19f10064ecc0f1e5e1feaa
                     
                 if sum(mm)==m_target:
                     Check_Cap=np.ones((17,1))
@@ -230,7 +242,11 @@ def Control_Commercial(T_now,T_out,time):
          #If the target is larger than the total, change the airflow volume of each thermal zone from zone with lower temperature to zone with higher temperature        
         if m_total>m_target:
             flag=0
+<<<<<<< HEAD
             for i in range(flag,17):
+=======
+            while sum(Check_Cap)<17:
+>>>>>>> 6cf53939181b6fc19e19f10064ecc0f1e5e1feaa
                 mm[int(T_sorted[flag,2])]=max(max(mm[int(T_sorted[flag,2])]-m_delta[int(T_sorted[flag,2])],m_target-sum(mm)+mm[int(T_sorted[flag,2])]),min(max(m_min[int(T_sorted[flag,2])],mm_min[int(T_sorted[flag,2])]),m_max[int(T_sorted[flag,2])]));
                 
                 if mm[int(T_sorted[flag,2])]==m_min[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==mm_min[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==m_max[int(T_sorted[flag,2])]:
