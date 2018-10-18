@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
 """
 Created on Tue Sep 25 19:50:27 2018
-
-@author: jwang49
+ @author: jwang49
 """
-
-from __future__ import division
+ from __future__ import division
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
@@ -14,31 +12,14 @@ from sklearn import datasets, linear_model
 import math
 import json
 import sys
-
 def Control_Commercial(T_now,T_out,time):
-    #
     
 ###Input from EnergyPlus
     #T_now=[21.5]*17
     #T_out=26
     #time=30
-    
     ###
-    #'''
-    df22 = pd.DataFrame(T_now)
-    df22['Tt_now']=T_now
-    df22.to_csv("T_now.csv")
     
-    df23 = pd.DataFrame()
-    df23['Tt_out']=ones(1)
-    df23['Tt_out'][0]=T_out
-    df23.to_csv("T_out.csv")
-    
-    df24 = pd.DataFrame()
-    df24['Tt_time']=ones(1)
-    df24['Tt_time'][0]=time
-    df24.to_csv("Time.csv")
-    #'''
     #Read parameters for thermal model
     tab=pd.read_csv('ParameterT.csv')
     tab2=pd.read_csv('AdZone.csv')
@@ -109,7 +90,7 @@ def Control_Commercial(T_now,T_out,time):
     Ramping[68:96]=Zeroele
     
     #Get the power which HVAC need to follow, base power plus signal power
-    P_signal=P+Ramping
+    P_signal=P+Ramping*1.5
     #Initial variables
     m_target=0;
     mm_max=[0]*17
@@ -136,15 +117,13 @@ def Control_Commercial(T_now,T_out,time):
                 mm_max[j]=(a1[j]*T_now[j]+a2[j]*T_out+a4[j]+a5[j]*T_now[A_z1[j]-1]-(T_set-deadband))/(a3[j]*(T_now[j]-Tc));
             else:
                 mm_max[j]=(a1[j]*T_now[j]+a2[j]*T_out+a4[j]+a5[j]*T_now[A_z1[j]-1]+a6[j]*T_now[A_z2[j]-1]-(T_set-deadband))/(a3[j]*(T_now[j]-Tc));
-
-        #For each thermal zone, calculate the airflow volume that will change its temperature to setpoint               
+         #For each thermal zone, calculate the airflow volume that will change its temperature to setpoint               
         for j in range(0,17):
             if A_z2[j]==0:
                 mm_toset[j]=(a1[j]*T_now[j]+a2[j]*T_out+a4[j]+a5[j]*T_now[A_z1[j]-1]-(T_set))/(a3[j]*(T_now[j]-Tc));
             else:
                 mm_toset[j]=(a1[j]*T_now[j]+a2[j]*T_out+a4[j]+a5[j]*T_now[A_z1[j]-1]+a6[j]*T_now[A_z2[j]-1]-(T_set))/(a3[j]*(T_now[j]-Tc));
-
-        #For each thermal zone, calculate the airflow volume that will change its temperature to upper bound                
+         #For each thermal zone, calculate the airflow volume that will change its temperature to upper bound                
         for j in range(0,17):
             if A_z2[j]==0:
                 mm_min[j]=(a1[j]*T_now[j]+a2[j]*T_out+a4[j]+a5[j]*T_now[A_z1[j]-1]-(T_set+deadband))/(a3[j]*(T_now[j]-Tc));
@@ -185,8 +164,7 @@ def Control_Commercial(T_now,T_out,time):
              m_tar_rec=pd.DataFrame()
              m_tar_rec['m_tar_rec']=ones(1)
              m_tar_rec['m_tar_rec'][0]=m_target
-
-        #m_tar_rec=m_target
+         #m_tar_rec=m_target
         #m_tar_rec=m_tar_rec+0
         
         Check_Cap=np.zeros((17,1))
@@ -208,23 +186,9 @@ def Control_Commercial(T_now,T_out,time):
                 mm[j]=min(max(mm_min[j],mm[j]+m_delta[j]),min(m_max[j],mm_toset[j]));
         '''        
         
-        for j in range(0,17):
-            if mm_min[j]<m_min[j]:
-                mm_min[j]=m_min[j]
-                
-            if mm_min[j]>m_max[j]:
-                mm_min[j]=m_max[j]
-                    
-            if mm_max[j]<m_min[j]:
-                mm_max[j]=m_min[j]
-                
-            if mm_max[j]>m_max[j]:
-                mm_max[j]=m_max[j]
-     
         #If the airflow volume is out of its range, set it to the boundary value
         for j in range(17):
             mm[j]=min(max(max(mm_min[j],m_min[j]),mm[j]),min(m_max[j],mm_max[j]))
-            
         
         #Get the total airflow volume
         m_total=sum(mm)
@@ -240,28 +204,26 @@ def Control_Commercial(T_now,T_out,time):
             m_total=m_total+0
             Check_Cap=np.ones((17,1))
             Fi=0
-            
         
         #If the target is larger than the total, change the airflow volume of each thermal zone from zone with higher temperature to zone with lower temperature
         Fi=1
         if m_total<m_target:
             flag=16
-            while sum(Check_Cap)<17:
+            while sum(Check_Cap)<16:
 #                print flag
-                if Check_Cap[int(T_sorted[flag,2])]!=1:
-                    mm[int(T_sorted[flag,2])]=min(min(mm[int(T_sorted[flag,2])]+m_delta[int(T_sorted[flag,2])],m_target-sum(mm)+mm[int(T_sorted[flag,2])]),max(min(m_max[int(T_sorted[flag,2])],mm_max[int(T_sorted[flag,2])]),m_min[int(T_sorted[flag,2])]));
+                mm[int(T_sorted[flag,2])]=min(min(mm[int(T_sorted[flag,2])]+m_delta[int(T_sorted[flag,2])],m_target-sum(mm)+mm[int(T_sorted[flag,2])]),max(min(m_max[int(T_sorted[flag,2])],mm_max[int(T_sorted[flag,2])]),m_min[int(T_sorted[flag,2])]));
                 
-                if mm[int(T_sorted[flag,2])]==m_max[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==mm_max[int(T_sorted[flag,2])] or (mm[int(T_sorted[flag,2])]==m_min[int(T_sorted[flag,2])] and m_min[int(T_sorted[flag,2])]>mm_max[int(T_sorted[flag,2])]):
+                if mm[int(T_sorted[flag,2])]==m_max[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==mm_max[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==m_min[int(T_sorted[flag,2])]:
                     Check_Cap[int(T_sorted[flag,2])]=1;
                     
                 flag=flag-1
                 
                 if flag==-1:
                     flag=16
-                                        
-                if sum(mm)-m_target<0.000001:
+                    
+                if sum(mm)==m_target:
                     Check_Cap=np.ones((17,1))
-                
+                    
             if sum(mm)!=m_target:
                 Fi=0
          #If the target is larger than the total, change the airflow volume of each thermal zone from zone with lower temperature to zone with higher temperature        
@@ -270,7 +232,7 @@ def Control_Commercial(T_now,T_out,time):
             while sum(Check_Cap)<17:
                 mm[int(T_sorted[flag,2])]=max(max(mm[int(T_sorted[flag,2])]-m_delta[int(T_sorted[flag,2])],m_target-sum(mm)+mm[int(T_sorted[flag,2])]),min(max(m_min[int(T_sorted[flag,2])],mm_min[int(T_sorted[flag,2])]),m_max[int(T_sorted[flag,2])]));
                 
-                if mm[int(T_sorted[flag,2])]==m_min[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==mm_min[int(T_sorted[flag,2])] or (mm[int(T_sorted[flag,2])]==m_max[int(T_sorted[flag,2])] and m_max[int(T_sorted[flag,2])]<mm_min[int(T_sorted[flag,2])]):
+                if mm[int(T_sorted[flag,2])]==m_min[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==mm_min[int(T_sorted[flag,2])] or mm[int(T_sorted[flag,2])]==m_max[int(T_sorted[flag,2])]:
                     Check_Cap[int(T_sorted[flag,2])]=1;
                     
                 flag=flag+1
@@ -278,7 +240,7 @@ def Control_Commercial(T_now,T_out,time):
                 if flag==17:
                     flag=0;
                 
-                if sum(mm)-m_target<0.000001:
+                if sum(mm)==m_target:
                     Check_Cap=np.ones((17,1))
                     
             if sum(mm)!=m_target:
@@ -294,7 +256,6 @@ def Control_Commercial(T_now,T_out,time):
         mm_sum=sum(mm)
         
         #Calculate the estimated fan power and chiller power
-        
         P_fan_wp=c1*(mm_sum)**3+c2*(mm_sum)**2+c3*(mm_sum)+c4;
         E_mix_wp=0;
         for j in range(0,17):
@@ -344,15 +305,10 @@ def Control_Commercial(T_now,T_out,time):
         Tm_real=0
         
     mm_last=mm
-    #print mm_last
-    print time
+    print mm_last
     m_tar_rec.to_csv('m_tar_rec.csv')
     df = pd.DataFrame(mm_last)
     df['mm_last']=mm_last
     df.to_csv("mm_last.csv")
-    
-    df = pd.DataFrame(T_next)
-    df['T_next']=T_next
-    df.to_csv("T_next.csv")
     
     return mm_now, T_next, P_signal_now, P_now, P_fan_wp, P_chiller_wp
