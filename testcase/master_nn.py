@@ -143,10 +143,11 @@ while 1:
               time=float(arry[5])
               mssg = '%r %r %r 0 0 %r' % (vers, flag, 17, time)              
               Ts=[]
+              power=float(arry[25])+float(arry[26])/6.16
               for i in range(17):
-                    Ts.append(float(arry[7+i]))
+                    Ts.append(float(arry[8+i]))
               if index<=95:
-                   e,a,b,c,d,f=Control_Commercial(Ts,float(arry[6]),index)            
+                   e,a,b,c,d,ff=Control_Commercial(Ts,float(arry[6]),index)            
               airflow=''
               temps=''
               for i in range(17):
@@ -162,7 +163,7 @@ while 1:
               f=open('power.csv','a')
             
               #f.writelines(str(b)+','+str(c)+'\n')
-              f.writelines(str(b)+','+str(c)+','+str(d)+','+str(f)+'\n')
+              f.writelines(str(b)+','+str(c)+','+str(d)+','+str(ff)+'\n')
               f.close()				  
               mssg =  mssg+'\n'
               conn.send(mssg)
