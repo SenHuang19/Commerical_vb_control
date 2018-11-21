@@ -14472,13 +14472,13 @@ EnergyManagementSystem:Sensor,
     Schedule Value;          !- Output:Variable or Output:Meter Name
 
 EnergyManagementSystem:Sensor,
-    AirFlow106,              !- Name
-    Af106,                   !- Output:Variable or Output:Meter Index Key Name
+    AirFlow107,              !- Name
+    Af107,                   !- Output:Variable or Output:Meter Index Key Name
     Schedule Value;          !- Output:Variable or Output:Meter Name
 
 EnergyManagementSystem:Sensor,
-    AirFlow107,              !- Name
-    Af107,                   !- Output:Variable or Output:Meter Index Key Name
+    AirFlow108,              !- Name
+    Af108,                   !- Output:Variable or Output:Meter Index Key Name
     Schedule Value;          !- Output:Variable or Output:Meter Name
 
 EnergyManagementSystem:Sensor,
