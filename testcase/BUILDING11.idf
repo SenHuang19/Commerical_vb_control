@@ -11439,173 +11439,41 @@ AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-150 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
-
-!-   ===========  ALL OBJECTS IN CLASS: AIRTERMINAL:SINGLEDUCT:VAV:REHEAT ===========
-
-AirTerminal:SingleDuct:VAV:Reheat,
+AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-104 VAV Box Component,  !- Name
-    ALWAYS ON,               !- Availability Schedule Name
-    Zone-VAV-104 VAV Box Damper Node,  !- Damper Air Outlet Node Name
-    Zone-VAV-104 VAV Box Inlet Node,  !- Air Inlet Node Name
-    AUTOSIZE,                !- Maximum Air Flow Rate {m3/s}
-    Constant,                !- Zone Minimum Air Flow Input Method
-    0.3,                     !- Constant Minimum Air Flow Fraction
-    ,                        !- Fixed Minimum Air Flow Rate {m3/s}
-    ,                        !- Minimum Air Flow Fraction Schedule Name
-    Coil:Heating:Water,      !- Reheat Coil Object Type
-    Zone-VAV-104 VAV Box Reheat Coil,  !- Reheat Coil Name
-    AUTOSIZE,                !- Maximum Hot Water or Steam Flow Rate {m3/s}
-    0.0,                     !- Minimum Hot Water or Steam Flow Rate {m3/s}
-    Zone-VAV-104 VAV Box Outlet Node,  !- Air Outlet Node Name
-    0.001,                   !- Convergence Tolerance
-    normal,                  !- Damper Heating Action
-    autocalculate,           !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
-    autocalculate,           !- Maximum Flow Fraction During Reheat
-    35;                      !- Maximum Reheat Air Temperature {C}
+    HVACOperationSchd,       !- Availability Schedule Name
+    Zone-VAV-104 VAV Box Outlet Node,  !- Zone Supply Air Node Name
+    1;                       !- Maximum Air Flow Rate {m3/s}
 
-AirTerminal:SingleDuct:VAV:Reheat,
+AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-105 VAV Box Component,  !- Name
-    ALWAYS ON,               !- Availability Schedule Name
-    Zone-VAV-105 VAV Box Damper Node,  !- Damper Air Outlet Node Name
-    Zone-VAV-105 VAV Box Inlet Node,  !- Air Inlet Node Name
-    AUTOSIZE,                !- Maximum Air Flow Rate {m3/s}
-    Constant,                !- Zone Minimum Air Flow Input Method
-    0.3,                     !- Constant Minimum Air Flow Fraction
-    ,                        !- Fixed Minimum Air Flow Rate {m3/s}
-    ,                        !- Minimum Air Flow Fraction Schedule Name
-    Coil:Heating:Water,      !- Reheat Coil Object Type
-    Zone-VAV-105 VAV Box Reheat Coil,  !- Reheat Coil Name
-    AUTOSIZE,                !- Maximum Hot Water or Steam Flow Rate {m3/s}
-    0.0,                     !- Minimum Hot Water or Steam Flow Rate {m3/s}
-    Zone-VAV-105 VAV Box Outlet Node,  !- Air Outlet Node Name
-    0.001,                   !- Convergence Tolerance
-    normal,                  !- Damper Heating Action
-    autocalculate,           !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
-    autocalculate,           !- Maximum Flow Fraction During Reheat
-    35;                      !- Maximum Reheat Air Temperature {C}
+    HVACOperationSchd,       !- Availability Schedule Name
+    Zone-VAV-105 VAV Box Outlet Node,  !- Zone Supply Air Node Name
+    1;                       !- Maximum Air Flow Rate {m3/s}
 
-AirTerminal:SingleDuct:VAV:Reheat,
+AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-107 VAV Box Component,  !- Name
-    ALWAYS ON,               !- Availability Schedule Name
-    Zone-VAV-107 VAV Box Damper Node,  !- Damper Air Outlet Node Name
-    Zone-VAV-107 VAV Box Inlet Node,  !- Air Inlet Node Name
-    AUTOSIZE,                !- Maximum Air Flow Rate {m3/s}
-    Constant,                !- Zone Minimum Air Flow Input Method
-    0.3,                     !- Constant Minimum Air Flow Fraction
-    ,                        !- Fixed Minimum Air Flow Rate {m3/s}
-    ,                        !- Minimum Air Flow Fraction Schedule Name
-    Coil:Heating:Water,      !- Reheat Coil Object Type
-    Zone-VAV-107 VAV Box Reheat Coil,  !- Reheat Coil Name
-    AUTOSIZE,                !- Maximum Hot Water or Steam Flow Rate {m3/s}
-    0.0,                     !- Minimum Hot Water or Steam Flow Rate {m3/s}
-    Zone-VAV-107 VAV Box Outlet Node,  !- Air Outlet Node Name
-    0.001,                   !- Convergence Tolerance
-    normal,                  !- Damper Heating Action
-    autocalculate,           !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
-    autocalculate,           !- Maximum Flow Fraction During Reheat
-    35;                      !- Maximum Reheat Air Temperature {C}
+    HVACOperationSchd,       !- Availability Schedule Name
+    Zone-VAV-107 VAV Box Outlet Node,  !- Zone Supply Air Node Name
+    1;                       !- Maximum Air Flow Rate {m3/s}
 
-AirTerminal:SingleDuct:VAV:Reheat,
+AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-108 VAV Box Component,  !- Name
-    ALWAYS ON,               !- Availability Schedule Name
-    Zone-VAV-108 VAV Box Damper Node,  !- Damper Air Outlet Node Name
-    Zone-VAV-108 VAV Box Inlet Node,  !- Air Inlet Node Name
-    AUTOSIZE,                !- Maximum Air Flow Rate {m3/s}
-    Constant,                !- Zone Minimum Air Flow Input Method
-    0.3,                     !- Constant Minimum Air Flow Fraction
-    ,                        !- Fixed Minimum Air Flow Rate {m3/s}
-    ,                        !- Minimum Air Flow Fraction Schedule Name
-    Coil:Heating:Water,      !- Reheat Coil Object Type
-    Zone-VAV-108 VAV Box Reheat Coil,  !- Reheat Coil Name
-    AUTOSIZE,                !- Maximum Hot Water or Steam Flow Rate {m3/s}
-    0.0,                     !- Minimum Hot Water or Steam Flow Rate {m3/s}
-    Zone-VAV-108 VAV Box Outlet Node,  !- Air Outlet Node Name
-    0.001,                   !- Convergence Tolerance
-    normal,                  !- Damper Heating Action
-    autocalculate,           !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
-    autocalculate,           !- Maximum Flow Fraction During Reheat
-    35;                      !- Maximum Reheat Air Temperature {C}
+    HVACOperationSchd,       !- Availability Schedule Name
+    Zone-VAV-108 VAV Box Outlet Node,  !- Zone Supply Air Node Name
+    1;                       !- Maximum Air Flow Rate {m3/s}
 
-AirTerminal:SingleDuct:VAV:Reheat,
+AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-112 VAV Box Component,  !- Name
-    ALWAYS ON,               !- Availability Schedule Name
-    Zone-VAV-112 VAV Box Damper Node,  !- Damper Air Outlet Node Name
-    Zone-VAV-112 VAV Box Inlet Node,  !- Air Inlet Node Name
-    AUTOSIZE,                !- Maximum Air Flow Rate {m3/s}
-    Constant,                !- Zone Minimum Air Flow Input Method
-    0.3,                     !- Constant Minimum Air Flow Fraction
-    ,                        !- Fixed Minimum Air Flow Rate {m3/s}
-    ,                        !- Minimum Air Flow Fraction Schedule Name
-    Coil:Heating:Water,      !- Reheat Coil Object Type
-    Zone-VAV-112 VAV Box Reheat Coil,  !- Reheat Coil Name
-    AUTOSIZE,                !- Maximum Hot Water or Steam Flow Rate {m3/s}
-    0.0,                     !- Minimum Hot Water or Steam Flow Rate {m3/s}
-    Zone-VAV-112 VAV Box Outlet Node,  !- Air Outlet Node Name
-    0.001,                   !- Convergence Tolerance
-    normal,                  !- Damper Heating Action
-    autocalculate,           !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
-    autocalculate,           !- Maximum Flow Fraction During Reheat
-    35;                      !- Maximum Reheat Air Temperature {C}
+    HVACOperationSchd,       !- Availability Schedule Name
+    Zone-VAV-112 VAV Box Outlet Node,  !- Zone Supply Air Node Name
+    1;                       !- Maximum Air Flow Rate {m3/s}
 
-AirTerminal:SingleDuct:VAV:Reheat,
+AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-116 VAV Box Component,  !- Name
-    ALWAYS ON,               !- Availability Schedule Name
-    Zone-VAV-116 VAV Box Damper Node,  !- Damper Air Outlet Node Name
-    Zone-VAV-116 VAV Box Inlet Node,  !- Air Inlet Node Name
-    AUTOSIZE,                !- Maximum Air Flow Rate {m3/s}
-    Constant,                !- Zone Minimum Air Flow Input Method
-    0.3,                     !- Constant Minimum Air Flow Fraction
-    ,                        !- Fixed Minimum Air Flow Rate {m3/s}
-    ,                        !- Minimum Air Flow Fraction Schedule Name
-    Coil:Heating:Water,      !- Reheat Coil Object Type
-    Zone-VAV-116 VAV Box Reheat Coil,  !- Reheat Coil Name
-    AUTOSIZE,                !- Maximum Hot Water or Steam Flow Rate {m3/s}
-    0.0,                     !- Minimum Hot Water or Steam Flow Rate {m3/s}
-    Zone-VAV-116 VAV Box Outlet Node,  !- Air Outlet Node Name
-    0.001,                   !- Convergence Tolerance
-    normal,                  !- Damper Heating Action
-    autocalculate,           !- Maximum Flow per Zone Floor Area During Reheat {m3/s-m2}
-    autocalculate,           !- Maximum Flow Fraction During Reheat
-    35;                      !- Maximum Reheat Air Temperature {C}
-
-
-!-   ===========  ALL OBJECTS IN CLASS: ZONEHVAC:AIRDISTRIBUTIONUNIT ===========
-
-ZoneHVAC:AirDistributionUnit,
-    Zone-VAV-104 VAV Box,    !- Name
-    Zone-VAV-104 VAV Box Outlet Node,  !- Air Distribution Unit Outlet Node Name
-    AirTerminal:SingleDuct:VAV:Reheat,  !- Air Terminal Object Type
-    Zone-VAV-104 VAV Box Component;  !- Air Terminal Name
-
-ZoneHVAC:AirDistributionUnit,
-    Zone-VAV-105 VAV Box,    !- Name
-    Zone-VAV-105 VAV Box Outlet Node,  !- Air Distribution Unit Outlet Node Name
-    AirTerminal:SingleDuct:VAV:Reheat,  !- Air Terminal Object Type
-    Zone-VAV-105 VAV Box Component;  !- Air Terminal Name
-
-ZoneHVAC:AirDistributionUnit,
-    Zone-VAV-107 VAV Box,    !- Name
-    Zone-VAV-107 VAV Box Outlet Node,  !- Air Distribution Unit Outlet Node Name
-    AirTerminal:SingleDuct:VAV:Reheat,  !- Air Terminal Object Type
-    Zone-VAV-107 VAV Box Component;  !- Air Terminal Name
-
-ZoneHVAC:AirDistributionUnit,
-    Zone-VAV-108 VAV Box,    !- Name
-    Zone-VAV-108 VAV Box Outlet Node,  !- Air Distribution Unit Outlet Node Name
-    AirTerminal:SingleDuct:VAV:Reheat,  !- Air Terminal Object Type
-    Zone-VAV-108 VAV Box Component;  !- Air Terminal Name
-
-ZoneHVAC:AirDistributionUnit,
-    Zone-VAV-112 VAV Box,    !- Name
-    Zone-VAV-112 VAV Box Outlet Node,  !- Air Distribution Unit Outlet Node Name
-    AirTerminal:SingleDuct:VAV:Reheat,  !- Air Terminal Object Type
-    Zone-VAV-112 VAV Box Component;  !- Air Terminal Name
-
-ZoneHVAC:AirDistributionUnit,
-    Zone-VAV-116 VAV Box,    !- Name
-    Zone-VAV-116 VAV Box Outlet Node,  !- Air Distribution Unit Outlet Node Name
-    AirTerminal:SingleDuct:VAV:Reheat,  !- Air Terminal Object Type
-    Zone-VAV-116 VAV Box Component;  !- Air Terminal Name
+    HVACOperationSchd,       !- Availability Schedule Name
+    Zone-VAV-116 VAV Box Outlet Node,  !- Zone Supply Air Node Name
+    1;                       !- Maximum Air Flow Rate {m3/s}
 
 
 !-   ===========  ALL OBJECTS IN CLASS: ZONEHVAC:EQUIPMENTLIST ===========
@@ -11626,43 +11494,43 @@ ZoneHVAC:EquipmentList,
 
 ZoneHVAC:EquipmentList,
     Zone-VAV-104 Equipment,  !- Name
-    ZoneHVAC:AirDistributionUnit,  !- Zone Equipment 1 Object Type
-    Zone-VAV-104 VAV Box,    !- Zone Equipment 1 Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Zone Equipment 1 Object Type
+    Zone-VAV-104 VAV Box Component,  !- Zone Equipment 1 Name
     1,                       !- Zone Equipment 1 Cooling Sequence
     1;                       !- Zone Equipment 1 Heating or No-Load Sequence
 
 ZoneHVAC:EquipmentList,
     Zone-VAV-105 Equipment,  !- Name
-    ZoneHVAC:AirDistributionUnit,  !- Zone Equipment 1 Object Type
-    Zone-VAV-105 VAV Box,    !- Zone Equipment 1 Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Zone Equipment 1 Object Type
+    Zone-VAV-105 VAV Box Component,  !- Zone Equipment 1 Name
     1,                       !- Zone Equipment 1 Cooling Sequence
     1;                       !- Zone Equipment 1 Heating or No-Load Sequence
 
 ZoneHVAC:EquipmentList,
     Zone-VAV-107 Equipment,  !- Name
-    ZoneHVAC:AirDistributionUnit,  !- Zone Equipment 1 Object Type
-    Zone-VAV-107 VAV Box,    !- Zone Equipment 1 Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Zone Equipment 1 Object Type
+    Zone-VAV-107 VAV Box Component,  !- Zone Equipment 1 Name
     1,                       !- Zone Equipment 1 Cooling Sequence
     1;                       !- Zone Equipment 1 Heating or No-Load Sequence
 
 ZoneHVAC:EquipmentList,
     Zone-VAV-108 Equipment,  !- Name
-    ZoneHVAC:AirDistributionUnit,  !- Zone Equipment 1 Object Type
-    Zone-VAV-108 VAV Box,    !- Zone Equipment 1 Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Zone Equipment 1 Object Type
+    Zone-VAV-108 VAV Box Component,  !- Zone Equipment 1 Name
     1,                       !- Zone Equipment 1 Cooling Sequence
     1;                       !- Zone Equipment 1 Heating or No-Load Sequence
 
 ZoneHVAC:EquipmentList,
     Zone-VAV-112 Equipment,  !- Name
-    ZoneHVAC:AirDistributionUnit,  !- Zone Equipment 1 Object Type
-    Zone-VAV-112 VAV Box,    !- Zone Equipment 1 Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Zone Equipment 1 Object Type
+    Zone-VAV-112 VAV Box Component,  !- Zone Equipment 1 Name
     1,                       !- Zone Equipment 1 Cooling Sequence
     1;                       !- Zone Equipment 1 Heating or No-Load Sequence
 
 ZoneHVAC:EquipmentList,
     Zone-VAV-116 Equipment,  !- Name
-    ZoneHVAC:AirDistributionUnit,  !- Zone Equipment 1 Object Type
-    Zone-VAV-116 VAV Box,    !- Zone Equipment 1 Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Zone Equipment 1 Object Type
+    Zone-VAV-116 VAV Box Component,  !- Zone Equipment 1 Name
     1,                       !- Zone Equipment 1 Cooling Sequence
     1;                       !- Zone Equipment 1 Heating or No-Load Sequence
 
@@ -12202,7 +12070,7 @@ Fan:VariableVolume,
 
 Fan:VariableVolume,
     AHU-003 Fan,             !- Name
-    HVAC Schedule Rest of the Building,  !- Availability Schedule Name
+    HVACOperationSchd,       !- Availability Schedule Name
     0.7,                     !- Fan Total Efficiency
     1389.42,                 !- Pressure Rise {Pa}
     autosize,                !- Maximum Flow Rate {m3/s}
@@ -12494,108 +12362,6 @@ Coil:Heating:Water,
     AHU-004 HeatCDemand Outlet Node,  !- Water Outlet Node Name
     AHU-004 CoolC HeatCNode, !- Air Inlet Node Name
     AHU-004 HeatC FanNode,   !- Air Outlet Node Name
-    UFactorTimesAreaAndDesignWaterFlowRate,  !- Performance Input Method
-    AUTOSIZE,                !- Rated Capacity {W}
-    82.2,                    !- Rated Inlet Water Temperature {C}
-    16.6,                    !- Rated Inlet Air Temperature {C}
-    71.1,                    !- Rated Outlet Water Temperature {C}
-    32.2,                    !- Rated Outlet Air Temperature {C}
-    0.5;                     !- Rated Ratio for Air and Water Convection
-
-Coil:Heating:Water,
-    Zone-VAV-104 VAV Box Reheat Coil,  !- Name
-    Reheat Coil Availability,!- Availability Schedule Name
-    AUTOSIZE,                !- U-Factor Times Area Value {W/K}
-    AUTOSIZE,                !- Maximum Water Flow Rate {m3/s}
-    Zone-VAV-104 VAV Box Reheat CoilDemand Inlet Node,  !- Water Inlet Node Name
-    Zone-VAV-104 VAV Box Reheat CoilDemand Outlet Node,  !- Water Outlet Node Name
-    Zone-VAV-104 VAV Box Damper Node,  !- Air Inlet Node Name
-    Zone-VAV-104 VAV Box Outlet Node,  !- Air Outlet Node Name
-    UFactorTimesAreaAndDesignWaterFlowRate,  !- Performance Input Method
-    AUTOSIZE,                !- Rated Capacity {W}
-    82.2,                    !- Rated Inlet Water Temperature {C}
-    16.6,                    !- Rated Inlet Air Temperature {C}
-    71.1,                    !- Rated Outlet Water Temperature {C}
-    32.2,                    !- Rated Outlet Air Temperature {C}
-    0.5;                     !- Rated Ratio for Air and Water Convection
-
-Coil:Heating:Water,
-    Zone-VAV-105 VAV Box Reheat Coil,  !- Name
-    Reheat Coil Availability,!- Availability Schedule Name
-    AUTOSIZE,                !- U-Factor Times Area Value {W/K}
-    AUTOSIZE,                !- Maximum Water Flow Rate {m3/s}
-    Zone-VAV-105 VAV Box Reheat CoilDemand Inlet Node,  !- Water Inlet Node Name
-    Zone-VAV-105 VAV Box Reheat CoilDemand Outlet Node,  !- Water Outlet Node Name
-    Zone-VAV-105 VAV Box Damper Node,  !- Air Inlet Node Name
-    Zone-VAV-105 VAV Box Outlet Node,  !- Air Outlet Node Name
-    UFactorTimesAreaAndDesignWaterFlowRate,  !- Performance Input Method
-    AUTOSIZE,                !- Rated Capacity {W}
-    82.2,                    !- Rated Inlet Water Temperature {C}
-    16.6,                    !- Rated Inlet Air Temperature {C}
-    71.1,                    !- Rated Outlet Water Temperature {C}
-    32.2,                    !- Rated Outlet Air Temperature {C}
-    0.5;                     !- Rated Ratio for Air and Water Convection
-
-Coil:Heating:Water,
-    Zone-VAV-107 VAV Box Reheat Coil,  !- Name
-    Reheat Coil Availability,!- Availability Schedule Name
-    AUTOSIZE,                !- U-Factor Times Area Value {W/K}
-    AUTOSIZE,                !- Maximum Water Flow Rate {m3/s}
-    Zone-VAV-107 VAV Box Reheat CoilDemand Inlet Node,  !- Water Inlet Node Name
-    Zone-VAV-107 VAV Box Reheat CoilDemand Outlet Node,  !- Water Outlet Node Name
-    Zone-VAV-107 VAV Box Damper Node,  !- Air Inlet Node Name
-    Zone-VAV-107 VAV Box Outlet Node,  !- Air Outlet Node Name
-    UFactorTimesAreaAndDesignWaterFlowRate,  !- Performance Input Method
-    AUTOSIZE,                !- Rated Capacity {W}
-    82.2,                    !- Rated Inlet Water Temperature {C}
-    16.6,                    !- Rated Inlet Air Temperature {C}
-    71.1,                    !- Rated Outlet Water Temperature {C}
-    32.2,                    !- Rated Outlet Air Temperature {C}
-    0.5;                     !- Rated Ratio for Air and Water Convection
-
-Coil:Heating:Water,
-    Zone-VAV-108 VAV Box Reheat Coil,  !- Name
-    Reheat Coil Availability,!- Availability Schedule Name
-    AUTOSIZE,                !- U-Factor Times Area Value {W/K}
-    AUTOSIZE,                !- Maximum Water Flow Rate {m3/s}
-    Zone-VAV-108 VAV Box Reheat CoilDemand Inlet Node,  !- Water Inlet Node Name
-    Zone-VAV-108 VAV Box Reheat CoilDemand Outlet Node,  !- Water Outlet Node Name
-    Zone-VAV-108 VAV Box Damper Node,  !- Air Inlet Node Name
-    Zone-VAV-108 VAV Box Outlet Node,  !- Air Outlet Node Name
-    UFactorTimesAreaAndDesignWaterFlowRate,  !- Performance Input Method
-    AUTOSIZE,                !- Rated Capacity {W}
-    82.2,                    !- Rated Inlet Water Temperature {C}
-    16.6,                    !- Rated Inlet Air Temperature {C}
-    71.1,                    !- Rated Outlet Water Temperature {C}
-    32.2,                    !- Rated Outlet Air Temperature {C}
-    0.5;                     !- Rated Ratio for Air and Water Convection
-
-Coil:Heating:Water,
-    Zone-VAV-112 VAV Box Reheat Coil,  !- Name
-    Reheat Coil Availability,!- Availability Schedule Name
-    AUTOSIZE,                !- U-Factor Times Area Value {W/K}
-    AUTOSIZE,                !- Maximum Water Flow Rate {m3/s}
-    Zone-VAV-112 VAV Box Reheat CoilDemand Inlet Node,  !- Water Inlet Node Name
-    Zone-VAV-112 VAV Box Reheat CoilDemand Outlet Node,  !- Water Outlet Node Name
-    Zone-VAV-112 VAV Box Damper Node,  !- Air Inlet Node Name
-    Zone-VAV-112 VAV Box Outlet Node,  !- Air Outlet Node Name
-    UFactorTimesAreaAndDesignWaterFlowRate,  !- Performance Input Method
-    AUTOSIZE,                !- Rated Capacity {W}
-    82.2,                    !- Rated Inlet Water Temperature {C}
-    16.6,                    !- Rated Inlet Air Temperature {C}
-    71.1,                    !- Rated Outlet Water Temperature {C}
-    32.2,                    !- Rated Outlet Air Temperature {C}
-    0.5;                     !- Rated Ratio for Air and Water Convection
-
-Coil:Heating:Water,
-    Zone-VAV-116 VAV Box Reheat Coil,  !- Name
-    Reheat Coil Availability,!- Availability Schedule Name
-    AUTOSIZE,                !- U-Factor Times Area Value {W/K}
-    AUTOSIZE,                !- Maximum Water Flow Rate {m3/s}
-    Zone-VAV-116 VAV Box Reheat CoilDemand Inlet Node,  !- Water Inlet Node Name
-    Zone-VAV-116 VAV Box Reheat CoilDemand Outlet Node,  !- Water Outlet Node Name
-    Zone-VAV-116 VAV Box Damper Node,  !- Air Inlet Node Name
-    Zone-VAV-116 VAV Box Outlet Node,  !- Air Outlet Node Name
     UFactorTimesAreaAndDesignWaterFlowRate,  !- Performance Input Method
     AUTOSIZE,                !- Rated Capacity {W}
     82.2,                    !- Rated Inlet Water Temperature {C}
@@ -13504,12 +13270,12 @@ AirLoopHVAC:ZoneSplitter,
 AirLoopHVAC:ZoneSplitter,
     AHU-003 Supply Air Splitter,  !- Name
     AHU-003 Zone Equipment Inlet Node,  !- Inlet Node Name
-    Zone-VAV-104 VAV Box Inlet Node,  !- Outlet 1 Node Name
-    Zone-VAV-105 VAV Box Inlet Node,  !- Outlet 2 Node Name
-    Zone-VAV-107 VAV Box Inlet Node,  !- Outlet 3 Node Name
-    Zone-VAV-108 VAV Box Inlet Node,  !- Outlet 4 Node Name
-    Zone-VAV-112 VAV Box Inlet Node,  !- Outlet 5 Node Name
-    Zone-VAV-116 VAV Box Inlet Node;  !- Outlet 6 Node Name
+    Zone-VAV-104 VAV Box Outlet Node,  !- Outlet 1 Node Name
+    Zone-VAV-105 VAV Box Outlet Node,  !- Outlet 2 Node Name
+    Zone-VAV-107 VAV Box Outlet Node,  !- Outlet 3 Node Name
+    Zone-VAV-108 VAV Box Outlet Node,  !- Outlet 4 Node Name
+    Zone-VAV-112 VAV Box Outlet Node,  !- Outlet 5 Node Name
+    Zone-VAV-116 VAV Box Outlet Node;  !- Outlet 6 Node Name
 
 AirLoopHVAC:ZoneSplitter,
     AHU-004 Supply Air Splitter,  !- Name
@@ -13821,60 +13587,6 @@ Branch,
     AHU-004 Supply Equipment Outlet Node;  !- Component 4 Outlet Node Name
 
 Branch,
-    HeatSys1 Demand Load Branch 3,  !- Name
-    autosize,                !- Maximum Flow Rate {m3/s}
-    ,                        !- Pressure Drop Curve Name
-    Coil:Heating:Water,      !- Component 1 Object Type
-    Zone-VAV-104 VAV Box Reheat Coil,  !- Component 1 Name
-    Zone-VAV-104 VAV Box Reheat CoilDemand Inlet Node,  !- Component 1 Inlet Node Name
-    Zone-VAV-104 VAV Box Reheat CoilDemand Outlet Node;  !- Component 1 Outlet Node Name
-
-Branch,
-    HeatSys1 Demand Load Branch 4,  !- Name
-    autosize,                !- Maximum Flow Rate {m3/s}
-    ,                        !- Pressure Drop Curve Name
-    Coil:Heating:Water,      !- Component 1 Object Type
-    Zone-VAV-105 VAV Box Reheat Coil,  !- Component 1 Name
-    Zone-VAV-105 VAV Box Reheat CoilDemand Inlet Node,  !- Component 1 Inlet Node Name
-    Zone-VAV-105 VAV Box Reheat CoilDemand Outlet Node;  !- Component 1 Outlet Node Name
-
-Branch,
-    HeatSys1 Demand Load Branch 5,  !- Name
-    autosize,                !- Maximum Flow Rate {m3/s}
-    ,                        !- Pressure Drop Curve Name
-    Coil:Heating:Water,      !- Component 1 Object Type
-    Zone-VAV-107 VAV Box Reheat Coil,  !- Component 1 Name
-    Zone-VAV-107 VAV Box Reheat CoilDemand Inlet Node,  !- Component 1 Inlet Node Name
-    Zone-VAV-107 VAV Box Reheat CoilDemand Outlet Node;  !- Component 1 Outlet Node Name
-
-Branch,
-    HeatSys1 Demand Load Branch 6,  !- Name
-    autosize,                !- Maximum Flow Rate {m3/s}
-    ,                        !- Pressure Drop Curve Name
-    Coil:Heating:Water,      !- Component 1 Object Type
-    Zone-VAV-108 VAV Box Reheat Coil,  !- Component 1 Name
-    Zone-VAV-108 VAV Box Reheat CoilDemand Inlet Node,  !- Component 1 Inlet Node Name
-    Zone-VAV-108 VAV Box Reheat CoilDemand Outlet Node;  !- Component 1 Outlet Node Name
-
-Branch,
-    HeatSys1 Demand Load Branch 7,  !- Name
-    autosize,                !- Maximum Flow Rate {m3/s}
-    ,                        !- Pressure Drop Curve Name
-    Coil:Heating:Water,      !- Component 1 Object Type
-    Zone-VAV-112 VAV Box Reheat Coil,  !- Component 1 Name
-    Zone-VAV-112 VAV Box Reheat CoilDemand Inlet Node,  !- Component 1 Inlet Node Name
-    Zone-VAV-112 VAV Box Reheat CoilDemand Outlet Node;  !- Component 1 Outlet Node Name
-
-Branch,
-    HeatSys1 Demand Load Branch 8,  !- Name
-    autosize,                !- Maximum Flow Rate {m3/s}
-    ,                        !- Pressure Drop Curve Name
-    Coil:Heating:Water,      !- Component 1 Object Type
-    Zone-VAV-116 VAV Box Reheat Coil,  !- Component 1 Name
-    Zone-VAV-116 VAV Box Reheat CoilDemand Inlet Node,  !- Component 1 Inlet Node Name
-    Zone-VAV-116 VAV Box Reheat CoilDemand Outlet Node;  !- Component 1 Outlet Node Name
-
-Branch,
     HeatSys1 Demand Load Branch 27,  !- Name
     autosize,                !- Maximum Flow Rate {m3/s}
     ,                        !- Pressure Drop Curve Name
@@ -14131,18 +13843,12 @@ BranchList,
 BranchList,
     HeatSys1 Demand Branches,!- Name
     HeatSys1 Demand Inlet Branch,  !- Branch 1 Name
-    HeatSys1 Demand Load Branch 3,  !- Branch 2 Name
-    HeatSys1 Demand Load Branch 4,  !- Branch 3 Name
-    HeatSys1 Demand Load Branch 5,  !- Branch 4 Name
-    HeatSys1 Demand Load Branch 6,  !- Branch 5 Name
-    HeatSys1 Demand Load Branch 7,  !- Branch 6 Name
-    HeatSys1 Demand Load Branch 8,  !- Branch 7 Name
-    HeatSys1 Demand Load Branch 27,  !- Branch 8 Name
-    HeatSys1 Demand Load Branch 28,  !- Branch 9 Name
-    HeatSys1 Demand Load Branch 29,  !- Branch 10 Name
-    HeatSys1 Demand Load Branch 30,  !- Branch 11 Name
-    HeatSys1 Demand Bypass Branch,  !- Branch 12 Name
-    HeatSys1 Demand Outlet Branch;  !- Branch 13 Name
+    HeatSys1 Demand Load Branch 27,  !- Branch 2 Name
+    HeatSys1 Demand Load Branch 28,  !- Branch 3 Name
+    HeatSys1 Demand Load Branch 29,  !- Branch 4 Name
+    HeatSys1 Demand Load Branch 30,  !- Branch 5 Name
+    HeatSys1 Demand Bypass Branch,  !- Branch 6 Name
+    HeatSys1 Demand Outlet Branch;  !- Branch 7 Name
 
 BranchList,
     HeatSys1 Supply Branches,!- Name
@@ -14193,17 +13899,11 @@ BranchList,
 Connector:Splitter,
     HeatSys1 Demand Splitter,!- Name
     HeatSys1 Demand Inlet Branch,  !- Inlet Branch Name
-    HeatSys1 Demand Load Branch 3,  !- Outlet Branch 1 Name
-    HeatSys1 Demand Load Branch 4,  !- Outlet Branch 2 Name
-    HeatSys1 Demand Load Branch 5,  !- Outlet Branch 3 Name
-    HeatSys1 Demand Load Branch 6,  !- Outlet Branch 4 Name
-    HeatSys1 Demand Load Branch 7,  !- Outlet Branch 5 Name
-    HeatSys1 Demand Load Branch 8,  !- Outlet Branch 6 Name
-    HeatSys1 Demand Load Branch 27,  !- Outlet Branch 7 Name
-    HeatSys1 Demand Load Branch 28,  !- Outlet Branch 8 Name
-    HeatSys1 Demand Load Branch 29,  !- Outlet Branch 9 Name
-    HeatSys1 Demand Load Branch 30,  !- Outlet Branch 10 Name
-    HeatSys1 Demand Bypass Branch;  !- Outlet Branch 11 Name
+    HeatSys1 Demand Load Branch 27,  !- Outlet Branch 1 Name
+    HeatSys1 Demand Load Branch 28,  !- Outlet Branch 2 Name
+    HeatSys1 Demand Load Branch 29,  !- Outlet Branch 3 Name
+    HeatSys1 Demand Load Branch 30,  !- Outlet Branch 4 Name
+    HeatSys1 Demand Bypass Branch;  !- Outlet Branch 5 Name
 
 Connector:Splitter,
     HeatSys1 Supply Splitter,!- Name
@@ -14231,17 +13931,11 @@ Connector:Splitter,
 Connector:Mixer,
     HeatSys1 Demand Mixer,   !- Name
     HeatSys1 Demand Outlet Branch,  !- Outlet Branch Name
-    HeatSys1 Demand Load Branch 3,  !- Inlet Branch 1 Name
-    HeatSys1 Demand Load Branch 4,  !- Inlet Branch 2 Name
-    HeatSys1 Demand Load Branch 5,  !- Inlet Branch 3 Name
-    HeatSys1 Demand Load Branch 6,  !- Inlet Branch 4 Name
-    HeatSys1 Demand Load Branch 7,  !- Inlet Branch 5 Name
-    HeatSys1 Demand Load Branch 8,  !- Inlet Branch 6 Name
-    HeatSys1 Demand Load Branch 27,  !- Inlet Branch 7 Name
-    HeatSys1 Demand Load Branch 28,  !- Inlet Branch 8 Name
-    HeatSys1 Demand Load Branch 29,  !- Inlet Branch 9 Name
-    HeatSys1 Demand Load Branch 30,  !- Inlet Branch 10 Name
-    HeatSys1 Demand Bypass Branch;  !- Inlet Branch 11 Name
+    HeatSys1 Demand Load Branch 27,  !- Inlet Branch 1 Name
+    HeatSys1 Demand Load Branch 28,  !- Inlet Branch 2 Name
+    HeatSys1 Demand Load Branch 29,  !- Inlet Branch 3 Name
+    HeatSys1 Demand Load Branch 30,  !- Inlet Branch 4 Name
+    HeatSys1 Demand Bypass Branch;  !- Inlet Branch 5 Name
 
 Connector:Mixer,
     HeatSys1 Supply Mixer,   !- Name
@@ -14768,6 +14462,36 @@ EnergyManagementSystem:Sensor,
     Schedule Value;          !- Output:Variable or Output:Meter Name
 
 EnergyManagementSystem:Sensor,
+    AirFlow104,              !- Name
+    Af104,                   !- Output:Variable or Output:Meter Index Key Name
+    Schedule Value;          !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+    AirFlow105,              !- Name
+    Af105,                   !- Output:Variable or Output:Meter Index Key Name
+    Schedule Value;          !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+    AirFlow106,              !- Name
+    Af106,                   !- Output:Variable or Output:Meter Index Key Name
+    Schedule Value;          !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+    AirFlow107,              !- Name
+    Af107,                   !- Output:Variable or Output:Meter Index Key Name
+    Schedule Value;          !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+    AirFlow112,              !- Name
+    Af112,                   !- Output:Variable or Output:Meter Index Key Name
+    Schedule Value;          !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
+    AirFlow116,              !- Name
+    Af116,                   !- Output:Variable or Output:Meter Index Key Name
+    Schedule Value;          !- Output:Variable or Output:Meter Name
+
+EnergyManagementSystem:Sensor,
     AirFlow118,              !- Name
     Af118,                   !- Output:Variable or Output:Meter Index Key Name
     Schedule Value;          !- Output:Variable or Output:Meter Name
@@ -14923,6 +14647,42 @@ EnergyManagementSystem:Actuator,
     Mass Flow Rate;          !- Actuated Component Control Type
 
 EnergyManagementSystem:Actuator,
+    A104ZONEAIRFLOW,         !- Name
+    Zone-VAV-104 VAV Box Component,  !- Actuated Component Unique Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Actuated Component Type
+    Mass Flow Rate;          !- Actuated Component Control Type
+
+EnergyManagementSystem:Actuator,
+    A105ZONEAIRFLOW,         !- Name
+    Zone-VAV-105 VAV Box Component,  !- Actuated Component Unique Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Actuated Component Type
+    Mass Flow Rate;          !- Actuated Component Control Type
+	
+EnergyManagementSystem:Actuator,
+    A107ZONEAIRFLOW,         !- Name
+    Zone-VAV-107 VAV Box Component,  !- Actuated Component Unique Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Actuated Component Type
+    Mass Flow Rate;          !- Actuated Component Control Type
+
+EnergyManagementSystem:Actuator,
+    A108ZONEAIRFLOW,         !- Name
+    Zone-VAV-108 VAV Box Component,  !- Actuated Component Unique Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Actuated Component Type
+    Mass Flow Rate;          !- Actuated Component Control Type
+
+EnergyManagementSystem:Actuator,
+    A112ZONEAIRFLOW,         !- Name
+    Zone-VAV-112 VAV Box Component,  !- Actuated Component Unique Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Actuated Component Type
+    Mass Flow Rate;          !- Actuated Component Control Type
+
+EnergyManagementSystem:Actuator,
+    A116ZONEAIRFLOW,         !- Name
+    Zone-VAV-116 VAV Box Component,  !- Actuated Component Unique Name
+    AirTerminal:SingleDuct:Uncontrolled,  !- Actuated Component Type
+    Mass Flow Rate;          !- Actuated Component Control Type
+	
+EnergyManagementSystem:Actuator,
     A123aZONEAIRFLOW,        !- Name
     Zone-VAV-123A VAV Box Component,  !- Actuated Component Unique Name
     AirTerminal:SingleDuct:Uncontrolled,  !- Actuated Component Type
@@ -15028,6 +14788,12 @@ EnergyManagementSystem:ProgramCallingManager,
     ZoneAirFlow_Overwrite Manager,  !- Name
     InsideHVACSystemIterationLoop,  !- EnergyPlus Model Calling Point
     ZoneAirFlow102_Overwrite,!- Program Name 1
+    ZoneAirFlow104_Overwrite,!- Program Name 1
+    ZoneAirFlow105_Overwrite,!- Program Name 1
+    ZoneAirFlow107_Overwrite,!- Program Name 1
+    ZoneAirFlow108_Overwrite,!- Program Name 1
+    ZoneAirFlow112_Overwrite,!- Program Name 1
+    ZoneAirFlow116_Overwrite,!- Program Name 1
     ZoneAirFlow118_Overwrite,!- Program Name 2
     ZoneAirFlow120_Overwrite,!- Program Name 3
     ZoneAirFlow123a_Overwrite,  !- Program Name 4
@@ -15143,6 +14909,30 @@ EnergyManagementSystem:Program,
 EnergyManagementSystem:Program,
     ZoneAirFlow120_Overwrite,!- Name
     SET A120ZONEAIRFLOW =AirFlow120;  !- Program Line 1
+
+EnergyManagementSystem:Program,
+    ZoneAirFlow104_Overwrite,!- Name
+    SET A104ZONEAIRFLOW =AirFlow104;  !- Program Line 1
+
+EnergyManagementSystem:Program,
+    ZoneAirFlow105_Overwrite,!- Name
+    SET A105ZONEAIRFLOW =AirFlow105;  !- Program Line 1
+
+EnergyManagementSystem:Program,
+    ZoneAirFlow107_Overwrite,!- Name
+    SET A107ZONEAIRFLOW =AirFlow107;  !- Program Line 1
+	
+EnergyManagementSystem:Program,
+    ZoneAirFlow108_Overwrite,!- Name
+    SET A108ONEAIRFLOW =AirFlow108;  !- Program Line 1
+
+EnergyManagementSystem:Program,
+    ZoneAirFlow112_Overwrite,!- Name
+    SET A112ZONEAIRFLOW =AirFlow112;  !- Program Line 1
+
+EnergyManagementSystem:Program,
+    ZoneAirFlow116_Overwrite,!- Name
+    SET A116ZONEAIRFLOW =AirFlow116;  !- Program Line 1
 
 EnergyManagementSystem:Program,
     ZoneAirFlow123a_Overwrite,  !- Name
@@ -15428,6 +15218,36 @@ ExternalInterface:Schedule,
 
 ExternalInterface:Schedule,
     Afcorridor,              !- Name
+    Any Number,              !- Schedule Type Limits Name
+    0;                       !- Initial Value
+
+ExternalInterface:Schedule,
+    Af104,                   !- Name
+    Any Number,              !- Schedule Type Limits Name
+    0;                       !- Initial Value
+
+ExternalInterface:Schedule,
+    Af105,                   !- Name
+    Any Number,              !- Schedule Type Limits Name
+    0;                       !- Initial Value
+
+ExternalInterface:Schedule,
+    Af107,                   !- Name
+    Any Number,              !- Schedule Type Limits Name
+    0;                       !- Initial Value
+
+ExternalInterface:Schedule,
+    Af108,                   !- Name
+    Any Number,              !- Schedule Type Limits Name
+    0;                       !- Initial Value
+
+ExternalInterface:Schedule,
+    Af112,                   !- Name
+    Any Number,              !- Schedule Type Limits Name
+    0;                       !- Initial Value
+
+ExternalInterface:Schedule,
+    Af116,                   !- Name
     Any Number,              !- Schedule Type Limits Name
     0;                       !- Initial Value
 

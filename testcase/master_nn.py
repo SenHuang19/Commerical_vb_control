@@ -141,16 +141,16 @@ while 1:
          if len(arry)>6:
               print index
               time=float(arry[5])
-              mssg = '%r %r %r 0 0 %r' % (vers, flag, 17, time)              
+              mssg = '%r %r %r 0 0 %r' % (vers, flag, 23, time)              
               Ts=[]
               power=float(arry[25])+float(arry[26])/6.16
-              for i in range(17):
+              for i in range(23):
                     Ts.append(float(arry[8+i]))
               if index<=95:
                    e,a,b,c,d,ff=Control_Commercial(Ts,float(arry[6]),index)            
               airflow=''
               temps=''
-              for i in range(17):
+              for i in range(23):
                      mssg = mssg + ' ' + str(e[i])
                      airflow=airflow+str(e[i])+','
                      temps=temps+str(a[i])+','

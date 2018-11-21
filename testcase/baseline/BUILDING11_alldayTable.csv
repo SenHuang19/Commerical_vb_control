@@ -1,0 +1,2057 @@
+Program Version:,EnergyPlus, Version 8.4.0-09f5359d8a, YMD=2018.11.20 22:24
+Tabular Output Report in Format: ,Comma
+
+Building:,CLGSetPtNormal
+Environment:,TYPICAL SUMMER WEEK ** Pasco WA USA TMY3 WMO#=727845
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Annual Building Utility Performance Summary
+FOR:,Entire Facility
+Values gathered over       120.00 hours
+WARNING: THE REPORT DOES NOT REPRESENT A FULL ANNUAL SIMULATION.
+
+Site and Source Energy
+
+,,Total Energy [kWh],Energy Per Total Building Area [kWh/m2],Energy Per Conditioned Building Area [kWh/m2]
+,Total Site Energy,5861.01,2.76,2.76
+,Net Site Energy,5861.01,2.76,2.76
+,Total Source Energy,12451.67,5.87,5.87
+,Net Source Energy,12451.67,5.87,5.87
+
+
+Site to Source Energy Conversion Factors
+
+,,Site=>Source Conversion Factor
+,Electricity,3.167
+,Natural Gas,1.084
+,District Cooling,1.056
+,District Heating,3.613
+,Steam,0.300
+,Gasoline,1.050
+,Diesel,1.050
+,Coal,1.050
+,Fuel Oil #1,1.050
+,Fuel Oil #2,1.050
+,Propane,1.050
+,Other Fuel 1,1.000
+,Other Fuel 2,1.000
+
+
+Building Area
+
+,,Area [m2]
+,Total Building Area,2120.79
+,Net Conditioned Building Area,2120.79
+,Unconditioned Building Area,0.00
+
+
+End Uses
+
+,,Electricity [kWh],Natural Gas [kWh],Additional Fuel [kWh],District Cooling [kWh],District Heating [kWh],Water [m3]
+,Heating,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,0.00,0.00,0.00,2893.98,0.00,0.00
+,Interior Lighting,481.07,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,2194.37,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,59.07,0.00,0.00,0.00,0.00,0.00
+,Pumps,8.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,224.53,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,Total End Uses,2967.03,0.00,0.00,2893.98,0.00,0.00
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [kWh],Natural Gas [kWh],Additional Fuel [kWh],District Cooling [kWh],District Heating [kWh],Water [m3]
+,Heating,Boiler,0.00,0.00,0.00,0.00,0.00,0.00
+,,Boiler Parasitic,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,General,0.00,0.00,0.00,2893.98,0.00,0.00
+,Interior Lighting,General Lights,481.07,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,MiscPlug,2194.37,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,Unit Heater Fans,0.00,0.00,0.00,0.00,0.00,0.00
+,,General,59.07,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,8.00,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,224.53,0.00,0.00,0.00,0.00,0.00
+,Water Systems,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+Normalized Metrics
+Utility Use Per Conditioned Floor Area
+
+,,Electricity Intensity [kWh/m2],Natural Gas Intensity [kWh/m2],Additional Fuel Intensity [kWh/m2],District Cooling Intensity [kWh/m2],District Heating Intensity [kWh/m2],Water Intensity [m3/m2]
+,Lighting,0.23,0.00,0.00,0.00,0.00,0.00
+,HVAC,0.03,0.00,0.00,1.36,0.00,0.00
+,Other,1.14,0.00,0.00,0.00,0.00,0.00
+,Total,1.40,0.00,0.00,1.36,0.00,0.00
+
+
+Utility Use Per Total Floor Area
+
+,,Electricity Intensity [kWh/m2],Natural Gas Intensity [kWh/m2],Additional Fuel Intensity [kWh/m2],District Cooling Intensity [kWh/m2],District Heating Intensity [kWh/m2],Water Intensity [m3/m2]
+,Lighting,0.23,0.00,0.00,0.00,0.00,0.00
+,HVAC,0.03,0.00,0.00,1.36,0.00,0.00
+,Other,1.14,0.00,0.00,0.00,0.00,0.00
+,Total,1.40,0.00,0.00,1.36,0.00,0.00
+
+
+Electric Loads Satisfied
+
+,,Electricity [kWh],Percent Electricity [%]
+,Fuel-Fired Power Generation,0.00,0.00
+,High Temperature Geothermal*,0.00,0.00
+,Photovoltaic Power,0.00,0.00
+,Wind Power,0.00,0.00
+,Net Decrease in On-Site Storage,0.00,0.00
+,Total On-Site Electric Sources,0.00,0.00
+,,,
+,Electricity Coming From Utility,2967.03,100.00
+,Surplus Electricity Going To Utility,0.00,0.00
+,Net Electricity From Utility,2967.03,100.00
+,,,
+,Total On-Site and Utility Electric Sources,2967.03,100.00
+,Total Electricity End Uses,2967.03,100.00
+
+
+On-Site Thermal Sources
+
+,,Heat [kWh],Percent Heat [%]
+,Water-Side Heat Recovery,0.00,0.00
+,Air to Air Heat Recovery for Cooling,304.33,99.81
+,Air to Air Heat Recovery for Heating,0.57,0.19
+,High-Temperature Geothermal*,0.00,0.00
+,Solar Water Thermal,0.00,0.00
+,Solar Air Thermal,0.00,0.00
+,Total On-Site Thermal Sources,304.90,100.00
+
+
+Water Source Summary
+
+,,Water [m3],Percent Water [%]
+,Rainwater Collection,0.00,-
+,Condensate Collection,0.00,-
+,Groundwater Well,0.00,-
+,Total On Site Water Sources,0.00,-
+,-,-,-
+,Initial Storage,0.00,-
+,Final Storage,0.00,-
+,Change in Storage,0.00,-
+,-,-,-
+,Water Supplied by Utility,0.00,-
+,-,-,-
+,Total On Site, Change in Storage, and Utility Water Sources,0.00,-
+,Total Water End Uses,0.00,-
+
+
+Setpoint Not Met Criteria
+
+,,Degrees [deltaC]
+,Tolerance for Zone Heating Setpoint Not Met Time,1.00
+,Tolerance for Zone Cooling Setpoint Not Met Time,1.00
+
+
+Comfort and Setpoint Not Met Summary
+
+,,Facility [Hours]
+,Time Setpoint Not Met During Occupied Heating,0.00
+,Time Setpoint Not Met During Occupied Cooling,90.00
+,Time Not Comfortable Based on Simple ASHRAE 55-2004,90.00
+
+
+Note 1: An asterisk (*) indicates that the feature is not yet implemented.
+----------------------------------------------------------------------------------------------------
+REPORT:,Input Verification and Results Summary
+FOR:,Entire Facility
+General
+
+,,Value
+,Program Version and Build,EnergyPlus, Version 8.4.0-09f5359d8a, YMD=2018.11.20 22:24
+,RunPeriod,TYPICAL SUMMER WEEK
+,Weather File,Pasco WA USA TMY3 WMO#=727845
+,Latitude [deg],46.27
+,Longitude [deg],-119.1
+,Elevation [m],136.00
+,Time Zone,-8.0
+,North Axis Angle [deg],0.00
+,Rotation for Appendix G [deg],0.00
+,Hours Simulated [hrs],120.00
+
+
+ENVELOPE
+Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],1207.00,364.74,218.14,405.99,218.14
+,Above Ground Wall Area [m2],1207.00,364.74,218.14,405.99,218.14
+,Window Opening Area [m2],136.99,32.70,2.97,67.70,33.62
+,Gross Window-Wall Ratio [%],11.35,8.97,1.36,16.67,15.41
+,Above Ground Window-Wall Ratio [%],11.35,8.97,1.36,16.67,15.41
+
+
+Conditioned Window-Wall Ratio
+
+,,Total,North (315 to 45 deg),East (45 to 135 deg),South (135 to 225 deg),West (225 to 315 deg)
+,Gross Wall Area [m2],1207.00,364.74,218.14,405.99,218.14
+,Above Ground Wall Area [m2],1207.00,364.74,218.14,405.99,218.14
+,Window Opening Area [m2],136.99,32.70,2.97,67.70,33.62
+,Gross Window-Wall Ratio [%],11.35,8.97,1.36,16.67,15.41
+,Above Ground Window-Wall Ratio [%],11.35,8.97,1.36,16.67,15.41
+
+
+Skylight-Roof Ratio
+
+,,Total
+,Gross Roof Area [m2],2120.79
+,Skylight Area [m2],0.00
+,Skylight-Roof Ratio [%],0.00
+
+
+PERFORMANCE
+Zone Summary
+
+,,Area [m2],Conditioned (Y/N),Part of Total Floor Area (Y/N),Volume [m3],Multipliers,Gross Wall Area [m2],Window Glass Area [m2],Lighting [W/m2],People [m2 per person],Plug and Process [W/m2]
+,ZONE-VAV-143,10.40,Yes,Yes,38.04,1.00,23.60,5.95,3.2800,10.00,16.0000
+,ZONE-VAV-142,53.93,Yes,Yes,197.25,1.00,59.74,23.03,3.2800,10.00,16.0000
+,ZONE-HTR-001,12.08,Yes,Yes,44.17,1.00,13.38,4.65,3.2800,18.58,1.0000
+,ZONE-VAV-136,11.07,Yes,Yes,40.49,1.00,24.34,5.95,3.2800,10.00,16.0000
+,ZONE-VAV-127B,276.44,Yes,Yes,1011.10,1.00,76.55,29.73,3.2800,14.00,12.0000
+,ZONE-VAV-127A,226.60,Yes,Yes,828.81,1.00,76.55,29.73,3.2800,14.00,12.0000
+,ZONE-VAV-131,12.94,Yes,Yes,47.35,1.00,14.12,0.00,3.2800,12.00,16.0000
+,ZONE-VAV-129,38.34,Yes,Yes,140.24,1.00,0.00,0.00,3.2800,12.00,16.0000
+,ZONE-VAV-150,24.52,Yes,Yes,89.67,1.00,25.64,5.95,3.2800,18.58,16.0000
+,ZONE-VAV-123A,65.16,Yes,Yes,238.31,1.00,30.10,0.00,3.2800,9.29,16.0000
+,ZONE-VAV-123B,68.55,Yes,Yes,250.73,1.00,18.77,0.00,3.2800,9.29,16.0000
+,ZONE-AHU-005,101.49,Yes,Yes,371.22,1.00,105.07,0.00,3.2800,18.58,32.0000
+,ZONE-VAV-118,62.53,Yes,Yes,228.72,1.00,0.00,0.00,3.2800,4.64,4.0000
+,ZONE-VAV-120,10.47,Yes,Yes,38.31,1.00,0.00,0.00,3.2800,10.00,16.0000
+,ZONE-VAV-119,10.47,Yes,Yes,38.31,1.00,0.00,0.00,3.2800,10.00,16.0000
+,ZONE-VAV-RESTROOM,10.47,Yes,Yes,38.31,1.00,23.69,0.00,0.0033,1800.58,0.0040
+,ZONE-AHU-004,153.37,Yes,Yes,560.98,1.00,114.18,0.00,3.2800,18.58,16.0000
+,ZONE-VAV-102,96.74,Yes,Yes,353.82,1.00,48.22,13.75,3.2800,4.64,4.0000
+,ZONE-FCU-001,22.72,Yes,Yes,83.10,1.00,0.00,0.00,3.2800,18.58,8.0000
+,ZONE-AHU-002,178.50,Yes,Yes,652.88,1.00,146.60,0.00,3.2800,9.29,16.0000
+,ZONE-VAV-105,90.82,Yes,Yes,332.19,1.00,80.45,18.27,3.2800,18.58,4.0000
+,ZONE-FCU-003,40.11,Yes,Yes,146.70,1.00,47.71,0.00,3.2800,18.58,53.7500
+,ZONE-VAV-112,40.11,Yes,Yes,146.70,1.00,6.18,0.00,3.2800,18.58,26.8750
+,ZONE-HTR-002,14.75,Yes,Yes,53.96,1.00,11.24,0.00,3.2800,18.58,1.0000
+,ZONE-HTR-003,14.75,Yes,Yes,53.96,1.00,11.24,0.00,3.2800,18.58,1.0000
+,ZONE-VAV-104,20.43,Yes,Yes,74.73,1.00,22.81,0.00,3.2800,18.58,2.0000
+,ZONE-VAV-116,13.27,Yes,Yes,48.55,1.00,14.82,0.00,3.2800,18.58,4.0000
+,ZONE-VAV-108,66.22,Yes,Yes,242.22,1.00,60.29,0.00,3.2800,18.58,16.0000
+,ZONE-FCU-002,66.22,Yes,Yes,242.22,1.00,60.29,0.00,3.2800,18.58,53.7500
+,ZONE-HTR-004,12.68,Yes,Yes,46.38,1.00,13.38,0.00,3.2800,18.58,1.0000
+,ZONE-VAV-CORRIDOR,224.88,Yes,Yes,806.21,1.00,60.48,0.00,3.2800,18.58,4.0000
+,ZONE-VAV-133,51.43,Yes,Yes,188.12,1.00,0.00,0.00,3.2800,18.58,4.0000
+,ZONE-VAV-107,18.29,Yes,Yes,66.90,1.00,17.56,0.00,3.2800,18.58,8.0000
+,Total,2120.79,,,7740.69,,1207.00,136.99,3.2638,12.40,14.1093
+,Conditioned Total,2120.79,,,7740.69,,1207.00,136.99,3.2638,12.40,14.1093
+,Unconditioned Total,0.00,,,0.00,,0.00,0.00,,,
+,Not Part of Total,0.00,,,0.00,,0.00,0.00,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Demand End Use Components Summary
+FOR:,Entire Facility
+End Uses
+
+,,Electricity [W],Natural Gas [W],Propane [W],District Cooling [W],Steam [W],Water [m3/s]
+,Time of Peak,23-AUG-13:00,-,-,24-AUG-14:00,-,-
+,Heating,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,0.00,0.00,0.00,47149.48,0.00,0.00
+,Interior Lighting,6921.85,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,18684.47,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,1064.59,0.00,0.00,0.00,0.00,0.00
+,Pumps,214.07,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,1871.04,0.00,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00,0.00
+,,,,,,,
+,Total End Uses,28756.03,0.00,0.00,47149.48,0.00,0.00
+
+
+End Uses By Subcategory
+
+,,Subcategory,Electricity [W],Natural Gas [W],Propane [W],District Cooling [W],Steam [W],Water [m3/s]
+,Heating,Boiler,0.00,0.00,0.00,0.00,0.00,0.00
+,,Boiler Parasitic,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooling,General,0.00,0.00,0.00,47149.48,0.00,0.00
+,Interior Lighting,General Lights,6921.85,0.00,0.00,0.00,0.00,0.00
+,Exterior Lighting,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,MiscPlug,18684.47,0.00,0.00,0.00,0.00,0.00
+,Exterior Equipment,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans,Unit Heater Fans,0.00,0.00,0.00,0.00,0.00,0.00
+,,General,1064.59,0.00,0.00,0.00,0.00,0.00
+,Pumps,General,214.07,0.00,0.00,0.00,0.00,0.00
+,Heat Rejection,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Humidification,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,General,1871.04,0.00,0.00,0.00,0.00,0.00
+,Water Systems,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,General,0.00,0.00,0.00,0.00,0.00,0.00
+,Generators,General,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Source Energy End Use Components Summary
+FOR:,Entire Facility
+Values gathered over       120.00 hours
+WARNING: THE REPORT DOES NOT REPRESENT A FULL ANNUAL SIMULATION.
+
+Source Energy End Use Components Summary
+
+,,Source Electricity [kWh],Source Natural Gas [kWh],Source Additional Fuel [kWh],Source District Cooling [kWh],Source District Heating [kWh]
+,Heating,0.00,0.00,0.00,0.00,0.00
+,Cooling,0.00,0.00,0.00,3055.08,0.00
+,Interior Lighting,1523.54,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,6949.57,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00
+,Fans,187.09,0.00,0.00,0.00,0.00
+,Pumps,25.32,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,711.07,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00
+,,,,,,
+,Total Source Energy End Use Components,9396.60,0.00,0.00,3055.08,0.00
+
+
+Normalized Metrics
+Source Energy End Use Components Per Conditioned Floor Area
+
+,,Source Electricity [kWh/m2],Source Natural Gas [kWh/m2],Source Additional Fuel [kWh/m2],Source District Cooling [kWh/m2],Source District Heating [kWh/m2]
+,Heating,0.00,0.00,0.00,0.00,0.00
+,Cooling,0.00,0.00,0.00,1.44,0.00
+,Interior Lighting,0.72,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,3.28,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00
+,Fans,0.09,0.00,0.00,0.00,0.00
+,Pumps,0.01,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.34,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00
+,,,,,,
+,Total Source Energy End Use Components,4.43,0.00,0.00,1.44,0.00
+
+
+Source Energy End Use Components Per Total Floor Area
+
+,,Source Electricity [kWh/m2],Source Natural Gas [kWh/m2],Source Additional Fuel [kWh/m2],Source District Cooling [kWh/m2],Source District Heating [kWh/m2]
+,Heating,0.00,0.00,0.00,0.00,0.00
+,Cooling,0.00,0.00,0.00,1.44,0.00
+,Interior Lighting,0.72,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00
+,Interior Equipment,3.28,0.00,0.00,0.00,0.00
+,Exterior Equipment,0.00,0.00,0.00,0.00,0.00
+,Fans,0.09,0.00,0.00,0.00,0.00
+,Pumps,0.01,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00
+,Humidification,0.00,0.00,0.00,0.00,0.00
+,Heat Recovery,0.34,0.00,0.00,0.00,0.00
+,Water Systems,0.00,0.00,0.00,0.00,0.00
+,Refrigeration,0.00,0.00,0.00,0.00,0.00
+,Generators,0.00,0.00,0.00,0.00,0.00
+,,,,,,
+,Total Source Energy End Use Components,4.43,0.00,0.00,1.44,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Climatic Data Summary
+FOR:,Entire Facility
+SizingPeriod:DesignDay
+
+,,Maximum Dry Bulb [C],Daily Temperature Range [deltaC],Humidity Value,Humidity Type,Wind Speed [m/s],Wind Direction
+,PASCO ANN HTG 99.6% CONDNS DB,-14.00,0.00,-14.00,Wetbulb [C],2.50,310.00
+,PASCO ANN CLG .4% CONDNS DB=>MWB,37.50,17.80,21.10,Wetbulb [C],3.10,330.00
+
+
+Weather Statistics File
+
+,,Value
+,None,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Envelope Summary
+FOR:,Entire Facility
+Opaque Exterior
+
+,,Construction,Reflectance,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Azimuth [deg],Tilt [deg],Cardinal Direction
+,892F39,NONRES EXT WALL,0.07,0.308,0.323,12.08,180.00,90.00,S
+,306A57,NONRES EXT WALL,0.07,0.308,0.323,11.52,270.00,90.00,W
+,859248,NONRES FLOOR,0.30,2.112,3.212,10.40,0.00,180.00,
+,E3B375,NONRES ROOF,0.30,0.149,0.153,10.40,180.00,0.00,
+,F4C73D,NONRES EXT WALL,0.07,0.308,0.323,36.33,270.00,90.00,W
+,684101,NONRES EXT WALL,0.07,0.308,0.323,23.41,270.00,90.00,W
+,1EA868,NONRES FLOOR,0.30,2.112,3.212,21.14,0.00,180.00,
+,7A29A9,NONRES FLOOR,0.30,2.112,3.212,32.79,0.00,180.00,
+,E445B3,NONRES ROOF,0.30,0.149,0.153,32.79,180.00,0.00,
+,EA85FB,NONRES ROOF,0.30,0.149,0.153,21.14,180.00,0.00,
+,EF17CF,NONRES EXT WALL,0.07,0.308,0.323,13.38,270.00,90.00,W
+,8C9FFC,NONRES FLOOR,0.30,2.112,3.212,12.08,0.00,180.00,
+,E7AC3C,NONRES ROOF,0.30,0.149,0.153,12.08,180.00,0.00,
+,90C1F9,NONRES EXT WALL,0.07,0.308,0.323,12.08,0.00,90.00,N
+,733EC4,NONRES EXT WALL,0.07,0.308,0.323,12.26,270.00,90.00,W
+,5A08A4,NONRES FLOOR,0.30,2.112,3.212,11.07,0.00,180.00,
+,52716F,NONRES ROOF,0.30,0.149,0.153,11.07,180.00,0.00,
+,635A3D,NONRES EXT WALL,0.07,0.308,0.323,76.55,180.00,90.00,S
+,274C9F,NONRES FLOOR,0.30,2.112,3.212,276.44,0.00,180.00,
+,B10E1D,NONRES ROOF,0.30,0.149,0.153,276.44,180.00,0.00,
+,9981B3,NONRES EXT WALL,0.07,0.308,0.323,76.55,0.00,90.00,N
+,881D78,NONRES FLOOR,0.30,2.112,3.212,17.14,0.00,180.00,
+,16A946,NONRES FLOOR,0.30,2.112,3.212,209.46,0.00,180.00,
+,15DF76,NONRES ROOF,0.30,0.149,0.153,209.46,0.00,0.00,
+,86AD10,NONRES ROOF,0.30,0.149,0.153,17.14,0.00,0.00,
+,C98507,NONRES EXT WALL,0.07,0.308,0.323,14.12,0.00,90.00,N
+,3ADC24,NONRES FLOOR,0.30,2.112,3.212,12.94,0.00,180.00,
+,176AFD,NONRES ROOF,0.30,0.149,0.153,12.94,180.00,0.00,
+,C41D2A,NONRES FLOOR,0.30,2.112,3.212,38.34,0.00,180.00,
+,85F9F8,NONRES ROOF,0.30,0.149,0.153,38.34,180.00,0.00,
+,E216E1,NONRES EXT WALL,0.07,0.308,0.323,11.52,90.00,90.00,E
+,DB36E1,NONRES EXT WALL,0.07,0.308,0.323,14.12,180.00,90.00,S
+,7C2DB1,NONRES FLOOR,0.30,2.112,3.212,12.36,0.00,180.00,
+,6B588F,NONRES FLOOR,0.30,2.112,3.212,12.16,0.00,180.00,
+,512EA5,NONRES ROOF,0.30,0.149,0.153,12.16,180.00,0.00,
+,666EEF,NONRES ROOF,0.30,0.149,0.153,12.36,180.00,0.00,
+,E43ECA,NONRES EXT WALL,0.07,0.308,0.323,17.84,0.00,90.00,N
+,D9B477,NONRES EXT WALL,0.07,0.308,0.323,12.26,270.00,90.00,W
+,E9F1CE,NONRES FLOOR,0.30,2.112,3.212,65.16,0.00,180.00,
+,3E6305,NONRES ROOF,0.30,0.149,0.153,65.16,180.00,0.00,
+,F37653,NONRES EXT WALL,0.07,0.308,0.323,18.77,180.00,90.00,S
+,985883,NONRES FLOOR,0.30,2.112,3.212,68.55,0.00,180.00,
+,7C7576,NONRES ROOF,0.30,0.149,0.153,68.55,180.00,0.00,
+,DBA231,NONRES EXT WALL,0.07,0.308,0.323,12.54,90.00,90.00,E
+,7F8356,NONRES EXT WALL,0.07,0.308,0.323,24.81,270.00,90.00,W
+,7DD26E,NONRES EXT WALL,0.07,0.308,0.323,7.34,180.00,90.00,S
+,F1CECA,NONRES EXT WALL,0.07,0.308,0.323,60.39,0.00,90.00,N
+,C96E03,NONRES FLOOR,0.30,2.112,3.212,10.71,0.00,180.00,
+,193048,NONRES FLOOR,0.30,2.112,3.212,90.78,0.00,180.00,
+,484644,NONRES ROOF,0.30,0.149,0.153,90.78,180.00,0.00,
+,2D01E7,NONRES ROOF,0.30,0.149,0.153,10.71,180.00,0.00,
+,9E2A14,NONRES FLOOR,0.30,2.112,3.212,62.53,0.00,180.00,
+,8C557E,NONRES ROOF,0.30,0.149,0.153,62.53,180.00,0.00,
+,622CD2,NONRES FLOOR,0.30,2.112,3.212,10.47,0.00,180.00,
+,E14A94,NONRES ROOF,0.30,0.149,0.153,10.47,180.00,0.00,
+,5E61F0,NONRES FLOOR,0.30,2.112,3.212,10.47,0.00,180.00,
+,A8A1BD,NONRES ROOF,0.30,0.149,0.153,10.47,180.00,0.00,
+,6674C1,NONRES EXT WALL,0.07,0.308,0.323,12.26,90.00,90.00,E
+,4D5491,NONRES EXT WALL,0.07,0.308,0.323,11.43,180.00,90.00,S
+,75AEE2,NONRES FLOOR,0.30,2.112,3.212,10.47,0.00,180.00,
+,E61CB7,NONRES ROOF,0.30,0.149,0.153,10.47,180.00,0.00,
+,D7B866,NONRES EXT WALL,0.07,0.308,0.323,36.33,90.00,90.00,E
+,725AEB,NONRES EXT WALL,0.07,0.308,0.323,56.49,0.00,90.00,N
+,8D107B,NONRES EXT WALL,0.07,0.308,0.323,21.37,180.00,90.00,S
+,AD9FC0,NONRES FLOOR,0.30,2.112,3.212,153.37,0.00,180.00,
+,9D1F0B,NONRES ROOF,0.30,0.149,0.153,153.37,180.00,0.00,
+,E7C1F5,NONRES EXT WALL,0.07,0.308,0.323,22.85,180.00,90.00,S
+,562566,NONRES EXT WALL,0.07,0.308,0.323,25.36,180.00,90.00,S
+,7062EF,NONRES FLOOR,0.30,2.112,3.212,56.74,0.00,180.00,
+,B72BFF,NONRES FLOOR,0.30,2.112,3.212,39.99,0.00,180.00,
+,8CD437,NONRES ROOF,0.30,0.149,0.153,39.99,180.00,0.00,
+,64FE33,NONRES ROOF,0.30,0.149,0.153,56.74,180.00,0.00,
+,8B13EA,NONRES FLOOR,0.30,2.112,3.212,22.72,0.00,180.00,
+,85A334,NONRES ROOF,0.30,0.149,0.153,22.72,180.00,0.00,
+,7CBF6F,NONRES EXT WALL,0.07,0.308,0.323,48.87,90.00,90.00,E
+,5DEF25,NONRES EXT WALL,0.07,0.308,0.323,48.87,0.00,90.00,N
+,BD79B0,NONRES EXT WALL,0.07,0.308,0.323,48.87,180.00,90.00,S
+,9681B4,NONRES FLOOR,0.30,2.112,3.212,178.50,0.00,180.00,
+,AC1002,NONRES ROOF,0.30,0.149,0.153,178.50,180.00,0.00,
+,728810,NONRES EXT WALL,0.07,0.308,0.323,11.52,270.00,90.00,W
+,42FD5E,NONRES EXT WALL,0.07,0.308,0.323,29.64,180.00,90.00,S
+,9FC230,NONRES EXT WALL,0.07,0.308,0.323,17.37,90.00,90.00,E
+,ED8362,NONRES EXT WALL,0.07,0.308,0.323,21.93,180.00,90.00,S
+,DB9DEC,NONRES FLOOR,0.30,2.112,3.212,49.38,0.00,180.00,
+,F61AAB,NONRES FLOOR,0.30,2.112,3.212,28.47,0.00,180.00,
+,6F02EB,NONRES FLOOR,0.30,2.112,3.212,12.97,0.00,180.00,
+,E2E7CC,NONRES ROOF,0.30,0.149,0.153,12.97,180.00,0.00,
+,A6D9B8,NONRES ROOF,0.30,0.149,0.153,49.38,180.00,0.00,
+,5A4015,NONRES ROOF,0.30,0.149,0.153,28.47,180.00,0.00,
+,3800AA,NONRES EXT WALL,0.07,0.308,0.323,18.16,270.00,90.00,W
+,1AF671,NONRES EXT WALL,0.07,0.308,0.323,29.54,0.00,90.00,N
+,EE4EDD,NONRES FLOOR,0.30,2.112,3.212,40.11,0.00,180.00,
+,2558D3,NONRES ROOF,0.30,0.149,0.153,40.11,180.00,0.00,
+,94B757,NONRES EXT WALL,0.07,0.308,0.323,6.18,270.00,90.00,W
+,CBC413,NONRES FLOOR,0.30,2.112,3.212,40.11,0.00,180.00,
+,938241,NONRES ROOF,0.30,0.149,0.153,40.11,180.00,0.00,
+,6C7F5F,NONRES EXT WALL,0.07,0.308,0.323,11.24,180.00,90.00,S
+,D38F48,NONRES FLOOR,0.30,2.112,3.212,14.75,0.00,180.00,
+,A0249B,NONRES ROOF,0.30,0.149,0.153,14.75,180.00,0.00,
+,400F5E,NONRES EXT WALL,0.07,0.308,0.323,11.24,180.00,90.00,S
+,A2DD42,NONRES FLOOR,0.30,2.112,3.212,14.75,0.00,180.00,
+,34F172,NONRES ROOF,0.30,0.149,0.153,14.75,180.00,0.00,
+,C8B155,NONRES EXT WALL,0.07,0.308,0.323,22.81,0.00,90.00,N
+,8EF9B2,NONRES FLOOR,0.30,2.112,3.212,20.43,0.00,180.00,
+,9A0B43,NONRES ROOF,0.30,0.149,0.153,20.43,180.00,0.00,
+,E8B018,NONRES EXT WALL,0.07,0.308,0.323,14.82,0.00,90.00,N
+,A548BB,NONRES FLOOR,0.30,2.112,3.212,13.27,0.00,180.00,
+,7448EF,NONRES ROOF,0.30,0.149,0.153,13.27,180.00,0.00,
+,66A10F,NONRES EXT WALL,0.07,0.308,0.323,17.51,270.00,90.00,W
+,6E56C5,NONRES EXT WALL,0.07,0.308,0.323,25.36,180.00,90.00,S
+,911903,NONRES EXT WALL,0.07,0.308,0.323,17.42,270.00,90.00,W
+,C926C3,NONRES FLOOR,0.30,2.112,3.212,66.22,0.00,180.00,
+,7886FD,NONRES ROOF,0.30,0.149,0.153,66.22,180.00,0.00,
+,B08716,NONRES EXT WALL,0.07,0.308,0.323,34.93,90.00,90.00,E
+,3FC302,NONRES EXT WALL,0.07,0.308,0.323,25.36,180.00,90.00,S
+,6121F5,NONRES FLOOR,0.30,2.112,3.212,66.22,0.00,180.00,
+,F9D64D,NONRES ROOF,0.30,0.149,0.153,66.22,180.00,0.00,
+,B68F46,NONRES EXT WALL,0.07,0.308,0.323,13.38,90.00,90.00,E
+,578A99,NONRES FLOOR,0.30,2.112,3.212,12.68,0.00,180.00,
+,C39C80,NONRES ROOF,0.30,0.149,0.153,12.68,180.00,0.00,
+,A7734E,NONRES EXT WALL,0.07,0.308,0.323,11.24,0.00,90.00,N
+,5EF201,NONRES EXT WALL,0.07,0.308,0.323,13.38,90.00,90.00,E
+,E03EB1,NONRES EXT WALL,0.07,0.308,0.323,11.24,180.00,90.00,S
+,6E7096,NONRES EXT WALL,0.07,0.308,0.323,11.24,180.00,90.00,S
+,4BAEC9,NONRES EXT WALL,0.07,0.308,0.323,13.38,270.00,90.00,W
+,18E261,NONRES FLOOR,0.30,2.112,3.212,85.95,0.00,180.00,
+,AF8B97,NONRES FLOOR,0.30,2.112,3.212,89.60,0.00,180.00,
+,47E9DA,NONRES FLOOR,0.30,2.112,3.212,4.92,0.00,180.00,
+,DDA518,NONRES FLOOR,0.30,2.112,3.212,4.92,0.00,180.00,
+,293168,NONRES FLOOR,0.30,2.112,3.212,39.48,0.00,180.00,
+,557B97,NONRES ROOF,0.30,0.149,0.153,89.60,180.00,0.00,
+,235A4C,NONRES ROOF,0.30,0.149,0.153,85.95,180.00,0.00,
+,9ECAFE,NONRES ROOF,0.30,0.149,0.153,39.48,180.00,0.00,
+,7B05BB,NONRES ROOF,0.30,0.149,0.153,4.92,180.00,0.00,
+,1A0C32,NONRES ROOF,0.30,0.149,0.153,4.92,180.00,0.00,
+,FEC5CC,NONRES FLOOR,0.30,2.112,3.212,51.43,0.00,180.00,
+,3D184F,NONRES ROOF,0.30,0.149,0.153,51.43,0.00,0.00,
+,1FE363,NONRES EXT WALL,0.07,0.308,0.323,17.56,90.00,90.00,E
+,AA54F3,NONRES FLOOR,0.30,2.112,3.212,18.29,0.00,180.00,
+,D315F4,NONRES ROOF,0.30,0.149,0.153,18.29,180.00,0.00,
+
+
+Exterior Fenestration
+
+,,Construction,Glass Area [m2],Frame Area [m2],Divider Area [m2],Area of One Opening [m2],Area of Multiplied Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Frame Conductance [W/m2-K],Divider Conductance [W/m2-K],Shade Control,Parent Surface,Azimuth [deg],Tilt [deg],Cardinal Direction
+,7D8686,WINDOW U 0.57 SHGC 0.39,2.97,0.00,0.00,2.97,2.97,3.045,0.428,0.308,,,No,892F39,180.00,90.00,S
+,AB6E80,WINDOW U 0.57 SHGC 0.39,2.97,0.00,0.00,2.97,2.97,3.045,0.428,0.308,,,No,306A57,270.00,90.00,W
+,E29229,WINDOW U 0.57 SHGC 0.39,14.21,0.00,0.00,14.21,14.21,3.045,0.428,0.308,,,No,F4C73D,270.00,90.00,W
+,C906BE,WINDOW U 0.57 SHGC 0.39,8.83,0.00,0.00,8.83,8.83,3.045,0.428,0.308,,,No,684101,270.00,90.00,W
+,33A36A,WINDOW U 0.57 SHGC 0.39,4.65,0.00,0.00,4.65,4.65,3.045,0.428,0.308,,,No,EF17CF,270.00,90.00,W
+,78FC5C,WINDOW U 0.57 SHGC 0.39,2.97,0.00,0.00,2.97,2.97,3.045,0.428,0.308,,,No,90C1F9,0.00,90.00,N
+,BC6D57,WINDOW U 0.57 SHGC 0.39,2.97,0.00,0.00,2.97,2.97,3.045,0.428,0.308,,,No,733EC4,270.00,90.00,W
+,EBF00E,WINDOW U 0.57 SHGC 0.39,29.73,0.00,0.00,29.73,29.73,3.045,0.428,0.308,,,No,635A3D,180.00,90.00,S
+,86812D,WINDOW U 0.57 SHGC 0.39,29.73,0.00,0.00,29.73,29.73,3.045,0.428,0.308,,,No,9981B3,0.00,90.00,N
+,SUB SURFACE 1,WINDOW U 0.57 SHGC 0.39,2.97,0.00,0.00,2.97,2.97,3.045,0.428,0.308,,,No,E216E1,90.00,90.00,E
+,SUB SURFACE 2,WINDOW U 0.57 SHGC 0.39,2.97,0.00,0.00,2.97,2.97,3.045,0.428,0.308,,,No,DB36E1,180.00,90.00,S
+,BC1285,WINDOW U 0.57 SHGC 0.39,13.75,0.00,0.00,13.75,13.75,3.045,0.428,0.308,,,No,E7C1F5,180.00,90.00,S
+,20FDF2,WINDOW U 0.57 SHGC 0.39,18.27,0.00,0.00,18.27,18.27,3.045,0.428,0.308,,,No,42FD5E,180.00,90.00,S
+,Total or Average,,,,,,136.99,3.045,0.428,0.308,,,,,,,
+,North Total or Average,,,,,,32.70,3.045,0.428,0.308,,,,,,,
+,Non-North Total or Average,,,,,,104.29,3.045,0.428,0.308,,,,,,,
+
+
+Interior Fenestration
+
+,,Construction,Area of One Opening [m2],Area of Openings [m2],Glass U-Factor [W/m2-K],Glass SHGC,Glass Visible Transmittance,Parent Surface
+,Total or Average,,,0.00,-,-,-,
+
+
+Exterior Door
+
+,,Construction,U-Factor with Film [W/m2-K],U-Factor no Film [W/m2-K],Gross Area [m2],Parent Surface
+,None,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Shading Summary
+FOR:,Entire Facility
+Sunlit Fraction
+
+,,March 21 9am,March 21 noon,March 21 3pm,June 21 9am,June 21 noon,June 21 3pm,December 21 9am,December 21 noon,December 21 3pm
+,7D8686,,,,,,,1.00,1.00,1.00
+,AB6E80,,,,,,,0.00,1.00,1.00
+,E29229,,,,,,,0.00,1.00,1.00
+,C906BE,,,,,,,0.00,1.00,1.00
+,33A36A,,,,,,,0.00,1.00,1.00
+,78FC5C,,,,,,,0.00,0.00,0.00
+,BC6D57,,,,,,,0.00,1.00,1.00
+,EBF00E,,,,,,,1.00,1.00,1.00
+,86812D,,,,,,,0.00,0.00,0.00
+,SUB SURFACE 1,,,,,,,1.00,0.00,0.00
+,SUB SURFACE 2,,,,,,,1.00,1.00,1.00
+,BC1285,,,,,,,1.00,1.00,1.00
+,20FDF2,,,,,,,0.69,1.00,1.00
+
+
+Window Control
+
+,,Name,Type,Shaded Construction,Control,Glare Control
+,None,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Lighting Summary
+FOR:,Entire Facility
+Interior Lighting
+
+,,Zone,Lighting Power Density [W/m2],Zone Area [m2],Total Power [W],End Use Subcategory,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Return Air Fraction,Conditioned (Y/N),Consumption [GJ]
+,ZONE-VAV-CORRIDOR LIGHTS,ZONE-VAV-CORRIDOR,3.2800,224.88,737.59,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.18
+,ZONE-VAV-102 LIGHTS,ZONE-VAV-102,3.2800,96.74,317.29,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.08
+,ZONE-VAV-104 LIGHTS,ZONE-VAV-104,3.2800,20.43,67.02,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.02
+,ZONE-VAV-105 LIGHTS,ZONE-VAV-105,3.2800,90.82,297.90,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.07
+,ZONE-VAV-107 LIGHTS,ZONE-VAV-107,3.2800,18.29,59.99,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.02
+,ZONE-VAV-108 LIGHTS,ZONE-VAV-108,3.2800,66.22,217.22,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.05
+,ZONE-VAV-112 LIGHTS,ZONE-VAV-112,3.2800,40.11,131.56,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.03
+,ZONE-VAV-116 LIGHTS,ZONE-VAV-116,3.2800,13.27,43.54,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-VAV-118 LIGHTS,ZONE-VAV-118,3.2800,62.53,205.10,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.05
+,ZONE-VAV-119 LIGHTS,ZONE-VAV-119,3.2800,10.47,34.36,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-VAV-120 LIGHTS,ZONE-VAV-120,3.2800,10.47,34.36,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-VAV-123A LIGHTS,ZONE-VAV-123A,3.2800,65.16,213.71,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.05
+,ZONE-VAV-123B LIGHTS,ZONE-VAV-123B,3.2800,68.55,224.84,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.06
+,ZONE-VAV-127A LIGHTS,ZONE-VAV-127A,3.2800,226.60,743.25,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.19
+,ZONE-VAV-127B LIGHTS,ZONE-VAV-127B,3.2800,276.44,906.72,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.23
+,ZONE-VAV-129 LIGHTS,ZONE-VAV-129,3.2800,38.34,125.77,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.03
+,ZONE-VAV-131 LIGHTS,ZONE-VAV-131,3.2800,12.94,42.46,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-VAV-133 LIGHTS,ZONE-VAV-133,3.2800,51.43,168.70,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.04
+,ZONE-VAV-142 LIGHTS,ZONE-VAV-142,3.2800,53.93,176.89,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.04
+,ZONE-VAV-143 LIGHTS,ZONE-VAV-143,3.2800,10.40,34.11,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-VAV-150 LIGHTS,ZONE-VAV-150,3.2800,24.52,80.41,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.02
+,ZONE-AHU-002 LIGHTS,ZONE-AHU-002,3.2800,178.50,585.48,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.15
+,ZONE-AHU-004 LIGHTS,ZONE-AHU-004,3.2800,153.37,503.06,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.13
+,ZONE-AHU-005 LIGHTS,ZONE-AHU-005,3.2800,101.49,332.90,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.08
+,ZONE-FCU-001 LIGHTS,ZONE-FCU-001,3.2800,22.72,74.52,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.02
+,ZONE-FCU-002 LIGHTS,ZONE-FCU-002,3.2800,66.22,217.22,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.05
+,ZONE-FCU-003 LIGHTS,ZONE-FCU-003,3.2800,40.11,131.56,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.03
+,ZONE-HTR-001 LIGHTS,ZONE-HTR-001,3.2800,12.08,39.61,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-HTR-002 LIGHTS,ZONE-HTR-002,3.2800,14.75,48.39,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-HTR-003 LIGHTS,ZONE-HTR-003,3.2800,14.75,48.39,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-HTR-004 LIGHTS,ZONE-HTR-004,3.2800,12.68,41.59,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,ZONE-VAV-RESTROOM LIGHTS,ZONE-VAV-RESTROOM,0.0033,10.47,0.03,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.00
+,ZONE-VAV-136 LIGHTS,ZONE-VAV-136,3.2800,11.07,36.31,General Lights,BLDG LIGHT SCH,73.30,105.00,97.30,0.0000,Y,0.01
+,Interior Lighting Total,,3.2638,2120.79,6921.85,,,,,,,,1.73
+
+
+Daylighting
+
+,,Zone,Daylighting Type,Control Type,Fraction Controlled,Lighting Installed in Zone [W],Lighting Controlled [W]
+,None,,,,,,
+
+
+Exterior Lighting
+
+,,Total Watts,Astronomical Clock/Schedule,Schedule Name,Scheduled Hours/Week [hr],Hours/Week > 1% [hr],Full Load Hours/Week [hr],Consumption [GJ]
+,Exterior Lighting Total,0.00,,,,,,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Equipment Summary
+FOR:,Entire Facility
+Central Plant
+
+,,Type,Nominal Capacity [W],Nominal Efficiency [W/W],IPLV in SI Units [W/W],IPLV in IP Units [Btu/W-h]
+,HEATSYS1 BOILER,Boiler:HotWater,67900.53,0.88,,
+
+
+Cooling Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Sensible Capacity [W],Nominal Latent Capacity [W],Nominal Sensible Heat Ratio,Nominal Efficiency [W/W],Nominal Coil UA Value [W/C],Nominal Coil Surface Area [m2]
+,AHU-001 COOLC,Coil:Cooling:Water,70901.96,95655.77,67658.38,27997.39,0.71,-,8038.63,81.53
+,AHU-002 COOLC,Coil:Cooling:Water,10885.58,15058.47,10993.94,4064.54,0.73,-,2402.12,24.36
+,AHU-003 COOLC,Coil:Cooling:Water,16326.69,22330.87,16266.47,6064.40,0.73,-,3497.14,35.47
+,AHU-004 COOLC,Coil:Cooling:Water,8206.64,11294.53,8239.73,3054.80,0.73,-,1784.80,18.10
+,AHU-005 COOLC DXCOIL,Coil:Cooling:DX:SingleSpeed,,8074.12,6448.44,1625.68,0.80,3.15,,
+,FCU-001 COOLC,Coil:Cooling:DX:SingleSpeed,,989.94,716.03,273.91,0.72,3.15,,
+,FCU-002 COOLC,Coil:Cooling:DX:SingleSpeed,,7360.09,5878.18,1481.92,0.80,3.15,,
+,FCU-003 COOLC,Coil:Cooling:DX:SingleSpeed,,4474.19,3573.33,900.85,0.80,3.15,,
+Nominal values are gross at rated conditions, i.e., the supply air fan heat and electric power NOT accounted for.
+
+
+DX Cooling Coils
+
+,,DX Cooling Coil Type,Standard Rated Net Cooling Capacity [W],Standard Rated Net COP [W/W],EER [Btu/W-h],SEER [Btu/W-h],IEER [Btu/W-h]
+,AHU-005 COOLC DXCOIL,,7691.9,2.61,8.92,9.35,8.94
+,FCU-001 COOLC,,952.6,2.71,9.25,9.72,9.45
+,FCU-002 COOLC,,7011.6,2.61,8.92,9.35,8.94
+,FCU-003 COOLC,,4262.4,2.61,8.92,9.35,8.94
+ANSI/AHRI ratings account for supply air fan heat and electric power.
+
+
+DX Cooling Coil ASHRAE 127 Standard Ratings Report
+
+,,DX Cooling Coil Type,Rated Net Cooling Capacity Test A [W],Rated Electric Power Test A [W],Rated Net Cooling Capacity Test B [W],Rated Electric Power Test B [W],Rated Net Cooling Capacity Test C [W],Rated Electric Power Test C [W],Rated Net Cooling Capacity Test D [W],Rated Electric Power Test D [W]
+,AHU-005 COOLC DXCOIL,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+,FCU-001 COOLC,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+,FCU-002 COOLC,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+,FCU-003 COOLC,Coil:Cooling:DX:SingleSpeed,,,,,,,,
+
+
+DX Heating Coils
+
+,,DX Heating Coil Type,High Temperature Heating (net) Rating Capacity [W],Low Temperature Heating (net) Rating Capacity [W],HSPF [Btu/W-h],Region Number
+,FCU-001 HEATC,Coil:Heating:DX:SingleSpeed,1027.9,568.3,6.72,4
+,FCU-002 HEATC,Coil:Heating:DX:SingleSpeed,7712.8,4295.6,6.73,4
+,FCU-003 HEATC,Coil:Heating:DX:SingleSpeed,4688.6,2611.3,6.73,4
+ANSI/AHRI ratings account for supply air fan heat and electric power.
+
+
+Heating Coils
+
+,,Type,Design Coil Load [W],Nominal Total Capacity [W],Nominal Efficiency [W/W]
+,ZONE-VAV-143 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-142 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-HTR-001 UNIT HEATER COIL,Coil:Heating:Electric,,622.90,1.00
+,ZONE-VAV-136 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-127B VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-127A VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-131 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-129 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-150 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-123A VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-123B VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-118 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-120 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-119 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-RESTROOM VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-102 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-105 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-112 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-HTR-002 UNIT HEATER COIL,Coil:Heating:Electric,,760.95,1.00
+,ZONE-HTR-003 UNIT HEATER COIL,Coil:Heating:Electric,,760.95,1.00
+,ZONE-VAV-104 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-116 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-108 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-HTR-004 UNIT HEATER COIL,Coil:Heating:Electric,,654.04,1.00
+,ZONE-VAV-CORRIDOR VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-133 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,ZONE-VAV-107 VAV BOX REHEAT COIL,Coil:Heating:Water,0.00,0.00,-
+,AHU-001 HEATC,Coil:Heating:Water,46630.83,33162.21,-
+,AHU-002 HEATC,Coil:Heating:Water,6490.07,4595.47,-
+,AHU-003 HEATC,Coil:Heating:Water,9369.61,6678.79,-
+,AHU-004 HEATC,Coil:Heating:Water,5157.86,3588.93,-
+,FCU-001 HEATC,Coil:Heating:DX:SingleSpeed,,989.94,3.01
+,FCU-001 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Electric,,1262.28,1.00
+,FCU-002 HEATC,Coil:Heating:DX:SingleSpeed,,7360.09,3.01
+,FCU-002 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Electric,,3679.21,1.00
+,FCU-003 HEATC,Coil:Heating:DX:SingleSpeed,,4474.19,3.01
+,FCU-003 HEAT PUMP DX SUPP HEATING COIL,Coil:Heating:Electric,,2228.32,1.00
+Nominal values are gross at rated conditions, i.e., the supply air fan heat and electric power NOT accounted for.
+
+
+Fans
+
+,,Type,Total Efficiency [W/W],Delta Pressure [pa],Max Air Flow Rate [m3/s],Rated Electric Power [W],Rated Power Per Max Air Flow Rate [W-s/m3],Motor Heat In Air Fraction,End Use
+,ZONE-HTR-001 UNIT HEATERFAN,Fan:ConstantVolume,0.70,622.50,0.01,9.28,889.29,1.00,Unit Heater Fans
+,ZONE-HTR-002 UNIT HEATERFAN,Fan:ConstantVolume,0.70,622.50,0.01,11.34,889.29,1.00,Unit Heater Fans
+,ZONE-HTR-003 UNIT HEATERFAN,Fan:ConstantVolume,0.70,622.50,0.01,11.34,889.29,1.00,Unit Heater Fans
+,ZONE-HTR-004 UNIT HEATERFAN,Fan:ConstantVolume,0.70,622.50,0.01,9.74,889.29,1.00,Unit Heater Fans
+,AHU-001 FAN,Fan:VariableVolume,0.70,498.18,7.40,5266.45,711.68,1.00,General
+,AHU-002 FAN,Fan:VariableVolume,0.70,1389.42,0.66,1314.47,1984.89,1.00,General
+,AHU-003 FAN,Fan:VariableVolume,0.70,1389.42,0.98,1941.98,1984.89,1.00,General
+,AHU-004 FAN,Fan:VariableVolume,0.70,1389.42,0.50,984.97,1984.89,1.00,General
+,AHU-005 FAN,Fan:VariableVolume,0.70,1389.42,0.49,968.14,1984.89,1.00,General
+,FCU-001 FAN,Fan:OnOff,0.60,270.90,0.05,21.47,451.50,1.00,General
+,FCU-002 FAN,Fan:OnOff,0.60,270.90,0.44,200.75,451.50,1.00,General
+,FCU-003 FAN,Fan:OnOff,0.60,270.90,0.27,122.03,451.50,1.00,General
+
+
+Pumps
+
+,,Type,Control,Head [pa],Water Flow [m3/s],Electric Power [W],Power Per Water Flow Rate [W-s/m3],Motor Efficiency [W/W]
+,COOLSYS1 PUMP SECONDARY,Pump:VariableSpeed,Intermittent,134283.83,0.005243,1002.85,191287.51,0.90
+,HEATSYS1 PUMP,Pump:VariableSpeed,Intermittent,179352.00,0.001470,375.48,255487.18,0.90
+,COOLSYS1 CHILLER1 PUMP,Pump:VariableSpeed,Intermittent,134283.83,0.005243,1002.85,191287.51,0.90
+
+
+Service Water Heating
+
+,,Type,Storage Volume [m3],Input [W],Thermal Efficiency [W/W],Recovery Efficiency [W/W],Energy Factor
+,None,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,HVAC Sizing Summary
+FOR:,Entire Facility
+Zone Sensible Cooling
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,ZONE-VAV-143,1407.10,1407.10,135.30,0.138,0.138,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 16:15:00,21.11,21.11,0.00860,36.08,0.00921,0.009,0.00
+,ZONE-VAV-142,7444.47,7444.47,138.04,0.732,0.732,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 17:00:00,21.11,21.11,0.00859,35.01,0.00921,0.047,0.00
+,ZONE-HTR-001,1480.98,1480.98,122.62,0.146,0.146,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 17:15:00,21.11,21.11,0.00856,34.56,0.00921,0.010,0.00
+,ZONE-VAV-136,1341.98,1341.98,121.22,0.132,0.132,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 17:15:00,21.11,21.11,0.00861,34.56,0.00921,0.010,0.00
+,ZONE-VAV-127B,11182.20,11182.20,40.45,1.099,1.099,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 13:15:00,21.11,21.11,0.00873,36.83,0.00921,0.239,0.00
+,ZONE-VAV-127A,6467.21,6467.21,28.54,0.636,0.636,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00883,30.56,0.00921,0.196,0.00
+,ZONE-VAV-131,489.88,489.88,37.84,0.048,0.048,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00880,30.56,0.00921,0.011,0.00
+,ZONE-VAV-129,1201.20,1201.20,31.33,0.118,0.118,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00885,30.56,0.00921,0.033,0.00
+,ZONE-VAV-150,1522.64,1522.64,62.11,0.150,0.150,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 10:45:00,21.11,21.11,0.00862,32.74,0.00921,0.021,0.00
+,ZONE-VAV-123A,2283.29,2283.29,35.04,0.225,0.225,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00891,30.56,0.00921,0.056,0.00
+,ZONE-VAV-123B,2345.48,2345.48,34.22,0.231,0.231,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00891,30.56,0.00921,0.059,0.00
+,ZONE-AHU-005,4960.90,4960.90,48.88,0.488,0.488,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00866,30.56,0.00921,0.088,0.00
+,ZONE-VAV-118,1868.17,1868.17,29.88,0.184,0.184,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00942,30.56,0.00921,0.054,0.00
+,ZONE-VAV-120,354.17,354.17,33.81,0.035,0.035,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00889,30.56,0.00921,0.009,0.00
+,ZONE-VAV-119,345.89,345.89,33.02,0.034,0.034,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00890,30.56,0.00921,0.009,0.00
+,ZONE-VAV-RESTROOM,320.06,320.06,30.56,0.031,0.031,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00856,30.56,0.00921,0.009,0.00
+,ZONE-AHU-004,5047.10,5047.10,32.91,0.496,0.496,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00873,30.56,0.00921,0.133,0.00
+,ZONE-VAV-102,4911.62,4911.62,50.77,0.483,0.483,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 13:15:00,21.11,21.11,0.00904,36.83,0.00921,0.084,0.00
+,ZONE-FCU-001,483.59,483.59,21.28,0.048,0.048,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00884,30.56,0.00921,0.020,0.00
+,ZONE-AHU-002,6734.91,6734.91,37.73,0.662,0.662,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00888,30.56,0.00921,0.154,0.00
+,ZONE-VAV-105,4479.55,4479.55,49.32,0.440,0.440,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 13:15:00,21.11,21.11,0.00864,36.83,0.00921,0.078,0.00
+,ZONE-FCU-003,2749.05,2749.05,68.54,0.270,0.270,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00862,30.56,0.00921,0.035,0.00
+,ZONE-VAV-112,1623.43,1623.43,40.48,0.160,0.160,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00868,30.56,0.00921,0.035,0.00
+,ZONE-HTR-002,313.76,313.76,21.27,0.031,0.031,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00885,30.56,0.00921,0.013,0.00
+,ZONE-HTR-003,339.72,339.72,23.03,0.033,0.033,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00882,30.56,0.00921,0.013,0.00
+,ZONE-VAV-104,453.65,453.65,22.20,0.045,0.045,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00884,30.56,0.00921,0.018,0.00
+,ZONE-VAV-116,311.24,311.24,23.45,0.031,0.031,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00883,30.56,0.00921,0.011,0.00
+,ZONE-VAV-108,2476.67,2476.67,37.40,0.244,0.244,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00871,30.56,0.00921,0.057,0.00
+,ZONE-FCU-002,4522.20,4522.20,68.29,0.445,0.445,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00862,30.56,0.00921,0.057,0.00
+,ZONE-HTR-004,340.71,340.71,26.87,0.033,0.033,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00879,30.56,0.00921,0.011,0.00
+,ZONE-VAV-CORRIDOR,4563.16,4563.16,20.29,0.449,0.449,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 19:00:00,21.11,21.11,0.00886,30.56,0.00921,0.194,0.00
+,ZONE-VAV-133,1075.34,1075.34,20.91,0.106,0.106,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 14:30:00,21.11,21.11,0.00883,37.50,0.00921,0.044,0.00
+,ZONE-VAV-107,606.49,606.49,33.16,0.060,0.060,PASCO ANN CLG .4% CONDNS DB=>MWB,7/21 14:15:00,21.11,21.11,0.00871,37.50,0.00921,0.016,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+Zone Sensible Heating
+
+,,Calculated Design Load [W],User Design Load [W],User Design Load per Area [W/m2],Calculated Design Air Flow [m3/s],User Design Air Flow [m3/s],Design Day Name,Date/Time Of Peak {TIMESTAMP},Thermostat Setpoint Temperature at Peak Load [C],Indoor Temperature at Peak Load [C],Indoor Humidity Ratio at Peak Load [kgWater/kgAir],Outdoor Temperature at Peak Load [C],Outdoor Humidity Ratio at Peak Load [kgWater/kgAir],Minimum Outdoor Air Flow Rate [m3/s],Heat Gain Rate from DOAS [W]
+,ZONE-VAV-143,0.00,0.00,0.00,0.000,0.009,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.009,0.00
+,ZONE-VAV-142,0.00,0.00,0.00,0.000,0.047,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.047,0.00
+,ZONE-HTR-001,0.00,0.00,0.00,0.000,0.010,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.010,0.00
+,ZONE-VAV-136,0.00,0.00,0.00,0.000,0.010,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.010,0.00
+,ZONE-VAV-127B,0.00,0.00,0.00,0.000,0.239,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.239,0.00
+,ZONE-VAV-127A,0.00,0.00,0.00,0.000,0.196,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.196,0.00
+,ZONE-VAV-131,0.00,0.00,0.00,0.000,0.011,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.011,0.00
+,ZONE-VAV-129,0.00,0.00,0.00,0.000,0.033,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.033,0.00
+,ZONE-VAV-150,0.00,0.00,0.00,0.000,0.021,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.021,0.00
+,ZONE-VAV-123A,0.00,0.00,0.00,0.000,0.056,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.056,0.00
+,ZONE-VAV-123B,0.00,0.00,0.00,0.000,0.059,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.059,0.00
+,ZONE-AHU-005,0.00,0.00,0.00,0.000,0.088,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.088,0.00
+,ZONE-VAV-118,0.00,0.00,0.00,0.000,0.054,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.054,0.00
+,ZONE-VAV-120,0.00,0.00,0.00,0.000,0.009,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.009,0.00
+,ZONE-VAV-119,0.00,0.00,0.00,0.000,0.009,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.009,0.00
+,ZONE-VAV-RESTROOM,0.00,0.00,0.00,0.000,0.009,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.009,0.00
+,ZONE-AHU-004,0.00,0.00,0.00,0.000,0.133,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.133,0.00
+,ZONE-VAV-102,0.00,0.00,0.00,0.000,0.084,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.084,0.00
+,ZONE-FCU-001,0.00,0.00,0.00,0.000,0.020,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.020,0.00
+,ZONE-AHU-002,0.00,0.00,0.00,0.000,0.154,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.154,0.00
+,ZONE-VAV-105,0.00,0.00,0.00,0.000,0.078,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.078,0.00
+,ZONE-FCU-003,0.00,0.00,0.00,0.000,0.035,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.035,0.00
+,ZONE-VAV-112,0.00,0.00,0.00,0.000,0.035,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.035,0.00
+,ZONE-HTR-002,0.00,0.00,0.00,0.000,0.013,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.013,0.00
+,ZONE-HTR-003,0.00,0.00,0.00,0.000,0.013,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.013,0.00
+,ZONE-VAV-104,0.00,0.00,0.00,0.000,0.018,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.018,0.00
+,ZONE-VAV-116,0.00,0.00,0.00,0.000,0.011,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.011,0.00
+,ZONE-VAV-108,0.00,0.00,0.00,0.000,0.057,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.057,0.00
+,ZONE-FCU-002,0.00,0.00,0.00,0.000,0.057,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.057,0.00
+,ZONE-HTR-004,0.00,0.00,0.00,0.000,0.011,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.011,0.00
+,ZONE-VAV-CORRIDOR,0.00,0.00,0.00,0.000,0.194,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.194,0.00
+,ZONE-VAV-133,0.00,0.00,0.00,0.000,0.044,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.044,0.00
+,ZONE-VAV-107,0.00,0.00,0.00,0.000,0.016,PASCO ANN HTG 99.6% CONDNS DB,,0.00,0.00,0.00000,-14.00,0.00113,0.016,0.00
+The Design Load is the zone sensible load only. It does not include any system effects or ventilation loads.
+
+
+System Design Air Flow Rates
+
+,,Calculated cooling [m3/s],User cooling [m3/s],Calculated heating [m3/s],User heating [m3/s]
+,AHU-001,4.83,4.83,1.08,1.08
+,AHU-002,0.66,0.66,0.15,0.15
+,AHU-003,0.98,0.98,0.22,0.22
+,AHU-004,0.50,0.50,0.13,0.13
+,AHU-005,0.49,0.49,0.09,0.09
+,FCU-001,0.05,0.05,0.02,0.02
+,FCU-002,0.44,0.44,0.06,0.06
+,FCU-003,0.27,0.27,0.03,0.03
+
+
+Plant Loop Coincident Design Fluid Flow Rate Adjustments
+
+,,Previous Design Volume Flow Rate [m3/s],Algorithm Volume Flow Rate [m3/s],Coincident Design Volume Flow Rate [m3/s],Coincident Size Adjusted,Peak Sizing Period Name,Peak Day into Period {TIMESTAMP}[day],Peak Hour Of Day {TIMESTAMP}[hr],Peak Step Start Minute {TIMESTAMP}[min]
+,None,,,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,System Summary
+FOR:,Entire Facility
+Economizer
+
+,,High Limit Shutoff Control,Minimum Outdoor Air [m3/s],Maximum Outdoor Air [m3/s],Return Air Temp Limit,Return Air Enthalpy Limit,Outdoor Air Temperature Limit [C],Outdoor Air Enthalpy Limit [C]
+,AHU-001 OA CONTROLLER,DifferentialDryBulb,1.08,4.83,-,,,
+,AHU-002 OA CONTROLLER,DifferentialDryBulb,0.15,0.66,-,,,
+,AHU-003 OA CONTROLLER,DifferentialDryBulb,0.22,0.98,-,,,
+,AHU-004 OA CONTROLLER,DifferentialDryBulb,0.13,0.50,-,,,
+,AHU-005 OA CONTROLLER,DifferentialDryBulb,0.09,0.49,-,,,
+
+
+Demand Controlled Ventilation using Controller:MechanicalVentilation
+
+,,Controller:MechanicalVentilation Name,Outdoor Air Per Person [m3/s-person],Outdoor Air Per Area [m3/s-m2],Air Distribution Effectiveness in Cooling Mode,Air Distribution Effectiveness in Heating Mode,Air Distribution Effectiveness Schedule
+,None,,,,,,
+
+
+Time Not Comfortable Based on Simple ASHRAE 55-2004
+
+,,Winter Clothes [hr],Summer Clothes [hr],Summer or Winter Clothes [hr]
+,ZONE-VAV-143,8.25,90.00,8.25
+,ZONE-VAV-142,0.00,78.00,0.00
+,ZONE-HTR-001,90.00,80.25,80.25
+,ZONE-VAV-136,6.25,90.00,6.25
+,ZONE-VAV-127B,0.00,90.00,0.00
+,ZONE-VAV-127A,0.00,90.00,0.00
+,ZONE-VAV-131,0.00,90.00,0.00
+,ZONE-VAV-129,0.00,90.00,0.00
+,ZONE-VAV-150,0.00,90.00,0.00
+,ZONE-VAV-123A,0.00,90.00,0.00
+,ZONE-VAV-123B,0.00,90.00,0.00
+,ZONE-AHU-005,90.00,90.00,90.00
+,ZONE-VAV-118,0.00,90.00,0.00
+,ZONE-VAV-120,0.00,90.00,0.00
+,ZONE-VAV-119,0.00,90.00,0.00
+,ZONE-VAV-RESTROOM,90.00,0.00,0.00
+,ZONE-AHU-004,90.00,90.00,90.00
+,ZONE-VAV-102,0.00,90.00,0.00
+,ZONE-FCU-001,90.00,89.75,89.75
+,ZONE-AHU-002,90.00,90.00,90.00
+,ZONE-VAV-105,90.00,82.50,82.50
+,ZONE-FCU-003,90.00,90.00,90.00
+,ZONE-VAV-112,90.00,90.00,90.00
+,ZONE-HTR-002,90.00,80.25,80.25
+,ZONE-HTR-003,90.00,81.25,81.25
+,ZONE-VAV-104,90.00,86.00,86.00
+,ZONE-VAV-116,90.00,77.25,77.25
+,ZONE-VAV-108,90.00,90.00,90.00
+,ZONE-FCU-002,90.00,90.00,90.00
+,ZONE-HTR-004,90.00,90.00,90.00
+,ZONE-VAV-CORRIDOR,0.00,90.00,0.00
+,ZONE-VAV-133,0.00,90.00,0.00
+,ZONE-VAV-107,90.00,82.25,82.25
+,Facility,90.00,90.00,90.00
+Aggregated over the RunPeriods for Weather
+
+
+Time Setpoint Not Met
+
+,,During Heating [hr],During Cooling [hr],During Occupied Heating [hr],During Occupied Cooling [hr]
+,ZONE-VAV-143,0.00,0.00,0.00,0.00
+,ZONE-VAV-142,0.00,0.00,0.00,0.00
+,ZONE-HTR-001,0.00,120.00,0.00,90.00
+,ZONE-VAV-136,0.00,0.00,0.00,0.00
+,ZONE-VAV-127B,0.00,0.00,0.00,0.00
+,ZONE-VAV-127A,0.00,0.00,0.00,0.00
+,ZONE-VAV-131,0.00,0.00,0.00,0.00
+,ZONE-VAV-129,0.00,0.00,0.00,0.00
+,ZONE-VAV-150,0.00,0.00,0.00,0.00
+,ZONE-VAV-123A,0.00,0.00,0.00,0.00
+,ZONE-VAV-123B,0.00,0.00,0.00,0.00
+,ZONE-AHU-005,0.00,120.00,0.00,90.00
+,ZONE-VAV-118,0.00,0.00,0.00,0.00
+,ZONE-VAV-120,0.00,0.00,0.00,0.00
+,ZONE-VAV-119,0.00,0.00,0.00,0.00
+,ZONE-VAV-RESTROOM,0.00,120.00,0.00,90.00
+,ZONE-AHU-004,0.00,120.00,0.00,90.00
+,ZONE-VAV-102,0.00,0.00,0.00,0.00
+,ZONE-FCU-001,0.00,120.00,0.00,90.00
+,ZONE-AHU-002,0.00,120.00,0.00,90.00
+,ZONE-VAV-105,0.00,120.00,0.00,90.00
+,ZONE-FCU-003,0.00,120.00,0.00,90.00
+,ZONE-VAV-112,0.00,120.00,0.00,90.00
+,ZONE-HTR-002,0.00,120.00,0.00,90.00
+,ZONE-HTR-003,0.00,120.00,0.00,90.00
+,ZONE-VAV-104,0.00,120.00,0.00,90.00
+,ZONE-VAV-116,0.00,120.00,0.00,90.00
+,ZONE-VAV-108,0.00,120.00,0.00,90.00
+,ZONE-FCU-002,0.00,120.00,0.00,90.00
+,ZONE-HTR-004,0.00,120.00,0.00,90.00
+,ZONE-VAV-CORRIDOR,0.00,0.00,0.00,0.00
+,ZONE-VAV-133,0.00,0.00,0.00,0.00
+,ZONE-VAV-107,0.00,120.00,0.00,90.00
+,Facility,0.00,120.00,0.00,90.00
+Aggregated over the RunPeriods for Weather
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Outdoor Air Summary
+FOR:,Entire Facility
+Average Outdoor Air During Occupied Hours
+
+,,Average Number of Occupants,Nominal Number of Occupants,Zone Volume [m3],Mechanical Ventilation [ach],Infiltration [ach],AFN Infiltration [ach],Simple Ventilation [ach]
+,ZONE-VAV-143,0.70,1.04,38.04,2.713,0.123,0.000,0.000
+,ZONE-VAV-142,3.62,5.39,197.25,1.973,0.080,0.000,0.000
+,ZONE-HTR-001,0.44,0.65,44.17,0.000,0.083,0.000,0.000
+,ZONE-VAV-136,0.74,1.11,40.49,2.161,0.121,0.000,0.000
+,ZONE-VAV-127B,13.25,19.75,1011.10,0.897,0.048,0.000,0.000
+,ZONE-VAV-127A,10.86,16.19,828.81,0.649,0.050,0.000,0.000
+,ZONE-VAV-131,0.72,1.08,47.35,0.895,0.079,0.000,0.000
+,ZONE-VAV-129,2.14,3.20,140.24,0.812,0.038,0.000,0.000
+,ZONE-VAV-150,0.89,1.32,89.67,1.414,0.077,0.000,0.000
+,ZONE-VAV-123A,4.71,7.01,238.31,0.840,0.055,0.000,0.000
+,ZONE-VAV-123B,4.95,7.38,250.73,0.839,0.048,0.000,0.000
+,ZONE-AHU-005,3.67,5.46,371.22,0.000,0.080,0.000,0.000
+,ZONE-VAV-118,9.04,13.48,228.72,0.745,0.038,0.000,0.000
+,ZONE-VAV-120,0.70,1.05,38.31,0.883,0.038,0.000,0.000
+,ZONE-VAV-119,0.70,1.05,38.31,0.863,0.038,0.000,0.000
+,ZONE-VAV-RESTROOM,0.00,0.01,38.31,1.383,0.125,0.000,0.000
+,ZONE-AHU-004,5.54,8.26,560.98,0.000,0.068,0.000,0.000
+,ZONE-VAV-102,13.99,20.85,353.82,1.106,0.057,0.000,0.000
+,ZONE-FCU-001,0.82,1.22,83.10,0.000,0.038,0.000,0.000
+,ZONE-AHU-002,12.89,19.21,652.88,0.000,0.070,0.000,0.000
+,ZONE-VAV-105,3.28,4.89,332.19,0.000,0.073,0.000,0.000
+,ZONE-FCU-003,1.45,2.16,146.70,0.000,0.086,0.000,0.000
+,ZONE-VAV-112,1.45,2.16,146.70,0.000,0.045,0.000,0.000
+,ZONE-HTR-002,0.53,0.79,53.96,0.000,0.068,0.000,0.000
+,ZONE-HTR-003,0.53,0.79,53.96,0.000,0.068,0.000,0.000
+,ZONE-VAV-104,0.74,1.10,74.73,0.000,0.082,0.000,0.000
+,ZONE-VAV-116,0.48,0.71,48.55,0.000,0.081,0.000,0.000
+,ZONE-VAV-108,2.39,3.56,242.22,0.000,0.074,0.000,0.000
+,ZONE-FCU-002,2.39,3.56,242.22,0.000,0.075,0.000,0.000
+,ZONE-HTR-004,0.46,0.68,46.38,0.000,0.080,0.000,0.000
+,ZONE-VAV-CORRIDOR,8.12,12.10,806.21,0.555,0.049,0.000,0.000
+,ZONE-VAV-133,1.86,2.77,188.12,0.562,0.038,0.000,0.000
+,ZONE-VAV-107,0.66,0.98,66.90,0.000,0.076,0.000,0.000
+Values shown for a single zone without multipliers
+
+
+Minimum Outdoor Air During Occupied Hours
+
+,,Average Number of Occupants,Nominal Number of Occupants,Zone Volume [m3],Mechanical Ventilation [ach],Infiltration [ach],AFN Infiltration [ach],Simple Ventilation [ach]
+,ZONE-VAV-143,0.70,1.04,38.04,1.566,0.000,0.000,0.000
+,ZONE-VAV-142,3.62,5.39,197.25,0.818,0.000,0.000,0.000
+,ZONE-HTR-001,0.44,0.65,44.17,0.000,0.000,0.000,0.000
+,ZONE-VAV-136,0.74,1.11,40.49,1.168,0.000,0.000,0.000
+,ZONE-VAV-127B,13.25,19.75,1011.10,0.717,0.000,0.000,0.000
+,ZONE-VAV-127A,10.86,16.19,828.81,0.548,0.000,0.000,0.000
+,ZONE-VAV-131,0.72,1.08,47.35,0.687,0.000,0.000,0.000
+,ZONE-VAV-129,2.14,3.20,140.24,0.614,0.000,0.000,0.000
+,ZONE-VAV-150,0.89,1.32,89.67,0.935,0.000,0.000,0.000
+,ZONE-VAV-123A,4.71,7.01,238.31,0.619,0.000,0.000,0.000
+,ZONE-VAV-123B,4.95,7.38,250.73,0.640,0.000,0.000,0.000
+,ZONE-AHU-005,3.67,5.46,371.22,0.000,0.000,0.000,0.000
+,ZONE-VAV-118,9.04,13.48,228.72,0.487,0.000,0.000,0.000
+,ZONE-VAV-120,0.70,1.05,38.31,0.672,0.000,0.000,0.000
+,ZONE-VAV-119,0.70,1.05,38.31,0.657,0.000,0.000,0.000
+,ZONE-VAV-RESTROOM,0.00,0.01,38.31,0.865,0.000,0.000,0.000
+,ZONE-AHU-004,5.54,8.26,560.98,0.000,0.000,0.000,0.000
+,ZONE-VAV-102,13.99,20.85,353.82,0.788,0.000,0.000,0.000
+,ZONE-FCU-001,0.82,1.22,83.10,0.000,0.000,0.000,0.000
+,ZONE-AHU-002,12.89,19.21,652.88,0.000,0.000,0.000,0.000
+,ZONE-VAV-105,3.28,4.89,332.19,0.000,0.000,0.000,0.000
+,ZONE-FCU-003,1.45,2.16,146.70,0.000,0.000,0.000,0.000
+,ZONE-VAV-112,1.45,2.16,146.70,0.000,0.000,0.000,0.000
+,ZONE-HTR-002,0.53,0.79,53.96,0.000,0.000,0.000,0.000
+,ZONE-HTR-003,0.53,0.79,53.96,0.000,0.000,0.000,0.000
+,ZONE-VAV-104,0.74,1.10,74.73,0.000,0.000,0.000,0.000
+,ZONE-VAV-116,0.48,0.71,48.55,0.000,0.000,0.000,0.000
+,ZONE-VAV-108,2.39,3.56,242.22,0.000,0.000,0.000,0.000
+,ZONE-FCU-002,2.39,3.56,242.22,0.000,0.000,0.000,0.000
+,ZONE-HTR-004,0.46,0.68,46.38,0.000,0.000,0.000,0.000
+,ZONE-VAV-CORRIDOR,8.12,12.10,806.21,0.453,0.000,0.000,0.000
+,ZONE-VAV-133,1.86,2.77,188.12,0.478,0.000,0.000,0.000
+,ZONE-VAV-107,0.66,0.98,66.90,0.000,0.000,0.000,0.000
+Values shown for a single zone without multipliers
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Object Count Summary
+FOR:,Entire Facility
+Surfaces by Class
+
+,,Total,Outdoors
+,Wall,204,52
+,Floor,44,44
+,Roof,44,44
+,Internal Mass,33,0
+,Building Detached Shading,0,0
+,Fixed Detached Shading,0,0
+,Window,13,13
+,Door,0,0
+,Glass Door,0,0
+,Shading,0,0
+,Overhang,0,0
+,Fin,0,0
+,Tubular Daylighting Device Dome,0,0
+,Tubular Daylighting Device Diffuser,0,0
+
+
+HVAC
+
+,,Count
+,HVAC Air Loops,8
+,Conditioned Zones,33
+,Unconditioned Zones,0
+,Supply Plenums,0
+,Return Plenums,0
+
+
+Input Fields
+
+,,Count
+,IDF Objects,1491
+,Defaulted Fields,574
+,Fields with Defaults,4008
+,Autosized Fields,331
+,Autosizable Fields,348
+,Autocalculated Fields,389
+,Autocalculatable Fields,691
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Energy Meters
+FOR:,Entire Facility
+Annual and Peak Values - Electricity
+
+,,Electricity Annual Value [GJ],Electricity Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Electricity Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,Electricity:Facility,10.68,19979.60,22-AUG-03:00,28756.03,23-AUG-14:00
+,Electricity:Building,9.63,17888.37,20-AUG-00:15,25606.32,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-CORRIDOR,0.38,431.76,20-AUG-00:15,1232.32,20-AUG-07:15
+,InteriorLights:Electricity,1.73,0.00,20-AUG-00:15,6921.85,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-CORRIDOR,0.18,0.00,20-AUG-00:15,737.59,20-AUG-07:15
+,General Lights:InteriorLights:Electricity,1.73,0.00,20-AUG-00:15,6921.85,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-102,0.17,185.73,20-AUG-00:15,530.11,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-102,0.08,0.00,20-AUG-00:15,317.29,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-104,0.03,19.61,20-AUG-00:15,89.49,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-104,0.02,0.00,20-AUG-00:15,67.02,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-105,0.16,174.38,20-AUG-00:15,497.70,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-105,0.07,0.00,20-AUG-00:15,297.90,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-107,0.05,70.23,20-AUG-00:15,140.47,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-107,0.02,0.00,20-AUG-00:15,59.99,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-108,0.27,508.60,20-AUG-00:15,725.82,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-108,0.05,0.00,20-AUG-00:15,217.22,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-112,0.50,1077.93,20-AUG-00:15,1209.49,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-112,0.03,0.00,20-AUG-00:15,131.56,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-116,0.02,25.49,20-AUG-00:15,72.74,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-116,0.01,0.00,20-AUG-00:15,43.54,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-118,0.11,120.06,20-AUG-00:15,342.67,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-118,0.05,0.00,20-AUG-00:15,205.10,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-119,0.05,80.45,20-AUG-00:15,126.54,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-119,0.01,0.00,20-AUG-00:15,34.36,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-120,0.05,80.45,20-AUG-00:15,126.54,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-120,0.01,0.00,20-AUG-00:15,34.36,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-123A,0.27,500.40,20-AUG-00:15,714.11,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-123A,0.05,0.00,20-AUG-00:15,213.71,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-123B,0.28,526.46,20-AUG-00:15,751.30,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-123B,0.06,0.00,20-AUG-00:15,224.84,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-127A,0.79,1305.21,20-AUG-00:15,2238.80,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-127A,0.19,0.00,20-AUG-00:15,743.25,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-127B,0.96,1592.28,20-AUG-00:15,2731.21,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-127B,0.23,0.00,20-AUG-00:15,906.72,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-129,0.17,294.48,20-AUG-00:15,463.19,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-129,0.03,0.00,20-AUG-00:15,125.77,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-131,0.06,99.41,20-AUG-00:15,156.37,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-131,0.01,0.00,20-AUG-00:15,42.46,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-133,0.09,98.75,20-AUG-00:15,281.86,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-133,0.04,0.00,20-AUG-00:15,168.70,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-142,0.24,414.17,20-AUG-00:15,651.46,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-142,0.04,0.00,20-AUG-00:15,176.89,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-143,0.05,79.87,20-AUG-00:15,125.63,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-143,0.01,0.00,20-AUG-00:15,34.11,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-150,0.11,188.28,20-AUG-00:15,296.15,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-150,0.02,0.00,20-AUG-00:15,80.41,20-AUG-07:15
+,Electricity:Zone:ZONE-AHU-002,0.74,1370.88,20-AUG-00:15,1956.36,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-AHU-002,0.15,0.00,20-AUG-00:15,585.48,20-AUG-07:15
+,Electricity:Zone:ZONE-AHU-004,1.19,2453.96,20-AUG-00:15,2957.02,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-AHU-004,0.13,0.00,20-AUG-00:15,503.06,20-AUG-07:15
+,Electricity:Zone:ZONE-AHU-005,1.49,3247.77,20-AUG-00:15,3580.66,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-AHU-005,0.08,0.00,20-AUG-00:15,332.90,20-AUG-07:15
+,Electricity:Zone:ZONE-FCU-001,0.06,87.25,20-AUG-00:15,174.49,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-FCU-001,0.02,0.00,20-AUG-00:15,74.52,20-AUG-07:15
+,Electricity:Zone:ZONE-FCU-002,0.79,1708.59,20-AUG-00:15,1925.81,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-FCU-002,0.05,0.00,20-AUG-00:15,217.22,20-AUG-07:15
+,Electricity:Zone:ZONE-FCU-003,0.48,1034.81,20-AUG-00:15,1166.37,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-FCU-003,0.03,0.00,20-AUG-00:15,131.56,20-AUG-07:15
+,Electricity:Zone:ZONE-HTR-001,0.01,5.80,20-AUG-00:15,46.26,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-HTR-001,0.01,0.00,20-AUG-00:15,39.61,20-AUG-07:15
+,Electricity:Zone:ZONE-HTR-002,0.02,7.08,20-AUG-00:15,56.51,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-HTR-002,0.01,0.00,20-AUG-00:15,48.39,20-AUG-07:15
+,Electricity:Zone:ZONE-HTR-003,0.02,7.08,20-AUG-00:15,56.51,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-HTR-003,0.01,0.00,20-AUG-00:15,48.39,20-AUG-07:15
+,Electricity:Zone:ZONE-HTR-004,0.01,6.09,20-AUG-00:15,48.57,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-HTR-004,0.01,0.00,20-AUG-00:15,41.59,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-RESTROOM,0.00,0.02,20-AUG-00:15,0.06,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-RESTROOM,0.00,0.00,20-AUG-00:15,0.03,20-AUG-07:15
+,Electricity:Zone:ZONE-VAV-136,0.05,85.02,20-AUG-00:15,133.74,20-AUG-07:15
+,InteriorLights:Electricity:Zone:ZONE-VAV-136,0.01,0.00,20-AUG-00:15,36.31,20-AUG-07:15
+,InteriorEquipment:Electricity,7.90,17888.37,20-AUG-00:15,18684.47,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-CORRIDOR,0.20,431.76,20-AUG-00:15,494.73,20-AUG-05:15
+,MiscPlug:InteriorEquipment:Electricity,7.90,17888.37,20-AUG-00:15,18684.47,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-102,0.09,185.73,20-AUG-00:15,212.82,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-104,0.01,19.61,20-AUG-00:15,22.48,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-105,0.08,174.38,20-AUG-00:15,199.81,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-107,0.03,70.23,20-AUG-00:15,80.48,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-108,0.22,508.60,20-AUG-00:15,508.60,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-112,0.47,1077.93,20-AUG-00:15,1077.93,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-116,0.01,25.49,20-AUG-00:15,29.20,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-118,0.06,120.06,20-AUG-00:15,137.57,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-119,0.04,80.45,20-AUG-00:15,92.18,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-120,0.04,80.45,20-AUG-00:15,92.18,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-123A,0.22,500.40,20-AUG-00:15,500.40,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-123B,0.23,526.46,20-AUG-00:15,526.46,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-127A,0.60,1305.21,20-AUG-00:15,1495.56,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-127B,0.74,1592.28,20-AUG-00:15,1824.49,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-129,0.14,294.48,20-AUG-00:15,337.42,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-131,0.05,99.41,20-AUG-00:15,113.91,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-133,0.05,98.75,20-AUG-00:15,113.15,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-142,0.19,414.17,20-AUG-00:15,474.57,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-143,0.04,79.87,20-AUG-00:15,91.52,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-150,0.09,188.28,20-AUG-00:15,215.74,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-AHU-002,0.59,1370.88,20-AUG-00:15,1370.88,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-AHU-004,1.06,2453.96,20-AUG-00:15,2453.96,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-AHU-005,1.40,3247.77,20-AUG-00:15,3247.77,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-FCU-001,0.04,87.25,20-AUG-00:15,99.97,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-FCU-002,0.74,1708.59,20-AUG-00:15,1708.59,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-FCU-003,0.45,1034.81,20-AUG-00:15,1034.81,20-AUG-00:15
+,InteriorEquipment:Electricity:Zone:ZONE-HTR-001,0.00,5.80,20-AUG-00:15,6.64,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-HTR-002,0.00,7.08,20-AUG-00:15,8.11,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-HTR-003,0.00,7.08,20-AUG-00:15,8.11,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-HTR-004,0.00,6.09,20-AUG-00:15,6.97,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-RESTROOM,0.00,0.02,20-AUG-00:15,0.02,20-AUG-05:15
+,InteriorEquipment:Electricity:Zone:ZONE-VAV-136,0.04,85.02,20-AUG-00:15,97.42,20-AUG-05:15
+,ElectricityPurchased:Facility,10.68,19979.60,22-AUG-03:00,28756.03,23-AUG-14:00
+,ElectricityPurchased:Plant,10.68,19979.60,22-AUG-03:00,28756.03,23-AUG-14:00
+,Cogeneration:ElectricityPurchased,10.68,19979.60,22-AUG-03:00,28756.03,23-AUG-14:00
+,ElectricitySurplusSold:Facility,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,ElectricitySurplusSold:Plant,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cogeneration:ElectricitySurplusSold,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,ElectricityNet:Facility,10.68,19979.60,22-AUG-03:00,28756.03,23-AUG-14:00
+,ElectricityNet:Plant,10.68,19979.60,22-AUG-03:00,28756.03,23-AUG-14:00
+,Cogeneration:ElectricityNet,10.68,19979.60,22-AUG-03:00,28756.03,23-AUG-14:00
+,Electricity:HVAC,1.02,2088.40,22-AUG-03:00,2935.64,23-AUG-14:00
+,Fans:Electricity,0.21,217.35,22-AUG-03:00,1064.59,23-AUG-14:00
+,Unit Heater Fans:Fans:Electricity,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,General:Fans:Electricity,0.21,217.35,22-AUG-03:00,1064.59,23-AUG-14:00
+,Heating:Electricity,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,HeatRecovery:Electricity,0.81,1871.04,20-AUG-00:15,1871.04,20-AUG-00:15
+,Cooling:Electricity,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Electricity:Plant,0.03,1.62,22-AUG-02:00,238.44,24-AUG-15:00
+,Boiler Parasitic:Heating:Electricity,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Pumps:Electricity,0.03,1.62,22-AUG-02:00,238.44,24-AUG-15:00
+
+
+Annual and Peak Values - Gas
+
+,,Gas Annual Value [GJ],Gas Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Gas Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,Gas:Facility,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Gas:Plant,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:Gas,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Boiler:Heating:Gas,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+
+
+Annual and Peak Values - Cooling
+
+,,Cooling Annual Value [GJ],Cooling Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Cooling Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,PlantLoopCoolingDemand:Facility,10.42,3520.96,22-AUG-02:00,46735.99,24-AUG-15:00
+,PlantLoopCoolingDemand:HVAC,10.42,3520.96,22-AUG-02:00,46735.99,24-AUG-15:00
+,CoolingCoils:PlantLoopCoolingDemand,10.42,3520.96,22-AUG-02:00,46735.99,24-AUG-15:00
+,DistrictCooling:Facility,10.42,3604.32,22-AUG-02:00,47149.48,24-AUG-15:00
+,DistrictCooling:Plant,10.42,3604.32,22-AUG-02:00,47149.48,24-AUG-15:00
+,Cooling:DistrictCooling,10.42,3604.32,22-AUG-02:00,47149.48,24-AUG-15:00
+
+
+Annual and Peak Values - Water
+
+,,Annual Value [m3],Minimum Value [m3/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [m3/s],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other by Weight/Mass
+
+,,Annual Value [kg],Minimum Value [kg/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [kg/s],Timestamp of Maximum {TIMESTAMP}
+,Carbon Equivalent:Facility,0.00,0.000,20-AUG-00:15,0.000,20-AUG-00:15
+,CarbonEquivalentEmissions:Carbon Equivalent,0.00,0.000,20-AUG-00:15,0.000,20-AUG-00:15
+
+
+Annual and Peak Values - Other Volumetric
+
+,,Annual Value [m3],Minimum Value [m3/s],Timestamp of Minimum {TIMESTAMP},Maximum Value [m3/s],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other Liquid/Gas
+
+,,Annual Value [L],Minimum Value [L],Timestamp of Minimum {TIMESTAMP},Maximum Value [L],Timestamp of Maximum {TIMESTAMP}
+,None,,,,,
+
+
+Annual and Peak Values - Other
+
+,,Annual Value [GJ],Minimum Value [W],Timestamp of Minimum {TIMESTAMP},Maximum Value [W],Timestamp of Maximum {TIMESTAMP}
+,EnergyTransfer:Facility,21.25,17051.38,22-AUG-02:00,96796.12,24-AUG-15:00
+,EnergyTransfer:Building,9.74,12474.48,22-AUG-03:00,37112.91,23-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-143,0.25,283.03,22-AUG-04:00,1258.62,23-AUG-15:00
+,Heating:EnergyTransfer,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-VAV-143,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer,9.74,12474.48,22-AUG-03:00,37112.91,23-AUG-14:00
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-143,0.25,283.03,22-AUG-04:00,1258.62,23-AUG-15:00
+,EnergyTransfer:Zone:ZONE-VAV-142,0.94,659.50,22-AUG-04:00,6487.33,22-AUG-16:30
+,Heating:EnergyTransfer:Zone:ZONE-VAV-142,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-142,0.94,659.50,22-AUG-04:00,6487.33,22-AUG-16:30
+,EnergyTransfer:Zone:ZONE-HTR-001,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-HTR-001,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-HTR-001,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-136,0.21,275.72,22-AUG-04:00,1061.82,22-AUG-16:30
+,Heating:EnergyTransfer:Zone:ZONE-VAV-136,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-136,0.21,275.72,22-AUG-04:00,1061.82,22-AUG-16:30
+,EnergyTransfer:Zone:ZONE-VAV-127B,2.27,2963.75,22-AUG-04:00,9927.32,23-AUG-13:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-127B,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-127B,2.27,2963.75,22-AUG-04:00,9927.32,23-AUG-13:00
+,EnergyTransfer:Zone:ZONE-VAV-127A,1.30,1815.62,22-AUG-03:15,4590.36,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-127A,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-127A,1.30,1815.62,22-AUG-03:15,4590.36,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-131,0.10,141.66,22-AUG-03:00,325.61,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-131,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-131,0.10,141.66,22-AUG-03:00,325.61,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-129,0.28,426.74,22-AUG-03:00,858.64,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-129,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-129,0.28,426.74,22-AUG-03:00,858.64,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-150,0.31,385.16,22-AUG-04:00,1297.19,23-AUG-13:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-150,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-150,0.31,385.16,22-AUG-04:00,1297.19,23-AUG-13:00
+,EnergyTransfer:Zone:ZONE-VAV-123A,0.49,715.23,22-AUG-03:00,1519.31,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-123A,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-123A,0.49,715.23,22-AUG-03:00,1519.31,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-123B,0.51,747.45,22-AUG-03:00,1618.61,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-123B,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-123B,0.51,747.45,22-AUG-03:00,1618.61,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-AHU-005,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-AHU-005,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-AHU-005,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-118,0.41,521.18,20-AUG-04:00,1571.43,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-118,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-118,0.41,521.18,20-AUG-04:00,1571.43,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-120,0.08,124.32,22-AUG-03:00,258.84,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-120,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-120,0.08,124.32,22-AUG-03:00,258.84,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-119,0.08,120.58,22-AUG-03:00,253.80,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-119,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-119,0.08,120.58,22-AUG-03:00,253.80,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-RESTROOM,0.19,405.01,22-AUG-05:00,465.22,24-AUG-17:45
+,Heating:EnergyTransfer:Zone:ZONE-VAV-RESTROOM,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-RESTROOM,0.19,405.01,22-AUG-05:00,465.22,24-AUG-17:45
+,EnergyTransfer:Zone:ZONE-AHU-004,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-AHU-004,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-AHU-004,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-102,0.97,1188.84,22-AUG-04:00,4692.72,23-AUG-13:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-102,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-102,0.97,1188.84,22-AUG-04:00,4692.72,23-AUG-13:00
+,EnergyTransfer:Zone:ZONE-FCU-001,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-FCU-001,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-FCU-001,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-AHU-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-AHU-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-AHU-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-105,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-VAV-105,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-105,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-FCU-003,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-FCU-003,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-FCU-003,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-112,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-VAV-112,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-112,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-HTR-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-HTR-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-HTR-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-HTR-003,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-HTR-003,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-HTR-003,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-104,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-VAV-104,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-104,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-116,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-VAV-116,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-116,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-108,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-VAV-108,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-108,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-FCU-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-FCU-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-FCU-002,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-HTR-004,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-HTR-004,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-HTR-004,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:Zone:ZONE-VAV-CORRIDOR,1.08,1319.85,22-AUG-03:00,3565.37,24-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-CORRIDOR,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-CORRIDOR,1.08,1319.85,22-AUG-03:00,3565.37,24-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-133,0.26,309.86,22-AUG-03:15,888.41,23-AUG-14:00
+,Heating:EnergyTransfer:Zone:ZONE-VAV-133,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-133,0.26,309.86,22-AUG-03:15,888.41,23-AUG-14:00
+,EnergyTransfer:Zone:ZONE-VAV-107,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Heating:EnergyTransfer:Zone:ZONE-VAV-107,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Cooling:EnergyTransfer:Zone:ZONE-VAV-107,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,EnergyTransfer:HVAC,11.51,3520.96,22-AUG-02:00,60375.36,24-AUG-16:00
+,HeatingCoils:EnergyTransfer,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,PlantLoopHeatingDemand:Facility,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,PlantLoopHeatingDemand:HVAC,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,HeatingCoils:PlantLoopHeatingDemand,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,CoolingCoils:EnergyTransfer,10.42,3520.96,22-AUG-02:00,46735.99,24-AUG-15:00
+,HeatRecoveryForHeating:EnergyTransfer,0.00,0.00,20-AUG-00:15,772.32,20-AUG-08:30
+,HeatRecoveryForCooling:EnergyTransfer,1.10,0.00,20-AUG-00:15,15897.71,24-AUG-16:00
+,EnergyTransfer:Plant,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+,Boilers:EnergyTransfer,0.00,0.00,20-AUG-00:15,0.00,20-AUG-00:15
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Sensible Heat Gain Summary
+FOR:,Entire Facility
+Annual Building Sensible Heat Gain Components
+
+,,HVAC Zone Eq & Other Sensible Air Heating [GJ],HVAC Zone Eq & Other Sensible Air Cooling [GJ],HVAC Terminal Unit Sensible Air Heating [GJ],HVAC Terminal Unit Sensible Air Cooling [GJ],HVAC Input Heated Surface Heating [GJ],HVAC Input Cooled Surface Cooling [GJ],People Sensible Heat Addition [GJ],Lights Sensible Heat Addition [GJ],Equipment Sensible Heat Addition [GJ],Window Heat Addition [GJ],Interzone Air Transfer Heat Addition [GJ],Infiltration Heat Addition [GJ],Opaque Surface Conduction and Other Heat Addition [GJ],Equipment Sensible Heat Removal [GJ],Window Heat Removal [GJ],Interzone Air Transfer Heat Removal [GJ],Infiltration Heat Removal [GJ],Opaque Surface Conduction and Other Heat Removal [GJ]
+,ZONE-VAV-143,0.000,0.000,0.000,-0.247,0.000,0.000,0.015,0.009,0.037,0.182,0.000,0.002,0.020,0.000,-0.016,0.000,-0.001,-0.000
+,ZONE-VAV-142,0.000,0.000,0.000,-0.940,0.000,0.000,0.076,0.044,0.192,0.757,0.000,0.005,0.000,0.000,-0.072,0.000,-0.006,-0.056
+,ZONE-HTR-001,0.000,0.000,0.000,0.000,0.000,0.000,0.005,0.010,0.003,0.129,0.000,0.000,0.000,0.000,-0.036,0.000,-0.007,-0.103
+,ZONE-VAV-136,0.000,0.000,0.000,-0.206,0.000,0.000,0.016,0.009,0.039,0.128,0.000,0.002,0.028,0.000,-0.016,0.000,-0.001,-0.000
+,ZONE-VAV-127B,0.000,0.000,0.000,-2.269,0.000,0.000,0.279,0.227,0.738,0.872,0.000,0.017,0.247,0.000,-0.091,0.000,-0.020,-0.001
+,ZONE-VAV-127A,0.000,0.000,0.000,-1.304,0.000,0.000,0.229,0.186,0.605,0.000,0.000,0.014,0.288,0.000,0.000,0.000,-0.018,0.000
+,ZONE-VAV-131,0.000,0.000,0.000,-0.103,0.000,0.000,0.015,0.011,0.046,0.000,0.000,0.001,0.031,0.000,0.000,0.000,-0.002,0.000
+,ZONE-VAV-129,0.000,0.000,0.000,-0.279,0.000,0.000,0.045,0.031,0.136,0.000,0.000,0.002,0.066,0.000,0.000,0.000,-0.002,0.000
+,ZONE-VAV-150,0.000,0.000,0.000,-0.313,0.000,0.000,0.019,0.020,0.087,0.165,0.000,0.002,0.039,0.000,-0.016,0.000,-0.003,-0.000
+,ZONE-VAV-123A,0.000,0.000,0.000,-0.488,0.000,0.000,0.099,0.053,0.216,0.000,0.000,0.004,0.121,0.000,0.000,0.000,-0.006,0.000
+,ZONE-VAV-123B,0.000,0.000,0.000,-0.513,0.000,0.000,0.104,0.056,0.227,0.000,0.000,0.004,0.126,0.000,0.000,0.000,-0.005,0.000
+,ZONE-AHU-005,0.000,0.000,0.000,0.000,0.000,0.000,0.002,0.083,1.403,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.074,-1.415
+,ZONE-VAV-118,0.000,0.000,0.000,-0.414,0.000,0.000,0.190,0.051,0.056,0.000,0.000,0.003,0.117,0.000,0.000,0.000,-0.004,0.000
+,ZONE-VAV-120,0.000,0.000,0.000,-0.083,0.000,0.000,0.015,0.009,0.037,0.000,0.000,0.000,0.022,0.000,0.000,0.000,-0.001,0.000
+,ZONE-VAV-119,0.000,0.000,0.000,-0.081,0.000,0.000,0.015,0.009,0.037,0.000,0.000,0.000,0.020,0.000,0.000,0.000,-0.001,0.000
+,ZONE-VAV-RESTROOM,0.000,0.000,0.000,-0.187,0.000,0.000,0.000,0.000,0.000,0.000,0.000,0.001,0.190,0.000,0.000,0.000,-0.004,0.000
+,ZONE-AHU-004,0.000,0.000,0.000,0.000,0.000,0.000,0.036,0.126,1.060,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.072,-1.150
+,ZONE-VAV-102,0.000,0.000,0.000,-0.975,0.000,0.000,0.295,0.079,0.086,0.403,0.000,0.007,0.150,0.000,-0.039,0.000,-0.007,-0.000
+,ZONE-FCU-001,0.000,0.000,0.000,0.000,0.000,0.000,0.011,0.019,0.040,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.004,-0.067
+,ZONE-AHU-002,0.000,0.000,0.000,0.000,0.000,0.000,0.138,0.146,0.592,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.064,-0.813
+,ZONE-VAV-105,0.000,0.000,0.000,0.000,0.000,0.000,0.035,0.075,0.081,0.433,0.000,0.000,0.001,0.000,-0.109,0.000,-0.031,-0.483
+,ZONE-FCU-003,0.000,0.000,0.000,0.000,0.000,0.000,0.005,0.033,0.447,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.028,-0.457
+,ZONE-VAV-112,0.000,0.000,0.000,0.000,0.000,0.000,0.004,0.033,0.466,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.015,-0.488
+,ZONE-HTR-002,0.000,0.000,0.000,0.000,0.000,0.000,0.008,0.012,0.003,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.003,-0.020
+,ZONE-HTR-003,0.000,0.000,0.000,0.000,0.000,0.000,0.007,0.012,0.003,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.004,-0.019
+,ZONE-VAV-104,0.000,0.000,0.000,0.000,0.000,0.000,0.010,0.017,0.009,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.007,-0.028
+,ZONE-VAV-116,0.000,0.000,0.000,0.000,0.000,0.000,0.007,0.011,0.012,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.004,-0.026
+,ZONE-VAV-108,0.000,0.000,0.000,0.000,0.000,0.000,0.023,0.054,0.220,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.029,-0.268
+,ZONE-FCU-002,0.000,0.000,0.000,0.000,0.000,0.000,0.009,0.054,0.738,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.040,-0.762
+,ZONE-HTR-004,0.000,0.000,0.000,0.000,0.000,0.000,0.005,0.010,0.003,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.006,-0.012
+,ZONE-VAV-CORRIDOR,0.000,0.000,0.000,-1.082,0.000,0.000,0.171,0.185,0.200,0.000,0.000,0.013,0.530,0.000,0.000,0.000,-0.017,0.000
+,ZONE-VAV-133,0.000,0.000,0.000,-0.256,0.000,0.000,0.039,0.042,0.046,0.000,0.000,0.002,0.130,0.000,0.000,0.000,-0.003,0.000
+,ZONE-VAV-107,0.000,0.000,0.000,0.000,0.000,0.000,0.008,0.015,0.033,0.000,0.000,0.000,0.000,0.000,0.000,0.000,-0.006,-0.049
+,Total Facility,0.000,0.000,0.000,-9.739,0.000,0.000,1.935,1.732,7.900,3.069,0.000,0.081,2.128,0.000,-0.395,0.000,-0.492,-6.218
+
+
+Peak Cooling Sensible Heat Gain Components
+
+,,Time of Peak {TIMESTAMP},HVAC Zone Eq & Other Sensible Air Heating [W],HVAC Zone Eq & Other Sensible Air Cooling [W],HVAC Terminal Unit Sensible Air Heating [W],HVAC Terminal Unit Sensible Air Cooling [W],HVAC Input Heated Surface Heating [W],HVAC Input Cooled Surface Cooling [W],People Sensible Heat Addition [W],Lights Sensible Heat Addition [W],Equipment Sensible Heat Addition [W],Window Heat Addition [W],Interzone Air Transfer Heat Addition [W],Infiltration Heat Addition [W],Opaque Surface Conduction and Other Heat Addition [W],Equipment Sensible Heat Removal [W],Window Heat Removal [W],Interzone Air Transfer Heat Removal [W],Infiltration Heat Removal [W],Opaque Surface Conduction and Other Heat Removal [W]
+,ZONE-VAV-143,23-AUG-14:55,0.00,0.00,0.00,-1258.63,0.00,0.00,68.40,34.11,91.52,1444.00,0.00,6.64,0.00,0.00,-0.00,0.00,0.00,-386.04
+,ZONE-VAV-142,22-AUG-16:20,0.00,0.00,0.00,-6487.38,0.00,0.00,133.00,159.20,474.57,8571.79,0.00,40.67,0.00,0.00,-0.00,0.00,0.00,-2891.86
+,ZONE-HTR-001,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-136,22-AUG-16:30,0.00,0.00,0.00,-1061.82,0.00,0.00,27.30,32.68,97.42,1219.16,0.00,12.67,0.00,0.00,-0.00,0.00,0.00,-327.42
+,ZONE-VAV-127B,23-AUG-13:00,0.00,0.00,0.00,-9927.45,0.00,0.00,1542.06,906.72,1824.49,7989.77,0.00,55.49,0.00,0.00,-0.00,0.00,0.00,-2391.07
+,ZONE-VAV-127A,24-AUG-14:00,0.00,0.00,0.00,-4590.56,0.00,0.00,1264.04,743.25,1495.56,0.00,0.00,115.61,972.10,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-131,24-AUG-14:00,0.00,0.00,0.00,-325.62,0.00,0.00,84.24,42.46,113.91,0.00,0.00,10.32,74.69,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-129,24-AUG-14:00,0.00,0.00,0.00,-858.67,0.00,0.00,249.54,125.77,337.42,0.00,0.00,14.62,131.32,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-150,23-AUG-13:00,0.00,0.00,0.00,-1297.21,0.00,0.00,103.06,80.41,215.74,961.94,0.00,7.88,0.00,0.00,-0.00,0.00,0.00,-71.83
+,ZONE-VAV-123A,24-AUG-14:00,0.00,0.00,0.00,-1519.37,0.00,0.00,547.72,213.71,500.40,0.00,0.00,36.33,221.22,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-123B,24-AUG-14:00,0.00,0.00,0.00,-1618.67,0.00,0.00,576.25,224.84,526.46,0.00,0.00,33.30,257.82,0.00,-0.00,0.00,0.00,0.00
+,ZONE-AHU-005,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-118,24-AUG-14:00,0.00,0.00,0.00,-1571.50,0.00,0.00,1052.38,205.10,137.57,0.00,0.00,23.84,152.60,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-120,24-AUG-14:00,0.00,0.00,0.00,-258.85,0.00,0.00,81.80,34.36,92.18,0.00,0.00,3.99,46.51,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-119,24-AUG-14:00,0.00,0.00,0.00,-253.81,0.00,0.00,81.80,34.36,92.18,0.00,0.00,3.99,41.47,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-RESTROOM,24-AUG-17:45,0.00,0.00,0.00,-465.30,0.00,0.00,0.04,0.03,0.02,0.00,0.00,12.10,453.12,0.00,-0.00,0.00,0.00,0.00
+,ZONE-AHU-004,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-102,23-AUG-13:00,0.00,0.00,0.00,-4692.80,0.00,0.00,1628.03,317.29,212.82,3691.94,0.00,22.78,0.00,0.00,-0.00,0.00,0.00,-1180.05
+,ZONE-FCU-001,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-AHU-002,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-105,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-FCU-003,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-112,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-HTR-002,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-HTR-003,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-104,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-116,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-108,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-FCU-002,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-HTR-004,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-CORRIDOR,24-AUG-14:00,0.00,0.00,0.00,-3565.52,0.00,0.00,945.28,737.59,494.73,0.00,0.00,108.83,1279.09,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-133,23-AUG-13:55,0.00,0.00,0.00,-888.43,0.00,0.00,216.21,168.70,113.15,0.00,0.00,11.92,378.45,0.00,-0.00,0.00,0.00,0.00
+,ZONE-VAV-107,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Total Facility,23-AUG-13:55,0.00,0.00,0.00,-37114.04,0.00,0.00,10443.54,6921.85,18684.47,22733.16,0.00,404.88,0.00,0.00,0.00,0.00,-143.27,-21930.59
+
+
+Peak Heating Sensible Heat Gain Components
+
+,,Time of Peak {TIMESTAMP},HVAC Zone Eq & Other Sensible Air Heating [W],HVAC Zone Eq & Other Sensible Air Cooling [W],HVAC Terminal Unit Sensible Air Heating [W],HVAC Terminal Unit Sensible Air Cooling [W],HVAC Input Heated Surface Heating [W],HVAC Input Cooled Surface Cooling [W],People Sensible Heat Addition [W],Lights Sensible Heat Addition [W],Equipment Sensible Heat Addition [W],Window Heat Addition [W],Interzone Air Transfer Heat Addition [W],Infiltration Heat Addition [W],Opaque Surface Conduction and Other Heat Addition [W],Equipment Sensible Heat Removal [W],Window Heat Removal [W],Interzone Air Transfer Heat Removal [W],Infiltration Heat Removal [W],Opaque Surface Conduction and Other Heat Removal [W]
+,ZONE-VAV-143,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-142,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-HTR-001,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-136,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-127B,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-127A,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-131,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-129,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-150,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-123A,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-123B,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-AHU-005,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-118,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-120,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-119,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-RESTROOM,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-AHU-004,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-102,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-FCU-001,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-AHU-002,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-105,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-FCU-003,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-112,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-HTR-002,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-HTR-003,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-104,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-116,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-108,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-FCU-002,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-HTR-004,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-CORRIDOR,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-133,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,ZONE-VAV-107,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+,Total Facility,-,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00,0.00
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Standard 62.1 Summary
+FOR:,Entire Facility
+System Ventilation Requirements for Cooling
+
+,,Sum of Zone Primary Air Flow - Vpz-sum [m3/s],System Population - Ps,Sum of Zone Population - Pz-sum,Occupant Diversity - D,Uncorrected Outdoor Air Intake Airflow - Vou [m3/s],System Primary Airflow - Vps [m3/s],Average Outdoor Air Fraction - Xs,System Ventilation Efficiency - Ev,Outdoor Air Intake Flow - Vot [m3/s],Percent Outdoor Air - %OA
+,None,,,,,,,,,,
+
+
+System Ventilation Requirements for Heating
+
+,,Sum of Zone Primary Air Flow - Vpz-sum [m3/s],System Population - Ps,Sum of Zone Population - Pz-sum,Occupant Diversity - D,Uncorrected Outdoor Air Intake Airflow - Vou [m3/s],System Primary Airflow - Vps [m3/s],Average Outdoor Air Fraction - Xs,System Ventilation Efficiency - Ev,Outdoor Air Intake Flow Vot [m3/s],Percent Outdoor Air - %OA
+,None,,,,,,,,,,
+
+
+Zone Ventilation Parameters
+
+,,AirLoop Name,People Outdoor Air Rate - Rp [m3/s-person],Zone Population - Pz,Area Outdoor Air Rate - Ra [m3/s-m2],Zone Floor Area - Az [m2],Breathing Zone Outdoor Airflow - Vbz [m3/s],Cooling Zone Air Distribution Effectiveness - Ez-clg,Cooling Zone Outdoor Airflow - Voz-clg [m3/s],Heating Zone Air Distribution Effectiveness - Ez-htg,Heating Zone Outdoor Airflow - Voz-htg [m3/s]
+,None,,,,,,,,,,
+
+
+System Ventilation Parameters
+
+,,People Outdoor Air Rate - Rp [m3/s-person],Sum of Zone Population - Pz-sum,Area Outdoor Air Rate - Ra [m3/s-m2],Sum of Zone Floor Area - Az-sum [m2],Breathing Zone Outdoor Airflow - Vbz [m3/s],Cooling Zone Outdoor Airflow - Voz-clg [m3/s],Heating Zone Outdoor Airflow - Voz-htg [m3/s]
+,None,,,,,,,
+
+
+Zone Ventilation Calculations for Cooling Design
+
+,,AirLoop Name,Box Type,Zone Primary Airflow - Vpz [m3/s],Zone Discharge Airflow - Vdz [m3/s],Minimum Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Cooling - Voz-clg [m3/s],Primary Outdoor Air Fraction - Zpz,Primary Air Fraction - Ep,Secondary Recirculation Fraction- Er,Supply Air Fraction- Fa,Mixed Air Fraction - Fb,Outdoor Air Fraction - Fc,Zone Ventilation Efficiency - Evz
+,None,,,,,,,,,,,,,
+
+
+System Ventilation Calculations for Cooling Design
+
+,,Sum of Zone Primary Airflow - Vpz-sum [m3/s],System Primary Airflow - Vps [m3/s],Sum of Zone Discharge Airflow - Vdz-sum [m3/s],Sum of Min Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Cooling - Voz-clg [m3/s],Zone Ventilation Efficiency - Evz-min
+,None,,,,,,
+
+
+Zone Ventilation Calculations for Heating Design
+
+,,AirLoop Name,Box Type,Zone Primary Airflow - Vpz [m3/s],Zone Discharge Airflow - Vdz [m3/s],Minimum Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Heating - Voz-htg [m3/s],Primary Outdoor Air Fraction - Zpz,Primary Air Fraction - Ep,Secondary Recirculation Fraction- Er,Supply Air Fraction- Fa,Mixed Air Fraction - Fb,Outdoor Air Fraction - Fc,Zone Ventilation Efficiency - Evz
+,None,,,,,,,,,,,,,
+
+
+System Ventilation Calculations for Heating Design
+
+,,Sum of Zone Primary Airflow - Vpz-sum [m3/s],System Primary Airflow - Vps [m3/s],Sum of Zone Discharge Airflow - Vdz-sum [m3/s],Sum of Min Zone Primary Airflow - Vpz-min [m3/s],Zone Outdoor Airflow Heating - Voz-htg [m3/s],Zone Ventilation Efficiency - Evz-min
+,None,,,,,,
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,LEED Summary
+FOR:,Entire Facility
+Sec1.1A-General Information
+
+,,Data
+,Weather File,TYPICAL SUMMER WEEK ** Pasco WA USA TMY3 WMO#=727845
+,HDD and CDD data source,Weather File Stat
+,Total gross floor area [m2],2120.79
+
+
+EAp2-1. Space Usage Type
+
+,,Space Area [m2],Regularly Occupied Area [m2],Unconditioned Area [m2],Typical Hours/Week in Operation [hr/wk]
+,ZONE-VAV-143,10.40,10.40,0.00,126.00
+,ZONE-VAV-142,53.93,53.93,0.00,126.00
+,ZONE-HTR-001,12.08,12.08,0.00,126.00
+,ZONE-VAV-136,11.07,11.07,0.00,126.00
+,ZONE-VAV-127B,276.44,276.44,0.00,126.00
+,ZONE-VAV-127A,226.60,226.60,0.00,126.00
+,ZONE-VAV-131,12.94,12.94,0.00,126.00
+,ZONE-VAV-129,38.34,38.34,0.00,126.00
+,ZONE-VAV-150,24.52,24.52,0.00,126.00
+,ZONE-VAV-123A,65.16,65.16,0.00,126.00
+,ZONE-VAV-123B,68.55,68.55,0.00,126.00
+,ZONE-AHU-005,101.49,101.49,0.00,126.00
+,ZONE-VAV-118,62.53,62.53,0.00,126.00
+,ZONE-VAV-120,10.47,10.47,0.00,126.00
+,ZONE-VAV-119,10.47,10.47,0.00,126.00
+,ZONE-VAV-RESTROOM,10.47,10.47,0.00,126.00
+,ZONE-AHU-004,153.37,153.37,0.00,126.00
+,ZONE-VAV-102,96.74,96.74,0.00,126.00
+,ZONE-FCU-001,22.72,22.72,0.00,126.00
+,ZONE-AHU-002,178.50,178.50,0.00,126.00
+,ZONE-VAV-105,90.82,90.82,0.00,126.00
+,ZONE-FCU-003,40.11,40.11,0.00,126.00
+,ZONE-VAV-112,40.11,40.11,0.00,126.00
+,ZONE-HTR-002,14.75,14.75,0.00,126.00
+,ZONE-HTR-003,14.75,14.75,0.00,126.00
+,ZONE-VAV-104,20.43,20.43,0.00,126.00
+,ZONE-VAV-116,13.27,13.27,0.00,126.00
+,ZONE-VAV-108,66.22,66.22,0.00,126.00
+,ZONE-FCU-002,66.22,66.22,0.00,126.00
+,ZONE-HTR-004,12.68,12.68,0.00,126.00
+,ZONE-VAV-CORRIDOR,224.88,224.88,0.00,126.00
+,ZONE-VAV-133,51.43,51.43,0.00,126.00
+,ZONE-VAV-107,18.29,18.29,0.00,126.00
+,Totals,2120.79,2120.79,0.00,
+
+
+EAp2-2. Advisory Messages
+
+,,Data
+,Number of hours heating loads not met,0.00
+,Number of hours cooling loads not met,90.00
+,Number of hours not met,90.00
+
+
+EAp2-3. Energy Type Summary
+
+,,Utility Rate,Virtual Rate [$/unit energy],Units of Energy,Units of Demand
+,None,,,,
+
+
+EAp2-4/5. Performance Rating Method Compliance
+
+,,Electric Energy Use [GJ],Electric Demand [W],Natural Gas Energy Use [GJ],Natural Gas Demand [W],Additional Energy Use [GJ],Additional Demand [W]
+,Interior Lighting,1.73,6921.85,0.00,0.00,0.00,0.00
+,Exterior Lighting,0.00,0.00,0.00,0.00,0.00,0.00
+,Space Heating,0.00,0.00,0.00,0.00,0.00,0.00
+,Space Cooling,0.00,0.00,0.00,0.00,10.42,47149.48
+,Pumps,0.03,214.07,0.00,0.00,0.00,0.00
+,Heat Rejection,0.00,0.00,0.00,0.00,0.00,0.00
+,Fans-Interior,0.21,1064.59,0.00,0.00,0.00,0.00
+,Fans-Parking Garage,0.00,0.00,0.00,0.00,0.00,0.00
+,Service Water Heating,0.00,0.00,0.00,0.00,0.00,0.00
+,Receptacle Equipment,7.90,18684.47,0.00,0.00,0.00,0.00
+,Interior Lighting (process),0.00,0.00,0.00,0.00,0.00,0.00
+,Refrigeration Equipment,0.00,0.00,0.00,0.00,0.00,0.00
+,Cooking,0.00,0.00,0.00,0.00,0.00,0.00
+,Industrial Process,0.00,0.00,0.00,0.00,0.00,0.00
+,Elevators and Escalators,0.00,0.00,0.00,0.00,0.00,0.00
+,Total Line,10.68,,0.00,,10.42,
+
+
+EAp2-6. Energy Use Summary
+
+,,Process Subtotal [GJ],Total Energy Use [GJ]
+,Electricity,7.90,10.68
+,Natural Gas,0.00,0.00
+,Additional,0.00,10.42
+,Total,7.90,21.10
+
+
+EAp2-7. Energy Cost Summary
+
+,,Process Subtotal [$],Total Energy Cost [$]
+,Electricity,0.00,
+,Natural Gas,0.00,
+,Additional,0.00,
+,Total,0.00,
+Process energy cost based on ratio of process to total energy.
+
+
+L-1. Renewable Energy Source Summary
+
+,,Rated Capacity [kW],Annual Energy Generated [GJ]
+,Photovoltaic,0.00,0.00
+,Wind,0.00,0.00
+
+
+EAp2-17a. Energy Use Intensity - Electricity
+
+,,Electricty [MJ/m2]
+,Interior Lighting,0.82
+,Space Heating,0.00
+,Space Cooling,0.00
+,Fans-Interior,0.10
+,Service Water Heating,0.00
+,Receptacle Equipment,3.72
+,Miscellaneous,0.39
+,Subtotal,5.04
+
+
+EAp2-17b. Energy Use Intensity - Natural Gas
+
+,,Natural Gas [MJ/m2]
+,Space Heating,0.00
+,Service Water Heating,0.00
+,Miscellaneous,0.00
+,Subtotal,0.00
+
+
+EAp2-17c. Energy Use Intensity - Additional
+
+,,Additional [MJ/m2]
+,Miscellaneous,0.00
+,Subtotal,0.00
+
+
+EAp2-18. End Use Percentage
+
+,,Percent [%]
+,Interior Lighting,8.21
+,Space Heating,0.00
+,Space Cooling,49.38
+,Fans-Interior,1.01
+,Service Water Heating,0.00
+,Receptacle Equipment,37.44
+,Miscellaneous,3.97
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Component Sizing Summary
+FOR:,Entire Facility
+AirTerminal:SingleDuct:VAV:Reheat
+
+,,Design Size Maximum Air Flow Rate [m3/s],Design Size Maximum Flow per Zone Floor Area during Reheat [m3/s-m2],Design Size Maximum Flow Fraction during Reheat [],Design Size Maximum Reheat Water Flow Rate [m3/s],Design Size Reheat Coil Sizing Air Volume Flow Rate [m3/s]
+,ZONE-VAV-143 VAV BOX COMPONENT,0.138349,0.003991,0.300000,0.000000,0.041505
+,ZONE-VAV-142 VAV BOX COMPONENT,0.731964,0.002032,0.149712,0.000000,0.073196
+,ZONE-VAV-136 VAV BOX COMPONENT,0.131947,0.003575,0.300000,0.000000,0.039584
+,ZONE-VAV-127B VAV BOX COMPONENT,1.10,0.002032,0.510899,0.000000,0.329843
+,ZONE-VAV-127A VAV BOX COMPONENT,0.635883,0.002032,0.724112,0.000000,0.190765
+,ZONE-VAV-131 VAV BOX COMPONENT,0.048167,0.002032,0.546086,0.000000,0.014450
+,ZONE-VAV-129 VAV BOX COMPONENT,0.118107,0.002032,0.659682,0.000000,0.035432
+,ZONE-VAV-150 VAV BOX COMPONENT,0.149703,0.002032,0.332769,0.000000,0.044911
+,ZONE-VAV-123A VAV BOX COMPONENT,0.224513,0.002032,0.589708,0.000000,0.067354
+,ZONE-VAV-123B VAV BOX COMPONENT,0.230628,0.002032,0.603972,0.000000,0.069188
+,ZONE-VAV-118 VAV BOX COMPONENT,0.183726,0.002032,0.691595,0.000000,0.055118
+,ZONE-VAV-120 VAV BOX COMPONENT,0.034824,0.002032,0.611212,0.000000,0.010447
+,ZONE-VAV-119 VAV BOX COMPONENT,0.034010,0.002032,0.625841,0.000000,0.010203
+,ZONE-VAV-RESTROOM VAV BOX COMPONENT,0.031466,0.002032,0.676437,0.000000,0.009440
+,ZONE-VAV-102 VAV BOX COMPONENT,0.483019,0.002032,0.406953,0.000000,0.144906
+,ZONE-VAV-105 VAV BOX COMPONENT,0.440429,0.002032,0.419023,0.000000,0.132129
+,ZONE-VAV-112 VAV BOX COMPONENT,0.159615,0.002032,0.510612,0.000000,0.047885
+,ZONE-VAV-104 VAV BOX COMPONENT,0.044603,0.002032,0.930816,0.000000,0.013381
+,ZONE-VAV-116 VAV BOX COMPONENT,0.030601,0.002032,0.881463,0.000000,0.009180
+,ZONE-VAV-108 VAV BOX COMPONENT,0.243507,0.002032,0.552624,0.000000,0.073052
+,ZONE-VAV-CORRIDOR VAV BOX COMPONENT,0.448653,0.001995,1.00,0.000000,0.134596
+,ZONE-VAV-133 VAV BOX COMPONENT,0.105728,0.002032,0.988505,0.000000,0.031718
+,ZONE-VAV-107 VAV BOX COMPONENT,0.059630,0.002032,0.623274,0.000000,0.017889
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:Water
+
+,,Design Size Design Coil Load [W],Design Size Maximum Water Flow Rate [m3/s],Design Size U-Factor Times Area Value [W/K]
+,ZONE-VAV-143 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-142 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-136 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-127B VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-127A VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-131 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-129 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-150 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-123A VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-123B VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-118 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-120 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-119 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-RESTROOM VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-102 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-105 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-112 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-104 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-116 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-108 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-CORRIDOR VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-133 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,ZONE-VAV-107 VAV BOX REHEAT COIL,0.000000,0.000000,1.00
+,AHU-001 HEATC,46630.83,0.001013,655.79
+,AHU-002 HEATC,6490.07,0.000141,91.02
+,AHU-003 HEATC,9369.61,0.000204,131.97
+,AHU-004 HEATC,5157.86,0.000112,71.53
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+ZoneHVAC:UnitHeater
+
+,,Design Size Maximum Supply Air Flow Rate [m3/s]
+,ZONE-HTR-001 UNIT HEATER,0.010435
+,ZONE-HTR-002 UNIT HEATER,0.012748
+,ZONE-HTR-003 UNIT HEATER,0.012748
+,ZONE-HTR-004 UNIT HEATER,0.010957
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Fan:ConstantVolume
+
+,,Design Size Maximum Flow Rate [m3/s]
+,ZONE-HTR-001 UNIT HEATERFAN,0.010435
+,ZONE-HTR-002 UNIT HEATERFAN,0.012748
+,ZONE-HTR-003 UNIT HEATERFAN,0.012748
+,ZONE-HTR-004 UNIT HEATERFAN,0.010957
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:Electric
+
+,,Design Size Nominal Capacity [W]
+,ZONE-HTR-001 UNIT HEATER COIL,622.90
+,ZONE-HTR-002 UNIT HEATER COIL,760.95
+,ZONE-HTR-003 UNIT HEATER COIL,760.95
+,ZONE-HTR-004 UNIT HEATER COIL,654.04
+,FCU-001 HEAT PUMP DX SUPP HEATING COIL,1262.28
+,FCU-002 HEAT PUMP DX SUPP HEATING COIL,3679.21
+,FCU-003 HEAT PUMP DX SUPP HEATING COIL,2228.32
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirTerminal:SingleDuct:Uncontrolled
+
+,,Design Size Maximum Air Flow Rate [m3/s]
+,ZONE-AHU-005 DIRECT AIR,0.487758
+,ZONE-AHU-004 DIRECT AIR,0.496236
+,ZONE-FCU-001 DIRECT AIR,0.047547
+,ZONE-AHU-002 DIRECT AIR,0.662240
+,ZONE-FCU-003 DIRECT AIR,0.270286
+,ZONE-FCU-002 DIRECT AIR,0.444623
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Branch
+
+,,Maximum Flow Rate [m3/s]
+,AHU-001 AIR LOOP MAIN BRANCH,4.83
+,AHU-002 AIR LOOP MAIN BRANCH,0.662240
+,AHU-003 AIR LOOP MAIN BRANCH,0.978386
+,AHU-004 AIR LOOP MAIN BRANCH,0.496236
+,AHU-005 AIR LOOP MAIN BRANCH,0.487758
+,FCU-001 AIR LOOP BRANCH,0.047547
+,FCU-002 AIR LOOP BRANCH,0.444623
+,FCU-003 AIR LOOP BRANCH,0.270286
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirLoopHVAC
+
+,,Design Supply Air Flow Rate [m3/s]
+,AHU-001,4.83
+,AHU-002,0.662240
+,AHU-003,0.978386
+,AHU-004,0.496236
+,AHU-005,0.487758
+,FCU-001,0.047547
+,FCU-002,0.444623
+,FCU-003,0.270286
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Controller:OutdoorAir
+
+,,Maximum Outdoor Air Flow Rate [m3/s],Minimum Outdoor Air Flow Rate [m3/s]
+,AHU-001 OA CONTROLLER,4.83,1.08
+,AHU-002 OA CONTROLLER,0.662240,0.154224
+,AHU-003 OA CONTROLLER,0.978386,0.215267
+,AHU-004 OA CONTROLLER,0.496236,0.132514
+,AHU-005 OA CONTROLLER,0.487758,0.087690
+,FCU-001 OA CONTROLLER,0.047547,0.019631
+,FCU-002 OA CONTROLLER,0.444623,0.057218
+,FCU-003 OA CONTROLLER,0.270286,0.034654
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+HeatExchanger:AirToAir:SensibleAndLatent
+
+,,Design Size Nominal Supply Air Flow Rate [m3/s]
+,AHU-001 OA HEAT RECOVERY,1.08
+,AHU-003 OA HEAT RECOVERY,0.215267
+,AHU-004 OA HEAT RECOVERY,0.132514
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Cooling:Water
+
+,,Design Size Design Water Flow Rate [m3/s],User-Specified Design Water Flow Rate [m3/s],Design Size Design Air Flow Rate [m3/s],Design Size Design Inlet Air Temperature [C],Design Size Design Inlet Water Temperature [C],Design Size Design Outlet Air Temperature [C],User-Specified Design Outlet Air Temperature [C],Design Size Design Inlet Air Humidity Ratio,Design Size Design Outlet Air Humidity Ratio,Design Size Design Coil Load [W]
+,AHU-001 COOLC,0.002267,0.004110,4.50,23.95,6.44,12.50,12.70,0.008897,0.008246,
+,AHU-002 COOLC,0.000348,,0.662240,23.31,6.44,12.50,,0.008957,0.008246,10885.58
+,AHU-003 COOLC,0.000522,,0.978386,23.90,6.44,12.50,,0.008802,0.008246,16326.69
+,AHU-004 COOLC,0.000262,,0.496236,23.63,6.44,12.50,,0.008861,0.008246,8206.64
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Fan:VariableVolume
+
+,,Design Size Maximum Flow Rate [m3/s],User-Specified Maximum Flow Rate [m3/s]
+,AHU-001 FAN,4.83,7.40
+,AHU-002 FAN,0.662240,
+,AHU-003 FAN,0.978386,
+,AHU-004 FAN,0.496236,
+,AHU-005 FAN,0.487758,
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Controller:WaterCoil
+
+,,Maximum Actuated Flow [m3/s]
+,AHU-001 HEATC CONTROLLER,0.001013
+,AHU-002 COOLC CONTROLLER,0.000348
+,AHU-002 HEATC CONTROLLER,0.000141
+,AHU-003 COOLC CONTROLLER,0.000522
+,AHU-003 HEATC CONTROLLER,0.000204
+,AHU-004 COOLC CONTROLLER,0.000262
+,AHU-004 HEATC CONTROLLER,0.000112
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Cooling:DX:SingleSpeed
+
+,,Design Size Rated Air Flow Rate [m3/s],Design Size Gross Rated Total Cooling Capacity [W],Design Size Gross Rated Sensible Heat Ratio
+,AHU-005 COOLC DXCOIL,0.487758,8074.12,0.798655
+,FCU-001 COOLC,0.047547,989.94,0.723309
+,FCU-002 COOLC,0.444623,7360.09,0.798655
+,FCU-003 COOLC,0.270286,4474.19,0.798655
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+AirLoopHVAC:UnitaryHeatPump:AirToAir
+
+,,Supply Air Flow Rate [m3/s],Supply Air Flow Rate During Heating Operation [m3/s],Supply Air Flow Rate During Cooling Operation [m3/s],Supply Air Flow Rate When No Cooling or Heating is Needed [m3/s],Nominal Heating Capacity [W],Nominal Cooling Capacity [W],Maximum Supply Air Temperature from Supplemental Heater [C],Supplemental Heating Coil Nominal Capacity [W],Fraction of Supply Air Flow That Goes Through the Controlling Zone
+,FCU-001 HEATPUMP,0.047547,0.047547,0.047547,0.047547,989.94,989.94,40.00,1262.28,1.00
+,FCU-002 HEATPUMP,0.444623,0.444623,0.444623,0.444623,7360.09,7360.09,40.00,3679.21,1.00
+,FCU-003 HEATPUMP,0.270286,0.270286,0.270286,0.270286,4474.19,4474.19,40.00,2228.32,1.00
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Fan:OnOff
+
+,,Design Size Maximum Flow Rate [m3/s]
+,FCU-001 FAN,0.047547
+,FCU-002 FAN,0.444623
+,FCU-003 FAN,0.270286
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Coil:Heating:DX:SingleSpeed
+
+,,Design Size Rated Air Flow Rate [m3/s],Design Size Gross Rated Heating Capacity [W]
+,FCU-001 HEATC,0.047547,989.94
+,FCU-002 HEATC,0.444623,7360.09
+,FCU-003 HEATC,0.270286,4474.19
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Pump:VariableSpeed
+
+,,Rated Flow Rate [m3/s],Rated Power Consumption [W]
+,COOLSYS1 PUMP SECONDARY,0.005243,1002.85
+,HEATSYS1 PUMP,0.001470,375.48
+,COOLSYS1 CHILLER1 PUMP,0.005243,1002.85
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+PlantLoop
+
+,,Maximum Loop Flow Rate [m3/s],Plant Loop Volume [m3]
+,HEATSYS1,0.001470,1.65
+,COOLSYS1,0.005243,5.90
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+Boiler:HotWater
+
+,,Design Size Nominal Capacity [W],Design Size Design Water Flow Rate [m3/s]
+,HEATSYS1 BOILER,67900.53,0.001470
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+DistrictCooling
+
+,,Design Size Nominal Capacity [W],User-Specified Nominal Capacity [W]
+,DISTRICT COOLING,163943.73,0.100000E+09
+User-Specified values were used. Design Size values were used if no User-Specified values were provided.
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Surface Shadowing Summary
+FOR:,Entire Facility
+Surfaces (Walls, Roofs, etc) that may be Shadowed by Other Surfaces
+
+,,Possible Shadow Receivers
+,90C1F9,D9B477 | 7F8356 | 7DD26E | 4D5491 |
+,C98507,D9B477 | 7F8356 | 7DD26E | 4D5491 |
+,E216E1,F37653 | 7F8356 | 7DD26E | 4D5491 | 8D107B | E7C1F5 | 562566 | BD79B0 | 728810 | 42FD5E | 3800AA | 94B757 | 6C7F5F | 400F5E | 66A10F | 911903 | E03EB1 | 6E7096 | 4BAEC9 |
+,E43ECA,7F8356 |
+,D9B477,90C1F9 | 9981B3 | C98507 |
+,F37653,E216E1 | 728810 | 66A10F | 911903 | 4BAEC9 |
+,DBA231,725AEB | 5DEF25 | 728810 | 3800AA | 1AF671 | 94B757 | C8B155 | E8B018 | 66A10F | 911903 |
+,7F8356,90C1F9 | 9981B3 | C98507 | E216E1 | E43ECA |
+,7DD26E,90C1F9 | 9981B3 | C98507 | E216E1 | 725AEB | 728810 | 3800AA | 1AF671 | 94B757 | C8B155 | E8B018 | 66A10F | 911903 | A7734E |
+,6674C1,725AEB | 5DEF25 | 728810 | 3800AA | 1AF671 | 94B757 | C8B155 | E8B018 | 66A10F | 911903 |
+,4D5491,90C1F9 | 9981B3 | C98507 | E216E1 | 725AEB | 728810 | 3800AA | 1AF671 | 94B757 | C8B155 | E8B018 | 66A10F | 911903 | A7734E | 5EF201 |
+,725AEB,DBA231 | 7DD26E | 6674C1 | 4D5491 | 7CBF6F |
+,8D107B,E216E1 | 9FC230 | B08716 | B68F46 | 5EF201 | 1FE363 |
+,E7C1F5,E216E1 | 728810 | 911903 |
+,562566,E216E1 | 728810 | 911903 |
+,7CBF6F,725AEB | 1AF671 | 66A10F | 911903 |
+,5DEF25,DBA231 | 6674C1 |
+,BD79B0,E216E1 | 728810 | 66A10F | 911903 | 5EF201 |
+,728810,E216E1 | F37653 | DBA231 | 7DD26E | 6674C1 | 4D5491 | E7C1F5 | 562566 | BD79B0 | 42FD5E | 6C7F5F | 400F5E | 5EF201 | E03EB1 | 6E7096 |
+,42FD5E,E216E1 | 728810 | 911903 |
+,9FC230,8D107B |
+,3800AA,E216E1 | DBA231 | 7DD26E | 6674C1 | 4D5491 | C8B155 | E8B018 | A7734E | 5EF201 |
+,1AF671,DBA231 | 7DD26E | 6674C1 | 4D5491 | 7CBF6F |
+,94B757,E216E1 | DBA231 | 7DD26E | 6674C1 | 4D5491 | C8B155 | E8B018 | A7734E | 5EF201 |
+,6C7F5F,E216E1 | 728810 | 911903 |
+,400F5E,E216E1 | 728810 | 911903 |
+,C8B155,DBA231 | 7DD26E | 6674C1 | 4D5491 | 3800AA | 94B757 |
+,E8B018,DBA231 | 7DD26E | 6674C1 | 4D5491 | 3800AA | 94B757 |
+,66A10F,E216E1 | F37653 | DBA231 | 7DD26E | 6674C1 | 4D5491 | 7CBF6F | BD79B0 | 5EF201 | E03EB1 | 6E7096 |
+,911903,E216E1 | F37653 | DBA231 | 7DD26E | 6674C1 | 4D5491 | E7C1F5 | 562566 | 7CBF6F | BD79B0 | 42FD5E | 6C7F5F | 400F5E | 5EF201 | E03EB1 | 6E7096 |
+,B08716,8D107B |
+,B68F46,8D107B |
+,A7734E,7DD26E | 4D5491 | 3800AA | 94B757 |
+,5EF201,4D5491 | 8D107B | BD79B0 | 728810 | 3800AA | 94B757 | 66A10F | 911903 |
+,E03EB1,E216E1 | 728810 | 66A10F | 911903 |
+,6E7096,E216E1 | 728810 | 66A10F | 911903 |
+,4BAEC9,E216E1 | F37653 |
+,1FE363,8D107B |
+
+
+Subsurfaces (Windows and Doors) that may be Shadowed by Surfaces
+
+,,Possible Shadow Receivers
+,892F39,7D8686 |
+,306A57,AB6E80 |
+,F4C73D,E29229 |
+,684101,C906BE |
+,EF17CF,33A36A |
+,90C1F9,78FC5C |
+,733EC4,BC6D57 |
+,635A3D,EBF00E |
+,E216E1,SUB SURFACE 1 |
+,DB36E1,SUB SURFACE 2 |
+,E7C1F5,BC1285 |
+,42FD5E,20FDF2 |
+
+
+----------------------------------------------------------------------------------------------------
+REPORT:,Adaptive Comfort Summary
+FOR:,Entire Facility
+Time Not Meeting the Adaptive Comfort Models during Occupied Hours
+
+,,ASHRAE55 90% Acceptability Limits [Hours],ASHRAE55 80% Acceptability Limits  [Hours],CEN15251 Category I Acceptability Limits [Hours],CEN15251 Category II Acceptability Limits [Hours],CEN15251 Category III Acceptability Limits [Hours]
+
+
