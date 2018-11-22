@@ -143,7 +143,7 @@ while 1:
               time=float(arry[5])
               mssg = '%r %r %r 0 0 %r' % (vers, flag, 23, time)              
               Ts=[]
-              power=float(arry[25])+float(arry[26])/6.16
+              power=float(arry[31])+float(arry[32])+float(arry[33])/6.16
               for i in range(23):
                     Ts.append(float(arry[8+i]))
               if index<=95:
