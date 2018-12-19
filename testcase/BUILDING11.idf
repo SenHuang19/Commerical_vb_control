@@ -14924,7 +14924,7 @@ EnergyManagementSystem:Program,
 	
 EnergyManagementSystem:Program,
     ZoneAirFlow108_Overwrite,!- Name
-    SET A108ONEAIRFLOW =AirFlow108;  !- Program Line 1
+    SET A108ZONEAIRFLOW =AirFlow108;  !- Program Line 1
 
 EnergyManagementSystem:Program,
     ZoneAirFlow112_Overwrite,!- Name
