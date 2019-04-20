@@ -20,4 +20,4 @@ remove-image:
 
 run:
 	$(COMMAND_RUN) \
-            "cd /mnt/shared/testcase && python run.py && exit"
+            "cd /mnt/shared/testcase && python baseline_run.py && exit"

@@ -12217,7 +12217,7 @@ Coil:Cooling:Water,
 
 Coil:Cooling:Water,
     AHU-001 CoolC,           !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     0.00411,                 !- Design Water Flow Rate {m3/s}
     autosize,                !- Design Air Flow Rate {m3/s}
     autosize,                !- Design Inlet Water Temperature {C}
@@ -12524,7 +12524,7 @@ CoilSystem:Cooling:DX,
 
 HeatExchanger:AirToAir:SensibleAndLatent,
     AHU-001 OA Heat Recovery,!- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     autosize,                !- Nominal Supply Air Flow Rate {m3/s}
     0.70,                    !- Sensible Effectiveness at 100% Heating Air Flow {dimensionless}
     0.60,                    !- Latent Effectiveness at 100% Heating Air Flow {dimensionless}
