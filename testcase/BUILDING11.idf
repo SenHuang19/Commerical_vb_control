@@ -15293,7 +15293,7 @@ AvailabilityManager:NightCycle,
     AHU-001 Availability Manager,  !- Name
     ALWAYS ON,               !- Applicability Schedule Name
     HVACOperationSchd,       !- Fan Schedule Name
-    CycleOnAny,                 !- Control Type
+    StayOff,                 !- Control Type
     1,                       !- Thermostat Tolerance {deltaC}
     1800;                    !- Cycling Run Time {s}
 
