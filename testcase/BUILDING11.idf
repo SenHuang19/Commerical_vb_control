@@ -11303,13 +11303,13 @@ ZoneHVAC:UnitHeater,
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-AHU-002 Direct Air, !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-AHU-002 Direct Air Inlet Node Name,  !- Zone Supply Air Node Name
     AUTOSIZE;                !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-AHU-004 Direct Air, !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-AHU-004 Direct Air Inlet Node Name,  !- Zone Supply Air Node Name
     AUTOSIZE;                !- Maximum Air Flow Rate {m3/s}
 
@@ -11339,139 +11339,139 @@ AirTerminal:SingleDuct:Uncontrolled,
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-Corridor VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-Corridor VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-Restroom VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-Restroom VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-102 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-102 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-118 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-118 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-119 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-119 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-120 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-120 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-123A VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-123A VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-123B VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-123B VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-127A VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-127A VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-127B VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-127B VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-129 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-129 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-131 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-131 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-136 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-136 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-133 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-133 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-142 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-142 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-143 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-143 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-150 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-150 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-104 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-104 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-105 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-105 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-107 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-107 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-108 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-108 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-112 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-112 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
 AirTerminal:SingleDuct:Uncontrolled,
     Zone-VAV-116 VAV Box Component,  !- Name
-    HVACOperationSchd,       !- Availability Schedule Name
+    ALWAYS ON,       !- Availability Schedule Name
     Zone-VAV-116 VAV Box Outlet Node,  !- Zone Supply Air Node Name
     1;                       !- Maximum Air Flow Rate {m3/s}
 
